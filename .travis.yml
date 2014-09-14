@@ -9,6 +9,6 @@ deploy:
   provider: heroku
   api_key:
     secure: YXT1c/60L1tMxuxwtFRoQVGHHevxb+lemo/wxODhNhzn6jfDBukQ+Cj3Uhf8LvCmtmjPt5Il9nuVnvY70b5seiJEEcgLk60mB70y+mAHahHP2Lva0zj7TXIAbaVdwNG1915MbhtGyKFSBItut+G49KomO9pjKR2j9wCrLhXp9fQ=
-  app: invention
+  app: blooming-cliffs-4490
   on:
     repo: pgremo/invention

@@ -1,0 +1,1 @@
+web: coffee app/server/bin/www.coffee
