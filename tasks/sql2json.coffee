@@ -4,9 +4,9 @@ path = require 'path'
 fs = Promise.promisifyAll require 'fs'
 sqlite = require 'sqlite3'
 
-db = new sqlite.Database "#{process.cwd()}/data/hyperion.db", sqlite.OPEN_READONLY
-
 gulp.task 'types2json', ->
+  db = new sqlite.Database "#{process.cwd()}/data/hyperion.db", sqlite.OPEN_READONLY
+
   types = {}
   mapper = (err, row) ->
     types[row.typeID] = row.typeName
