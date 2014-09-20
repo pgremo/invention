@@ -6,12 +6,22 @@ blueprints = fs.readFileAsync "#{__dirname}/../data/blueprints.json", 'utf8'
   .then (x) -> JSON.parse x
   .catch (error) -> console.log error
 
-products = blueprints
-  .then (data) ->
+reactions = fs.readFileAsync "#{__dirname}/../data/reactions.json", 'utf8'
+  .then (x) -> JSON.parse x
+  .catch (error) -> console.log error
+
+schematics = fs.readFileAsync "#{__dirname}/../data/schematics.json", 'utf8'
+  .then (x) -> JSON.parse x
+  .catch (error) -> console.log error
+
+products = Promise.all [blueprints, reactions, schematics]
+  .then (sources) ->
     result = {}
-    for key, value of data
-      for id, _ of value.activities["1"]?.products
-        result[id] = value
+    for data in sources
+      for key, value of data
+        if value.activities["1"]?.products? and Object.keys(value.activities["1"]?.products).length is 1
+          for id, _ of value.activities["1"]?.products
+            result[id] = value
     result
 
 types = fs.readFileAsync "#{__dirname}/../data/types.json", 'utf8'

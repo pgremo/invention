@@ -4,3 +4,4 @@ node_modules
 *.css
 .DS_Store
 data/
+!lib/data

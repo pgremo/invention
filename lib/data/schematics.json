@@ -1,0 +1,1359 @@
+{
+  "65": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2389": {
+            "quantity": 40
+          },
+          "3645": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "9838": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 65
+  },
+  "66": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2390": {
+            "quantity": 40
+          },
+          "3645": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "9832": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 66
+  },
+  "67": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2389": {
+            "quantity": 40
+          },
+          "2390": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "9830": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 67
+  },
+  "68": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2390": {
+            "quantity": 40
+          },
+          "3683": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "3691": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 68
+  },
+  "69": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2392": {
+            "quantity": 40
+          },
+          "3683": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "2317": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 69
+  },
+  "70": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2392": {
+            "quantity": 40
+          },
+          "9828": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "3697": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 70
+  },
+  "71": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2389": {
+            "quantity": 40
+          },
+          "2401": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "9840": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 71
+  },
+  "72": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2398": {
+            "quantity": 40
+          },
+          "3645": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "2328": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 72
+  },
+  "73": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2398": {
+            "quantity": 40
+          },
+          "2399": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "3689": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 73
+  },
+  "74": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2398": {
+            "quantity": 40
+          },
+          "2400": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "3828": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 74
+  },
+  "75": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2399": {
+            "quantity": 40
+          },
+          "2400": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "44": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 75
+  },
+  "76": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2400": {
+            "quantity": 40
+          },
+          "2401": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "9836": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 76
+  },
+  "77": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2401": {
+            "quantity": 40
+          },
+          "9828": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "9842": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 77
+  },
+  "78": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2393": {
+            "quantity": 40
+          },
+          "2398": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "2463": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 78
+  },
+  "79": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2396": {
+            "quantity": 40
+          },
+          "2399": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "2329": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 79
+  },
+  "80": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2397": {
+            "quantity": 40
+          },
+          "9828": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "2327": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 80
+  },
+  "81": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2393": {
+            "quantity": 40
+          },
+          "3779": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "3775": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 81
+  },
+  "82": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2393": {
+            "quantity": 40
+          },
+          "2395": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "3693": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 82
+  },
+  "83": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2395": {
+            "quantity": 40
+          },
+          "3779": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "15317": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 83
+  },
+  "84": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2395": {
+            "quantity": 40
+          },
+          "2396": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "3725": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 84
+  },
+  "85": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2396": {
+            "quantity": 40
+          },
+          "2397": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "3695": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 85
+  },
+  "86": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2393": {
+            "quantity": 40
+          },
+          "3645": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "2319": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 86
+  },
+  "87": {
+    "activities": {
+      "1": {
+        "materials": {
+          "3683": {
+            "quantity": 40
+          },
+          "3779": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "2312": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 87
+  },
+  "88": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2392": {
+            "quantity": 40
+          },
+          "2397": {
+            "quantity": 40
+          }
+        },
+        "products": {
+          "2321": {
+            "quantity": 5
+          }
+        }
+      }
+    },
+    "schematicID": 88
+  },
+  "89": {
+    "activities": {
+      "1": {
+        "materials": {
+          "3691": {
+            "quantity": 10
+          },
+          "9838": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "17136": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 89
+  },
+  "90": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2317": {
+            "quantity": 10
+          },
+          "9832": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2344": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 90
+  },
+  "91": {
+    "activities": {
+      "1": {
+        "materials": {
+          "3697": {
+            "quantity": 10
+          },
+          "9830": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2345": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 91
+  },
+  "92": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2312": {
+            "quantity": 10
+          },
+          "2319": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2346": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 92
+  },
+  "94": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2321": {
+            "quantity": 10
+          },
+          "9840": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "17898": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 94
+  },
+  "95": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2317": {
+            "quantity": 10
+          },
+          "2329": {
+            "quantity": 10
+          },
+          "9838": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2348": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 95
+  },
+  "96": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2328": {
+            "quantity": 10
+          },
+          "9832": {
+            "quantity": 10
+          },
+          "9836": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2349": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 96
+  },
+  "97": {
+    "activities": {
+      "1": {
+        "materials": {
+          "3689": {
+            "quantity": 10
+          },
+          "9836": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "9848": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 97
+  },
+  "98": {
+    "activities": {
+      "1": {
+        "materials": {
+          "3828": {
+            "quantity": 10
+          },
+          "9842": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2351": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 98
+  },
+  "99": {
+    "activities": {
+      "1": {
+        "materials": {
+          "44": {
+            "quantity": 10
+          },
+          "2327": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2352": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 99
+  },
+  "100": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2328": {
+            "quantity": 10
+          },
+          "9840": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "9834": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 100
+  },
+  "102": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2329": {
+            "quantity": 10
+          },
+          "3697": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2354": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 102
+  },
+  "103": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2312": {
+            "quantity": 10
+          },
+          "3689": {
+            "quantity": 10
+          },
+          "9842": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "9846": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 103
+  },
+  "104": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2463": {
+            "quantity": 10
+          },
+          "3725": {
+            "quantity": 10
+          },
+          "3828": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2358": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 104
+  },
+  "105": {
+    "activities": {
+      "1": {
+        "materials": {
+          "3725": {
+            "quantity": 10
+          },
+          "3775": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "28974": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 105
+  },
+  "106": {
+    "activities": {
+      "1": {
+        "materials": {
+          "3693": {
+            "quantity": 10
+          },
+          "3695": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2360": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 106
+  },
+  "107": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2321": {
+            "quantity": 10
+          },
+          "15317": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2361": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 107
+  },
+  "108": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2329": {
+            "quantity": 10
+          },
+          "2463": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "12836": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 108
+  },
+  "109": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2312": {
+            "quantity": 10
+          },
+          "2327": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "17392": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 109
+  },
+  "110": {
+    "activities": {
+      "1": {
+        "materials": {
+          "3695": {
+            "quantity": 10
+          },
+          "3775": {
+            "quantity": 10
+          },
+          "9840": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2366": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 110
+  },
+  "111": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2319": {
+            "quantity": 10
+          },
+          "3691": {
+            "quantity": 10
+          },
+          "3693": {
+            "quantity": 10
+          }
+        },
+        "products": {
+          "2367": {
+            "quantity": 3
+          }
+        }
+      }
+    },
+    "schematicID": 111
+  },
+  "112": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2344": {
+            "quantity": 6
+          },
+          "2393": {
+            "quantity": 40
+          },
+          "9848": {
+            "quantity": 6
+          }
+        },
+        "products": {
+          "2870": {
+            "quantity": 1
+          }
+        }
+      }
+    },
+    "schematicID": 112
+  },
+  "113": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2351": {
+            "quantity": 6
+          },
+          "3645": {
+            "quantity": 40
+          },
+          "28974": {
+            "quantity": 6
+          }
+        },
+        "products": {
+          "2875": {
+            "quantity": 1
+          }
+        }
+      }
+    },
+    "schematicID": 113
+  },
+  "114": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2360": {
+            "quantity": 6
+          },
+          "2398": {
+            "quantity": 40
+          },
+          "17136": {
+            "quantity": 6
+          }
+        },
+        "products": {
+          "2869": {
+            "quantity": 1
+          }
+        }
+      }
+    },
+    "schematicID": 114
+  },
+  "115": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2345": {
+            "quantity": 6
+          },
+          "2352": {
+            "quantity": 6
+          },
+          "2361": {
+            "quantity": 6
+          }
+        },
+        "products": {
+          "2872": {
+            "quantity": 1
+          }
+        }
+      }
+    },
+    "schematicID": 115
+  },
+  "116": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2346": {
+            "quantity": 6
+          },
+          "9834": {
+            "quantity": 6
+          },
+          "12836": {
+            "quantity": 6
+          }
+        },
+        "products": {
+          "2871": {
+            "quantity": 1
+          }
+        }
+      }
+    },
+    "schematicID": 116
+  },
+  "117": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2354": {
+            "quantity": 6
+          },
+          "17392": {
+            "quantity": 6
+          },
+          "17898": {
+            "quantity": 6
+          }
+        },
+        "products": {
+          "2867": {
+            "quantity": 1
+          }
+        }
+      }
+    },
+    "schematicID": 117
+  },
+  "118": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2348": {
+            "quantity": 6
+          },
+          "2366": {
+            "quantity": 6
+          },
+          "9846": {
+            "quantity": 6
+          }
+        },
+        "products": {
+          "2868": {
+            "quantity": 1
+          }
+        }
+      }
+    },
+    "schematicID": 118
+  },
+  "119": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2349": {
+            "quantity": 6
+          },
+          "2358": {
+            "quantity": 6
+          },
+          "2367": {
+            "quantity": 6
+          }
+        },
+        "products": {
+          "2876": {
+            "quantity": 1
+          }
+        }
+      }
+    },
+    "schematicID": 119
+  },
+  "121": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2268": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "3645": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 121
+  },
+  "122": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2308": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2389": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 122
+  },
+  "123": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2309": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2390": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 123
+  },
+  "124": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2310": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "3683": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 124
+  },
+  "125": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2311": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2392": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 125
+  },
+  "126": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2267": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2398": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 126
+  },
+  "127": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2270": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2399": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 127
+  },
+  "128": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2272": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2400": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 128
+  },
+  "129": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2306": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2401": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 129
+  },
+  "130": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2307": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "9828": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 130
+  },
+  "131": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2073": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2393": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 131
+  },
+  "132": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2286": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "3779": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 132
+  },
+  "133": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2287": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2395": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 133
+  },
+  "134": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2288": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2396": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 134
+  },
+  "135": {
+    "activities": {
+      "1": {
+        "materials": {
+          "2305": {
+            "quantity": 3000
+          }
+        },
+        "products": {
+          "2397": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "schematicID": 135
+  }
+}
