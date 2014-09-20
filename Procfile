@@ -1,1 +1,1 @@
-web: coffee app/server/bin/www.coffee
+web: coffee bin/www.coffee
