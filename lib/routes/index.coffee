@@ -10,15 +10,18 @@ router.get '/', (req, res) ->
 router.get '/:id', (req, res) ->
   blueprints.bom req.params.id
     .then (x) ->
-      recur = (y) ->
+      recur = (y, c, t) ->
+        quantity = y?.activities["1"].products[t]?.quantity or 1
         for key, value of y?.activities["1"].materials
+          nc = Math.ceil(c / quantity) * value.quantity
           {
-            label: "#{value.typeName}(#{value.quantity})"
-            nodes: recur value.blueprint
+            label: "#{value.typeName}(#{nc})"
+            nodes: recur value.blueprint, nc, key
           }
+      c = x.activities["1"].products[req.params.id].quantity
       result = archy
-        label: "#{x.typeName}(#{x.activities["1"].products[req.params.id].quantity})"
-        nodes: recur x
+        label: "#{x.typeName}(#{c})"
+        nodes: recur x, 1, req.params.id
       res.render 'blueprint', blueprint: result
 
 module.exports = router

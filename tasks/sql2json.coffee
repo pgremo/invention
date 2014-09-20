@@ -32,17 +32,23 @@ gulp.task 'reactions2json', ->
       }
       reactions[row.reactionTypeID] = reaction
     if row.input is 1
-      reaction.activities['1'].materials[row.typeID] = {quantity: row.quantity}
+      reaction.activities['1'].materials[row.typeID] = {quantity: row.qty}
     else
-      reaction.activities['1'].products[row.typeID] = {quantity: row.quantity}
+      reaction.activities['1'].products[row.typeID] = {quantity: row.qty}
   completer = () ->
     fs.writeFileAsync 'lib/data/reactions.json', JSON.stringify reactions, null, 2
     .catch (error) ->
       gulp.err error
   query = """
-select r.reactionTypeID, r.input, r.typeID, r.quantity from invTypeReactions r
-join invTypes rt on r.reactionTypeID = rt.typeID
-where rt.published = 1
+SELECT
+`itr`.`reactionTypeID`,
+`itr`.`input`,
+`itr`.`typeID`,
+`itr`.`quantity`,
+itr.quantity * IFNULL(IFNULL(dta.valueInt, dta.valueFloat), 1) as qty
+FROM
+`invtypereactions` `itr`
+LEFT JOIN `dgmtypeattributes` `dta` ON `itr`.`typeID` = `dta`.`typeID` AND `dta`.`attributeID` = 726;
 """
   db.each query, mapper, completer
 

@@ -27,15 +27,15 @@
       "1": {
         "materials": {
           "16643": {
-            "quantity": 1
+            "quantity": 100
           },
           "16647": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16663": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -47,15 +47,15 @@
       "1": {
         "materials": {
           "16633": {
-            "quantity": 1
+            "quantity": 100
           },
           "16636": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16659": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -67,15 +67,15 @@
       "1": {
         "materials": {
           "16635": {
-            "quantity": 1
+            "quantity": 100
           },
           "16636": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16660": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -87,15 +87,15 @@
       "1": {
         "materials": {
           "16640": {
-            "quantity": 1
+            "quantity": 100
           },
           "16643": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16655": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -107,15 +107,15 @@
       "1": {
         "materials": {
           "16646": {
-            "quantity": 1
+            "quantity": 100
           },
           "16650": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16668": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -127,15 +127,15 @@
       "1": {
         "materials": {
           "16639": {
-            "quantity": 1
+            "quantity": 100
           },
           "16642": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16656": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -147,15 +147,15 @@
       "1": {
         "materials": {
           "16648": {
-            "quantity": 1
+            "quantity": 100
           },
           "16650": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16669": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -167,15 +167,15 @@
       "1": {
         "materials": {
           "16651": {
-            "quantity": 1
+            "quantity": 100
           },
           "16653": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "17769": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -187,15 +187,15 @@
       "1": {
         "materials": {
           "16641": {
-            "quantity": 1
+            "quantity": 100
           },
           "16644": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16665": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -207,15 +207,15 @@
       "1": {
         "materials": {
           "16642": {
-            "quantity": 1
+            "quantity": 100
           },
           "16652": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16666": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -227,15 +227,15 @@
       "1": {
         "materials": {
           "16646": {
-            "quantity": 1
+            "quantity": 100
           },
           "16651": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16667": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -247,15 +247,15 @@
       "1": {
         "materials": {
           "16644": {
-            "quantity": 1
+            "quantity": 100
           },
           "16649": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16662": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -267,15 +267,15 @@
       "1": {
         "materials": {
           "16637": {
-            "quantity": 1
+            "quantity": 100
           },
           "16644": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16657": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -287,15 +287,15 @@
       "1": {
         "materials": {
           "16635": {
-            "quantity": 1
+            "quantity": 100
           },
           "16636": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16658": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -307,15 +307,15 @@
       "1": {
         "materials": {
           "16641": {
-            "quantity": 1
+            "quantity": 100
           },
           "16647": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16664": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -327,15 +327,15 @@
       "1": {
         "materials": {
           "16634": {
-            "quantity": 1
+            "quantity": 100
           },
           "16635": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16661": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -347,15 +347,15 @@
       "1": {
         "materials": {
           "16638": {
-            "quantity": 1
+            "quantity": 100
           },
           "16641": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16654": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -367,15 +367,15 @@
       "1": {
         "materials": {
           "16642": {
-            "quantity": 1
+            "quantity": 100
           },
           "16648": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "17959": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -387,15 +387,15 @@
       "1": {
         "materials": {
           "16643": {
-            "quantity": 1
+            "quantity": 100
           },
           "16652": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "17960": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -407,15 +407,15 @@
       "1": {
         "materials": {
           "16654": {
-            "quantity": 1
+            "quantity": 100
           },
           "16658": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16671": {
-            "quantity": 1
+            "quantity": 10000
           }
         }
       }
@@ -427,15 +427,15 @@
       "1": {
         "materials": {
           "16655": {
-            "quantity": 1
+            "quantity": 100
           },
           "16659": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16670": {
-            "quantity": 1
+            "quantity": 10000
           }
         }
       }
@@ -447,15 +447,15 @@
       "1": {
         "materials": {
           "16656": {
-            "quantity": 1
+            "quantity": 100
           },
           "16660": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16673": {
-            "quantity": 1
+            "quantity": 10000
           }
         }
       }
@@ -467,15 +467,15 @@
       "1": {
         "materials": {
           "16657": {
-            "quantity": 1
+            "quantity": 100
           },
           "16661": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16672": {
-            "quantity": 1
+            "quantity": 10000
           }
         }
       }
@@ -487,15 +487,15 @@
       "1": {
         "materials": {
           "16660": {
-            "quantity": 1
+            "quantity": 100
           },
           "16665": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16678": {
-            "quantity": 1
+            "quantity": 6000
           }
         }
       }
@@ -507,15 +507,15 @@
       "1": {
         "materials": {
           "16659": {
-            "quantity": 1
+            "quantity": 100
           },
           "16662": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16679": {
-            "quantity": 1
+            "quantity": 3000
           }
         }
       }
@@ -527,18 +527,18 @@
       "1": {
         "materials": {
           "16658": {
-            "quantity": 1
+            "quantity": 100
           },
           "16663": {
-            "quantity": 1
+            "quantity": 100
           },
           "17959": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16680": {
-            "quantity": 1
+            "quantity": 2200
           }
         }
       }
@@ -550,18 +550,18 @@
       "1": {
         "materials": {
           "16661": {
-            "quantity": 1
+            "quantity": 100
           },
           "16662": {
-            "quantity": 1
+            "quantity": 100
           },
           "16667": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16681": {
-            "quantity": 1
+            "quantity": 1500
           }
         }
       }
@@ -573,18 +573,18 @@
       "1": {
         "materials": {
           "16664": {
-            "quantity": 1
+            "quantity": 100
           },
           "16668": {
-            "quantity": 1
+            "quantity": 100
           },
           "17959": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16682": {
-            "quantity": 1
+            "quantity": 750
           }
         }
       }
@@ -596,21 +596,21 @@
       "1": {
         "materials": {
           "16665": {
-            "quantity": 1
+            "quantity": 100
           },
           "16666": {
-            "quantity": 1
+            "quantity": 100
           },
           "16669": {
-            "quantity": 1
+            "quantity": 100
           },
           "17960": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "16683": {
-            "quantity": 1
+            "quantity": 400
           }
         }
       }
@@ -622,26 +622,49 @@
       "1": {
         "materials": {
           "16663": {
-            "quantity": 1
+            "quantity": 100
           },
           "16668": {
-            "quantity": 1
+            "quantity": 100
           },
           "17769": {
-            "quantity": 1
+            "quantity": 100
           },
           "17960": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "17317": {
-            "quantity": 1
+            "quantity": 200
           }
         }
       }
     },
     "reactionTypeID": 17972
+  },
+  "20432": {
+    "activities": {
+      "1": {
+        "materials": {
+          "11399": {
+            "quantity": 100
+          },
+          "16649": {
+            "quantity": 10000
+          },
+          "16652": {
+            "quantity": 10000
+          }
+        },
+        "products": {
+          "20431": {
+            "quantity": 100
+          }
+        }
+      }
+    },
+    "reactionTypeID": 20432
   },
   "25240": {
     "activities": {
@@ -1402,10 +1425,10 @@
       "1": {
         "materials": {
           "16641": {
-            "quantity": 1
+            "quantity": 100
           },
           "16642": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1422,10 +1445,10 @@
       "1": {
         "materials": {
           "16643": {
-            "quantity": 1
+            "quantity": 100
           },
           "16648": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1442,10 +1465,10 @@
       "1": {
         "materials": {
           "16641": {
-            "quantity": 1
+            "quantity": 100
           },
           "16643": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1462,10 +1485,10 @@
       "1": {
         "materials": {
           "16644": {
-            "quantity": 1
+            "quantity": 100
           },
           "16646": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1482,10 +1505,10 @@
       "1": {
         "materials": {
           "16643": {
-            "quantity": 1
+            "quantity": 100
           },
           "16646": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1502,10 +1525,10 @@
       "1": {
         "materials": {
           "16642": {
-            "quantity": 1
+            "quantity": 100
           },
           "16644": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1585,6 +1608,29 @@
       }
     },
     "reactionTypeID": 30346
+  },
+  "30347": {
+    "activities": {
+      "1": {
+        "materials": {
+          "40": {
+            "quantity": 20
+          },
+          "30370": {
+            "quantity": 250
+          },
+          "30374": {
+            "quantity": 50
+          }
+        },
+        "products": {
+          "30312": {
+            "quantity": 60
+          }
+        }
+      }
+    },
+    "reactionTypeID": 30347
   },
   "30348": {
     "activities": {
@@ -1701,6 +1747,144 @@
     },
     "reactionTypeID": 30352
   },
+  "30353": {
+    "activities": {
+      "1": {
+        "materials": {
+          "40": {
+            "quantity": 25
+          },
+          "30371": {
+            "quantity": 150
+          },
+          "30375": {
+            "quantity": 50
+          }
+        },
+        "products": {
+          "30313": {
+            "quantity": 60
+          }
+        }
+      }
+    },
+    "reactionTypeID": 30353
+  },
+  "30354": {
+    "activities": {
+      "1": {
+        "materials": {
+          "38": {
+            "quantity": 600
+          },
+          "30372": {
+            "quantity": 150
+          },
+          "30375": {
+            "quantity": 80
+          }
+        },
+        "products": {
+          "30314": {
+            "quantity": 60
+          }
+        }
+      }
+    },
+    "reactionTypeID": 30354
+  },
+  "30355": {
+    "activities": {
+      "1": {
+        "materials": {
+          "38": {
+            "quantity": 1000
+          },
+          "30373": {
+            "quantity": 125
+          },
+          "30375": {
+            "quantity": 50
+          }
+        },
+        "products": {
+          "30315": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "reactionTypeID": 30355
+  },
+  "30356": {
+    "activities": {
+      "1": {
+        "materials": {
+          "39": {
+            "quantity": 30
+          },
+          "30374": {
+            "quantity": 150
+          },
+          "30376": {
+            "quantity": 80
+          }
+        },
+        "products": {
+          "30316": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "reactionTypeID": 30356
+  },
+  "30357": {
+    "activities": {
+      "1": {
+        "materials": {
+          "40": {
+            "quantity": 50
+          },
+          "30375": {
+            "quantity": 250
+          },
+          "30377": {
+            "quantity": 100
+          }
+        },
+        "products": {
+          "30317": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "reactionTypeID": 30357
+  },
+  "30358": {
+    "activities": {
+      "1": {
+        "materials": {
+          "40": {
+            "quantity": 75
+          },
+          "30376": {
+            "quantity": 300
+          },
+          "30378": {
+            "quantity": 150
+          }
+        },
+        "products": {
+          "30318": {
+            "quantity": 20
+          }
+        }
+      }
+    },
+    "reactionTypeID": 30358
+  },
   "30368": {
     "activities": {
       "1": {
@@ -1729,10 +1913,10 @@
       "1": {
         "materials": {
           "16638": {
-            "quantity": 1
+            "quantity": 100
           },
           "16642": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1749,10 +1933,10 @@
       "1": {
         "materials": {
           "16640": {
-            "quantity": 1
+            "quantity": 100
           },
           "16644": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1769,10 +1953,10 @@
       "1": {
         "materials": {
           "16639": {
-            "quantity": 1
+            "quantity": 100
           },
           "16641": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1789,10 +1973,10 @@
       "1": {
         "materials": {
           "16639": {
-            "quantity": 1
+            "quantity": 100
           },
           "16643": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1809,10 +1993,10 @@
       "1": {
         "materials": {
           "16634": {
-            "quantity": 1
+            "quantity": 100
           },
           "16635": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1829,10 +2013,10 @@
       "1": {
         "materials": {
           "16634": {
-            "quantity": 1
+            "quantity": 100
           },
           "16637": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1849,10 +2033,10 @@
       "1": {
         "materials": {
           "16635": {
-            "quantity": 1
+            "quantity": 100
           },
           "16638": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1869,10 +2053,10 @@
       "1": {
         "materials": {
           "16633": {
-            "quantity": 1
+            "quantity": 100
           },
           "16639": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1889,10 +2073,10 @@
       "1": {
         "materials": {
           "16636": {
-            "quantity": 1
+            "quantity": 100
           },
           "16640": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1909,15 +2093,15 @@
       "1": {
         "materials": {
           "16648": {
-            "quantity": 1
+            "quantity": 100
           },
           "16653": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "33336": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -1929,15 +2113,15 @@
       "1": {
         "materials": {
           "16646": {
-            "quantity": 1
+            "quantity": 100
           },
           "16652": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "33337": {
-            "quantity": 2
+            "quantity": 200
           }
         }
       }
@@ -1949,10 +2133,10 @@
       "1": {
         "materials": {
           "16642": {
-            "quantity": 1
+            "quantity": 100
           },
           "16648": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1969,10 +2153,10 @@
       "1": {
         "materials": {
           "16641": {
-            "quantity": 1
+            "quantity": 100
           },
           "16646": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
@@ -1989,15 +2173,15 @@
       "1": {
         "materials": {
           "16654": {
-            "quantity": 1
+            "quantity": 100
           },
           "16669": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "33362": {
-            "quantity": 1
+            "quantity": 300
           }
         }
       }
@@ -2009,15 +2193,15 @@
       "1": {
         "materials": {
           "16655": {
-            "quantity": 1
+            "quantity": 100
           },
           "33336": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "33359": {
-            "quantity": 1
+            "quantity": 300
           }
         }
       }
@@ -2029,15 +2213,15 @@
       "1": {
         "materials": {
           "16656": {
-            "quantity": 1
+            "quantity": 100
           },
           "16667": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "33361": {
-            "quantity": 1
+            "quantity": 300
           }
         }
       }
@@ -2049,15 +2233,15 @@
       "1": {
         "materials": {
           "16657": {
-            "quantity": 1
+            "quantity": 100
           },
           "33337": {
-            "quantity": 1
+            "quantity": 100
           }
         },
         "products": {
           "33360": {
-            "quantity": 1
+            "quantity": 300
           }
         }
       }
