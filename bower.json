@@ -1,0 +1,25 @@
+{
+  "name": "invention",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pgremo/invention",
+  "authors": [
+    "Patrick Gremo <patrick.gremo@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.2.0",
+    "typeahead.js": "~0.10.5",
+    "typeahead.js-bootstrap3.less": "~0.2.3"
+  },
+  "resolutions": {
+    "bootstrap": "~3.2.0"
+  }
+}

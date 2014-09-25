@@ -11,7 +11,7 @@ gulp.task 'types2json', ->
   mapper = (err, row) ->
     types[row.typeID] = row.typeName
   completer = () ->
-    fs.writeFileAsync 'lib/data/types.json', JSON.stringify types, null, 2
+    fs.writeFileAsync 'app/blueprints/types.json', JSON.stringify types, null, 2
     .catch (error) ->
       gulp.err error
   db.each 'select typeID, typeName from invTypes where published = 1', mapper, completer
@@ -36,7 +36,7 @@ gulp.task 'reactions2json', ->
     else
       reaction.activities['1'].products[row.typeID] = {quantity: row.qty}
   completer = () ->
-    fs.writeFileAsync 'lib/data/reactions.json', JSON.stringify reactions, null, 2
+    fs.writeFileAsync 'app/blueprints/reactions.json', JSON.stringify reactions, null, 2
     .catch (error) ->
       gulp.err error
   query = """
@@ -72,7 +72,7 @@ gulp.task 'schematics2json', ->
     else
       reaction.activities['1'].products[row.typeID] = {quantity: row.quantity}
   completer = () ->
-    fs.writeFileAsync 'lib/data/schematics.json', JSON.stringify reactions, null, 2
+    fs.writeFileAsync 'app/blueprints/schematics.json', JSON.stringify reactions, null, 2
     .catch (error) ->
       gulp.err error
   query = """

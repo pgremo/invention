@@ -20,4 +20,4 @@ gulp.task 'blueprints2json', ->
     file.contents = new Buffer JSON.stringify json, null, 2
 
     cb null,file
-  .pipe gulp.dest 'lib/data'
+  .pipe gulp.dest 'app/blueprints'

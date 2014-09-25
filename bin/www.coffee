@@ -1,6 +1,6 @@
 #!/usr/bin/env coffee
 debug = require('debug') 'container'
-app = require '../lib/server'
+app = require '../app/server'
 
 port = process.env.PORT or 3000
 
