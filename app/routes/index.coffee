@@ -21,22 +21,16 @@ router.get '/api/bom/:id', (req, res, next) ->
         throw err
       x
     .then (x) ->
-      recur = (y, c, t) ->
-        quantity = y?.activities['1'].products[t]?.quantity or 1
-        for key, value of y?.activities['1'].materials
+      recur = (y, c, t, p) ->
+        quantity = y.blueprint?.activities['1'].products[t]?.quantity or 1
+        id: t
+        parent: p
+        label: y.typeName
+        nodes: for key, value of y.blueprint?.activities['1'].materials
           nc = Math.ceil(c / quantity) * value.quantity
-          {
-            id: key
-            parent: t
-            label: "#{value.typeName}(#{nc})"
-            nodes: recur value.blueprint, nc, key
-          }
-      c = x.activities['1'].products[id].quantity
-      res.send
-          id: id
-          parent: 0
-          label: "#{x.typeName}(#{c})"
-          nodes: recur x, 1, req.params.id
-    .catch (error) -> next error
+          recur value, nc, key, t
+      res.send recur x, 1, id
+    .catch (error) ->
+      next error
 
 module.exports = router

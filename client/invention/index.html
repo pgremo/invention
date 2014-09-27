@@ -19,7 +19,20 @@
         <script src="/lib/jquery/dist/jquery.min.js" ></script>
         <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="/lib/typeahead.js/dist/typeahead.bundle.min.js"></script>
+        <script src="/lib/d3/d3.min.js"></script>
+        <script src="/lib/dagre-d3/js/dagre-d3.min.js"></script>
         <script src="invention.js" ></script>
+        <style>
+            .node rect {
+                stroke: #999;
+            }
+
+            .edgePath path {
+                stroke: #333;
+                stroke-width: 1.5px;
+                fill: none;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
@@ -29,7 +42,9 @@
                     <input class="typeahead form-control" id="name" name="name" type="text" placeholder="Type Name"/>
                 </div>
             </form>
-            <pre id="result"></pre>
+            <svg width=650 height=680>
+                <g transform="translate(20,20)"/>
+            </svg>
         </div>
     </body>
 </html>

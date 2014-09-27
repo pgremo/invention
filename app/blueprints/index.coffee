@@ -40,10 +40,11 @@ boms = Promise.all [products, types]
           value.blueprint = bp if bp?
           value.typeName = types[key]
         item
+    things = {}
     for key, value of products
-      value.typeName = types[key]
+      things[key] = blueprint: value, typeName: types[key]
       recur key, []
-    products
+    things
 
 exports.bom = (id) -> boms.then (x) -> x[id]
 
