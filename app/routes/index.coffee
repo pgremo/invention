@@ -31,12 +31,14 @@ router.get '/api/bom/:id', (req, res, next) ->
         runs = Math.ceil need / quantity
         item.available += runs * quantity - c
         item.total += c
-        item.label = "#{y.typeName}(#{item.total})"
+        item.label = y.typeName
         item.nodes = for _, value of y.blueprint?.activities['1'].materials
           recur value, runs * value.quantity
         item
-      res.send recur x, x.blueprint?.activities['1'].products[x.id]?.quantity
-    .catch (error) ->
-      next error
+      recur x, x.blueprint?.activities['1'].products[x.id]?.quantity
+    .then (x) ->
+      res.send x
+    .catch (x) ->
+      next x
 
 module.exports = router

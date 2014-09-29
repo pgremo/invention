@@ -1,12 +1,14 @@
 $(document).ready ->
+  $('#shopping-list').bootstrapTable()
+
   $('#name')
   .typeahead
-      hint: true,
-      highlight: true,
+      hint: true
+      highlight: true
       minLength: 3
     ,
-      name: 'types',
-      displayKey: 'value',
+      name: 'types'
+      displayKey: 'value'
       source: (q, cb) ->
         $.get '/api/typeLookup', query: q, (data) ->
           cb data.map (x) -> id: x[0], value: x[1]
@@ -15,13 +17,14 @@ $(document).ready ->
       g = new dagreD3.Digraph()
 
       recur = (x, visited) ->
-        if visited.indexOf(x.id) < 0
-          visited.push x.id
+        if !visited[x.id]?
+          visited[x.id] = x
           g.addNode x.id, label: x.label
           for y in x.nodes
             recur y, visited
             g.addEdge null, y.id, x.id
-      recur data, []
+      items = {}
+      recur data, items
 
       svg = d3.select 'svg'
       svgGroup = svg.append 'g'
@@ -38,3 +41,5 @@ $(document).ready ->
       svgGroup.attr 'transform', "translate(#{xCenterOffset}, 20)"
       svg.attr 'width', layout.graph().width + 40
       svg.attr 'height', layout.graph().height + 40
+
+      $('#shopping-list').bootstrapTable 'load', (value for _, value of items when value.label isnt data.label and value.nodes.length is 0)

@@ -34,10 +34,10 @@ gulp.task 'coffee', () ->
 gulp.task 'stylus', () ->
   gulp.src './client/invention/invention.styl'
     .pipe stylus
-        sourcemap:
-          inline: true,
-          sourceRoot: '..',
-          basePath: 'css'
+      sourcemap:
+        inline: true,
+        sourceRoot: '..',
+        basePath: 'css'
     .pipe gulp.dest './client/invention'
 
 gulp.task 'server', ['build', 'watch'],  ->
