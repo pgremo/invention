@@ -37,7 +37,6 @@ router.get '/api/bom/:id', (req, res, next) ->
         item
       res.send recur x, x.blueprint?.activities['1'].products[x.id]?.quantity
     .catch (error) ->
-      console.log error
       next error
 
 module.exports = router

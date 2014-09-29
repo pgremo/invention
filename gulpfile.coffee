@@ -6,6 +6,7 @@ browserify = require 'gulp-browserify'
 gutil = require 'gulp-util'
 rename = require 'gulp-rename'
 requireDir = require 'require-dir'
+stylus = require 'gulp-stylus'
 dir = requireDir 'tasks'
 
 onError = (err) ->
@@ -13,7 +14,7 @@ onError = (err) ->
   this.emit 'end'
 
 gulp.task 'lint',() ->
-  gulp.src ['./app/**/*.coffee', './test/**/*.coffee', 'gulpfile.coffee']
+  gulp.src ['./app/**/*.coffee', './client/**/*.coffee', './test/**/*.coffee', 'gulpfile.coffee']
     .pipe coffeelint().on 'error', onError
     .pipe coffeelint.reporter()
 
@@ -28,6 +29,15 @@ gulp.task 'coffee', () ->
       extensions: ['.coffee']
       debug: true
     .pipe rename 'invention.js'
+    .pipe gulp.dest './client/invention'
+
+gulp.task 'stylus', () ->
+  gulp.src './client/invention/invention.styl'
+    .pipe stylus
+        sourcemap:
+          inline: true,
+          sourceRoot: '..',
+          basePath: 'css'
     .pipe gulp.dest './client/invention'
 
 gulp.task 'server', ['build', 'watch'],  ->
@@ -47,11 +57,11 @@ gulp.task 'server', ['build', 'watch'],  ->
     console.log 'App has quit'
   .on 'restart', (files) ->
     console.log "App restarted due to: #{files}"
-  gulp.watch ['./app/**/*.coffee'], ['lint', 'mocha']
 
 gulp.task 'watch', () ->
   gulp.watch ['./client/**/*.coffee'], ['coffee']
+  gulp.watch ['./client/**/*.styl'], ['stylus']
 
-gulp.task 'build', ['lint', 'mocha', 'coffee']
+gulp.task 'build', ['lint', 'mocha', 'coffee', 'stylus']
 
 gulp.task 'default', ['build']
