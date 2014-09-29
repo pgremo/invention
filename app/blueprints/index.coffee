@@ -39,10 +39,11 @@ boms = Promise.all [products, types]
           bp = recur key, visited
           value.blueprint = bp if bp?
           value.typeName = types[key]
+          value.id = key
         item
     things = {}
     for key, value of products
-      things[key] = blueprint: value, typeName: types[key]
+      things[key] = blueprint: value, typeName: types[key], id: key
       recur key, []
     things
 
@@ -52,4 +53,4 @@ exports.queryTypes = (q) ->
   pattern = new RegExp q, 'i'
   typeLookup
     .then (x) ->
-        x.filter (y) -> pattern.test y[1]
+      x.filter (y) -> pattern.test y[1]

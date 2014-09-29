@@ -27,6 +27,7 @@ $(document).ready ->
       svgGroup = svg.append 'g'
       layout = dagreD3.layout()
         .nodeSep 10
+        .edgeSep 10
         .rankSep 10
         .rankDir 'RL'
       renderer = new dagreD3.Renderer()
@@ -34,6 +35,6 @@ $(document).ready ->
       layout = renderer.layout(layout).run g, d3.select 'svg g'
 
       xCenterOffset = (svg.attr('width') - layout.graph().width) / 2
-      svgGroup.attr('transform', "translate(#{xCenterOffset}, 20)")
-      svg.attr('width', layout.graph().width + 40)
-      svg.attr('height', layout.graph().height + 40)
+      svgGroup.attr 'transform', "translate(#{xCenterOffset}, 20)"
+      svg.attr 'width', layout.graph().width + 40
+      svg.attr 'height', layout.graph().height + 40

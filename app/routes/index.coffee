@@ -12,8 +12,7 @@ router.get '/api/typeLookup', (req, res) ->
     .then (x) -> res.send x
 
 router.get '/api/bom/:id', (req, res, next) ->
-  id = req.params.id
-  blueprints.bom id
+  blueprints.bom req.params.id
     .then (x) ->
       if !x?
         err = new Error 'Not Found'
@@ -21,16 +20,24 @@ router.get '/api/bom/:id', (req, res, next) ->
         throw err
       x
     .then (x) ->
-      recur = (y, c, t, p) ->
-        quantity = y.blueprint?.activities['1'].products[t]?.quantity or 1
-        id: t
-        parent: p
-        label: y.typeName
-        nodes: for key, value of y.blueprint?.activities['1'].materials
-          nc = Math.ceil(c / quantity) * value.quantity
-          recur value, nc, key, t
-      res.send recur x, 1, id
+      visited = {}
+      recur = (y, c) ->
+        item = visited[y.id]
+        if !item?
+          item = id: y.id, total: 0, available: 0, runs: 0
+          visited[y.id] = item
+        need = if item.available < c then c - item.available else 0
+        quantity = y.blueprint?.activities['1'].products[y.id]?.quantity or 1
+        runs = Math.ceil need / quantity
+        item.available += runs * quantity - c
+        item.total += c
+        item.label = "#{y.typeName}(#{item.total})"
+        item.nodes = for _, value of y.blueprint?.activities['1'].materials
+          recur value, runs * value.quantity
+        item
+      res.send recur x, x.blueprint?.activities['1'].products[x.id]?.quantity
     .catch (error) ->
+      console.log error
       next error
 
 module.exports = router

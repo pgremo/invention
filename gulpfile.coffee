@@ -24,18 +24,20 @@ gulp.task 'mocha',() ->
 gulp.task 'coffee', () ->
   gulp.src './client/invention/invention.coffee', read: false
     .pipe browserify
-        transform: ['coffeeify']
-        extensions: ['.coffee']
-        debug: true
+      transform: ['coffeeify']
+      extensions: ['.coffee']
+      debug: true
     .pipe rename 'invention.js'
     .pipe gulp.dest './client/invention'
 
-gulp.task 'server', ['build'],  ->
+gulp.task 'server', ['build', 'watch'],  ->
   nodemon
     script: './bin/www.coffee'
     nodeArgs: ['--nodejs', '--debug']
     env:
       NODE_ENV: 'development'
+    watch:
+      './app/'
   .on 'start', () ->
     console.log """
         Starting up context, serving on [localhost:#{process.env.PORT or 3000}]
@@ -47,6 +49,9 @@ gulp.task 'server', ['build'],  ->
     console.log "App restarted due to: #{files}"
   gulp.watch ['./app/**/*.coffee'], ['lint', 'mocha']
 
-gulp.task 'build', ['lint', 'mocha']
+gulp.task 'watch', () ->
+  gulp.watch ['./client/**/*.coffee'], ['coffee']
+
+gulp.task 'build', ['lint', 'mocha', 'coffee']
 
 gulp.task 'default', ['build']
