@@ -1,13 +1,9 @@
 Promise = require 'bluebird'
 path = require 'path'
-_ = require 'underscore'
 fs = Promise.promisifyAll require 'fs'
 
 types = fs.readFileAsync "#{__dirname}/types.json", 'utf8'
   .then (x) -> JSON.parse x
-
-typeLookup = types
-  .then (x) -> _.pairs x
 
 blueprints = fs.readFileAsync "#{__dirname}/blueprints.json", 'utf8'
   .then (x) -> JSON.parse x
@@ -28,6 +24,11 @@ products = Promise.all [blueprints, reactions, schematics]
           for id, _ of produces
             result[id] = value
     result
+
+typeLookup = Promise.all [types, products]
+  .spread (types, products) ->
+    keys = Object.keys products
+    [key, value] for key, value of types when keys.indexOf(key) >= 0
 
 boms = Promise.all [products, types]
   .spread (products, types) ->
