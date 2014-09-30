@@ -12,7 +12,7 @@ $(document).ready ->
       source: (q, cb) ->
         $.get '/api/typeLookup', query: q, (data) ->
           cb data.map (x) -> id: x[0], value: x[1]
-  .on 'typeahead:selected', (event, data) ->
+  .on 'typeahead:autocompleted typeahead:selected', (event, data) ->
     $.get "/api/bom/#{data.id}", (data) ->
       g = new dagreD3.Digraph()
 
@@ -39,7 +39,7 @@ $(document).ready ->
 
       xCenterOffset = (svg.attr('width') - layout.graph().width) / 2
       svgGroup.attr 'transform', "translate(#{xCenterOffset}, 20)"
-      svg.attr 'width', layout.graph().width + 40
+      svg.attr 'width', '100%'
       svg.attr 'height', layout.graph().height + 40
 
       $('#shopping-list').bootstrapTable 'load', (value for _, value of items when value.label isnt data.label and value.nodes.length is 0)

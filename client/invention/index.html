@@ -27,22 +27,34 @@
     </head>
     <body>
         <div class="container">
-            <form class="form-inline" role="form" id="type-search">
-                <div class="form-group">
-                    <label class="sr-only" for="name">Type Name</label>
-                    <input class="typeahead form-control" id="name" name="name" type="text" placeholder="Type Name"/>
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-inline" role="form" id="type-search">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">Type Name</label>
+                            <input class="typeahead form-control" id="name" name="name" type="text" placeholder="Type Name"/>
+                        </div>
+                    </form>
                 </div>
-            </form>
-            <svg width=650 height=680>
-                <g transform="translate(20,20)"></g>
-            </svg>
-            <table id="shopping-list" class="table">
-                <thead>
-                    <tr><th data-field="label" data-sortable="true">type</th><th data-field="total" data-sortable="true">amount</th></tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+            </div>
+            <div class="row">
+                <div>
+                    <svg>
+                        <g></g>
+                    </svg>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <table id="shopping-list" class="table">
+                        <thead>
+                            <tr><th data-field="label" data-sortable="true">type</th><th data-field="total" data-sortable="true">amount</th></tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </body>
 </html>
