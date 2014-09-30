@@ -25,11 +25,6 @@ products = Promise.all [blueprints, reactions, schematics]
             result[id] = value
     result
 
-typeLookup = Promise.all [types, products]
-  .spread (types, products) ->
-    keys = Object.keys products
-    [key, value] for key, value of types when keys.indexOf(key) >= 0
-
 boms = Promise.all [products, types]
   .spread (products, types) ->
     recur = (itemId, visited) ->
@@ -48,10 +43,10 @@ boms = Promise.all [products, types]
       recur key, []
     things
 
+typeLookup = boms.then (x) -> [key, value.typeName] for key, value of x when value?.typeName?
+
 exports.bom = (id) -> boms.then (x) -> x[id]
 
 exports.queryTypes = (q) ->
   pattern = new RegExp q, 'i'
-  typeLookup
-    .then (x) ->
-      x.filter (y) -> pattern.test y[1]
+  typeLookup.then (x) -> x.filter (y) -> pattern.test y[1]
