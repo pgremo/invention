@@ -26890,7 +26890,7 @@
           "11484": {
             "quantity": 1
           },
-          "11557": {
+          "11558": {
             "quantity": 8
           }
         },
@@ -26995,7 +26995,7 @@
           "11484": {
             "quantity": 1
           },
-          "11558": {
+          "11557": {
             "quantity": 8
           }
         },
@@ -47096,22 +47096,22 @@
       "1": {
         "materials": {
           "34": {
-            "quantity": 213740
+            "quantity": 210226
           },
           "35": {
-            "quantity": 65343
+            "quantity": 63264
           },
           "36": {
-            "quantity": 34877
+            "quantity": 32539
           },
           "37": {
-            "quantity": 10130
+            "quantity": 8751
           },
           "38": {
             "quantity": 2200
           },
           "39": {
-            "quantity": 992
+            "quantity": 978
           },
           "40": {
             "quantity": 244
@@ -69191,22 +69191,22 @@
       "1": {
         "materials": {
           "34": {
-            "quantity": 17498
+            "quantity": 15992
           },
           "35": {
-            "quantity": 5814
+            "quantity": 4923
           },
           "36": {
-            "quantity": 3239
+            "quantity": 2237
           },
           "37": {
-            "quantity": 851
+            "quantity": 260
           },
           "38": {
             "quantity": 197
           },
           "39": {
-            "quantity": 89
+            "quantity": 83
           },
           "40": {
             "quantity": 22
@@ -69331,22 +69331,22 @@
       "1": {
         "materials": {
           "34": {
-            "quantity": 69991
+            "quantity": 66979
           },
           "35": {
-            "quantity": 23258
+            "quantity": 21476
           },
           "36": {
-            "quantity": 12956
+            "quantity": 10952
           },
           "37": {
-            "quantity": 3404
+            "quantity": 2222
           },
           "38": {
             "quantity": 787
           },
           "39": {
-            "quantity": 356
+            "quantity": 344
           },
           "40": {
             "quantity": 89
@@ -69471,22 +69471,22 @@
       "1": {
         "materials": {
           "34": {
-            "quantity": 279966
+            "quantity": 275448
           },
           "35": {
-            "quantity": 93031
+            "quantity": 90358
           },
           "36": {
-            "quantity": 51822
+            "quantity": 48816
           },
           "37": {
-            "quantity": 13618
+            "quantity": 11845
           },
           "38": {
             "quantity": 3147
           },
           "39": {
-            "quantity": 1422
+            "quantity": 1404
           },
           "40": {
             "quantity": 356
@@ -94441,9 +94441,6 @@
     "activities": {
       "1": {
         "materials": {
-          "39": {
-            "quantity": 56
-          },
           "11293": {
             "quantity": 1
           },
@@ -103238,16 +103235,16 @@
             "level": 1
           }
         },
-        "time": 1800
+        "time": 3600
       },
       "3": {
-        "time": 630
+        "time": 1260
       },
       "4": {
-        "time": 630
+        "time": 1260
       },
       "5": {
-        "time": 1440
+        "time": 2880
       },
       "8": {
         "materials": {
@@ -103279,11 +103276,11 @@
             "level": 1
           }
         },
-        "time": 54300
+        "time": 68100
       }
     },
     "blueprintTypeID": 22299,
-    "maxProductionLimit": 100
+    "maxProductionLimit": 50
   },
   "22300": {
     "activities": {
@@ -103742,16 +103739,16 @@
             "level": 1
           }
         },
-        "time": 1800
+        "time": 3600
       },
       "3": {
-        "time": 630
+        "time": 1260
       },
       "4": {
-        "time": 630
+        "time": 1260
       },
       "5": {
-        "time": 1440
+        "time": 2880
       },
       "8": {
         "materials": {
@@ -103783,11 +103780,11 @@
             "level": 1
           }
         },
-        "time": 54300
+        "time": 68100
       }
     },
     "blueprintTypeID": 22306,
-    "maxProductionLimit": 100
+    "maxProductionLimit": 50
   },
   "22307": {
     "activities": {
@@ -103819,16 +103816,16 @@
             "level": 1
           }
         },
-        "time": 1800
+        "time": 3600
       },
       "3": {
-        "time": 630
+        "time": 1260
       },
       "4": {
-        "time": 630
+        "time": 1260
       },
       "5": {
-        "time": 1440
+        "time": 2880
       },
       "8": {
         "materials": {
@@ -103860,11 +103857,11 @@
             "level": 1
           }
         },
-        "time": 54300
+        "time": 68100
       }
     },
     "blueprintTypeID": 22307,
-    "maxProductionLimit": 100
+    "maxProductionLimit": 50
   },
   "22308": {
     "activities": {
@@ -103970,16 +103967,16 @@
             "level": 1
           }
         },
-        "time": 1800
+        "time": 3600
       },
       "3": {
-        "time": 630
+        "time": 1260
       },
       "4": {
-        "time": 630
+        "time": 1260
       },
       "5": {
-        "time": 1440
+        "time": 2880
       },
       "8": {
         "materials": {
@@ -104011,11 +104008,11 @@
             "level": 1
           }
         },
-        "time": 54300
+        "time": 68100
       }
     },
     "blueprintTypeID": 22309,
-    "maxProductionLimit": 100
+    "maxProductionLimit": 50
   },
   "22310": {
     "activities": {
@@ -104792,6 +104789,9 @@
           },
           "11555": {
             "quantity": 1634
+          },
+          "21025": {
+            "quantity": 3
           }
         },
         "products": {
@@ -139539,7 +139539,7 @@
       "1": {
         "materials": {
           "34": {
-            "quantity": 50
+            "quantity": 56
           }
         },
         "products": {
@@ -143598,9 +143598,6 @@
     "activities": {
       "1": {
         "materials": {
-          "40": {
-            "quantity": 123
-          },
           "17406": {
             "quantity": 1
           }
@@ -143706,9 +143703,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 8680
-          },
           "40": {
             "quantity": 11
           },
@@ -143745,9 +143739,6 @@
     "activities": {
       "1": {
         "materials": {
-          "34": {
-            "quantity": 1
-          },
           "40": {
             "quantity": 22
           },
@@ -143862,9 +143853,6 @@
     "activities": {
       "1": {
         "materials": {
-          "34": {
-            "quantity": 1
-          },
           "40": {
             "quantity": 22
           },
@@ -143901,9 +143889,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 8680
-          },
           "40": {
             "quantity": 11
           },
@@ -143979,9 +143964,6 @@
     "activities": {
       "1": {
         "materials": {
-          "40": {
-            "quantity": 123
-          },
           "17406": {
             "quantity": 1
           }
@@ -144015,9 +143997,6 @@
     "activities": {
       "1": {
         "materials": {
-          "40": {
-            "quantity": 146
-          },
           "16694": {
             "quantity": 1
           }
@@ -144051,9 +144030,6 @@
     "activities": {
       "1": {
         "materials": {
-          "40": {
-            "quantity": 146
-          },
           "16694": {
             "quantity": 1
           }
@@ -144087,9 +144063,6 @@
     "activities": {
       "1": {
         "materials": {
-          "40": {
-            "quantity": 123
-          },
           "17406": {
             "quantity": 1
           }
@@ -144162,9 +144135,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 8680
-          },
           "40": {
             "quantity": 11
           },
@@ -144240,9 +144210,6 @@
     "activities": {
       "1": {
         "materials": {
-          "34": {
-            "quantity": 1
-          },
           "40": {
             "quantity": 22
           },
@@ -144384,9 +144351,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 8680
-          },
           "40": {
             "quantity": 11
           },
@@ -144462,9 +144426,6 @@
     "activities": {
       "1": {
         "materials": {
-          "34": {
-            "quantity": 1
-          },
           "40": {
             "quantity": 22
           },
@@ -144501,12 +144462,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 1116
-          },
-          "40": {
-            "quantity": 141
-          },
           "16689": {
             "quantity": 1
           }
@@ -144540,12 +144495,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 1112
-          },
-          "40": {
-            "quantity": 6
-          },
           "17770": {
             "quantity": 1
           }
@@ -144618,9 +144567,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 1112
-          },
           "40": {
             "quantity": 6
           },
@@ -144813,12 +144759,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 1116
-          },
-          "40": {
-            "quantity": 141
-          },
           "16689": {
             "quantity": 1
           }
@@ -144925,7 +144865,7 @@
       "1": {
         "materials": {
           "37": {
-            "quantity": 2224
+            "quantity": 1109
           },
           "40": {
             "quantity": 6
@@ -144963,9 +144903,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 111
-          },
           "16692": {
             "quantity": 1
           }
@@ -145116,9 +145053,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 113
-          },
           "40": {
             "quantity": 17
           },
@@ -145155,11 +145089,8 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 112
-          },
           "40": {
-            "quantity": 5
+            "quantity": 2
           },
           "17402": {
             "quantity": 1
@@ -145194,12 +145125,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 113
-          },
-          "40": {
-            "quantity": 16
-          },
           "17402": {
             "quantity": 1
           }
@@ -145233,12 +145158,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 112
-          },
-          "40": {
-            "quantity": 5
-          },
           "16692": {
             "quantity": 1
           }
@@ -145311,9 +145230,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 113
-          },
           "40": {
             "quantity": 17
           },
@@ -145716,9 +145632,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 1
-          },
           "17182": {
             "quantity": 1
           }
@@ -145752,9 +145665,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 1
-          },
           "17181": {
             "quantity": 1
           }
@@ -145788,9 +145698,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 1
-          },
           "17181": {
             "quantity": 1
           }
@@ -145824,9 +145731,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 1
-          },
           "17182": {
             "quantity": 1
           }
@@ -145933,7 +145837,7 @@
       "1": {
         "materials": {
           "37": {
-            "quantity": 223
+            "quantity": 98
           },
           "17180": {
             "quantity": 1
@@ -145968,9 +145872,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 112
-          },
           "17180": {
             "quantity": 1
           }
@@ -146004,9 +145905,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 112
-          },
           "27672": {
             "quantity": 1
           }
@@ -146040,9 +145938,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 112
-          },
           "27672": {
             "quantity": 1
           }
@@ -146076,9 +145971,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 223
-          },
           "27672": {
             "quantity": 1
           }
@@ -146112,9 +146004,6 @@
     "activities": {
       "1": {
         "materials": {
-          "37": {
-            "quantity": 112
-          },
           "27672": {
             "quantity": 1
           }
@@ -186659,10 +186548,10 @@
             "quantity": 1
           },
           "25617": {
-            "quantity": 3
+            "quantity": 1
           },
           "25619": {
-            "quantity": 3
+            "quantity": 1
           }
         },
         "products": {
@@ -219149,13 +219038,13 @@
             "quantity": 191
           },
           "9834": {
-            "quantity": 89
+            "quantity": 100
           },
           "9842": {
             "quantity": 100
           },
           "17392": {
-            "quantity": 11
+            "quantity": 12
           }
         },
         "products": {
@@ -220044,13 +219933,13 @@
             "quantity": 191
           },
           "9834": {
-            "quantity": 89
+            "quantity": 100
           },
           "9842": {
             "quantity": 100
           },
           "17392": {
-            "quantity": 11
+            "quantity": 12
           }
         },
         "products": {
@@ -220110,13 +219999,13 @@
             "quantity": 201
           },
           "9834": {
-            "quantity": 89
+            "quantity": 100
           },
           "9842": {
             "quantity": 100
           },
           "17392": {
-            "quantity": 11
+            "quantity": 12
           }
         },
         "products": {

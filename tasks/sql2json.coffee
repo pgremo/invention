@@ -5,7 +5,7 @@ fs = Promise.promisifyAll require 'fs'
 sqlite = require 'sqlite3'
 
 gulp.task 'types2json', ->
-  db = new sqlite.Database "#{process.cwd()}/data/hyperion.db", sqlite.OPEN_READONLY
+  db = new sqlite.Database "#{process.cwd()}/data/oceanus/eve.db", sqlite.OPEN_READONLY
 
   types = {}
   mapper = (err, row) ->
@@ -17,7 +17,7 @@ gulp.task 'types2json', ->
   db.each 'select typeID, typeName from invTypes where published = 1', mapper, completer
 
 gulp.task 'reactions2json', ->
-  db = new sqlite.Database "#{process.cwd()}/data/hyperion.db", sqlite.OPEN_READONLY
+  db = new sqlite.Database "#{process.cwd()}/data/oceanus/eve.db", sqlite.OPEN_READONLY
 
   reactions = {}
   mapper = (err, row) ->
@@ -53,7 +53,7 @@ LEFT JOIN `dgmtypeattributes` `dta` ON `itr`.`typeID` = `dta`.`typeID` AND `dta`
   db.each query, mapper, completer
 
 gulp.task 'schematics2json', ->
-  db = new sqlite.Database "#{process.cwd()}/data/hyperion.db", sqlite.OPEN_READONLY
+  db = new sqlite.Database "#{process.cwd()}/data/oceanus/eve.db", sqlite.OPEN_READONLY
 
   reactions = {}
   mapper = (err, row) ->
