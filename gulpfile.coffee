@@ -14,7 +14,7 @@ onError = (err) ->
   this.emit 'end'
 
 gulp.task 'lint',() ->
-  gulp.src ['./app/**/*.coffee', './client/**/*.coffee', './test/**/*.coffee', 'gulpfile.coffee']
+  gulp.src ['./app/**/*.coffee', './client/**/*.coffee', './tasks/**/*.coffee', './test/**/*.coffee', 'gulpfile.coffee']
     .pipe coffeelint().on 'error', onError
     .pipe coffeelint.reporter()
 
