@@ -4,28 +4,7 @@ favicon = require 'serve-favicon'
 bodyParser = require 'body-parser'
 logger = require 'morgan'
 routes = require './routes'
-
-passport = require 'passport'
-LocalStrategy = require('passport-local').Strategy
-User = require './users'
-
-passport.use new LocalStrategy {usernameField: 'email', passwordField: 'password'}, (email, password, done) ->
-  User.findOne {email: email}, (err, user) ->
-    switch
-      when err then done err
-      when !user then done null, false, message: 'Incorrect email.'
-      else user.checkEncrypted 'password', password, (err, isMatch) ->
-        switch
-          when err then done err
-          when isMatch then done null, user
-          else done null, false, message: 'Invalid password'
-
-passport.serializeUser (user, done) ->
-  done null, user.id
-
-passport.deserializeUser (id, done) ->
-  User.findById id, (err, user) ->
-    done err, user
+authentication = require './authentication'
 
 app = express()
 
@@ -37,17 +16,13 @@ app.use require('cookie-parser')()
 app.use bodyParser.json()
 app.use bodyParser.urlencoded extended: true
 app.use require('express-session') secret: 'hullaballoo', resave: true, saveUninitialized: true
-app.use require('flash')()
-app.use passport.initialize()
-app.use passport.session()
+app.use require('connect-flash')()
+app.use authentication.initialize
+app.use authentication.session
 
 app.use '/', routes
 
-app.post '/login',
-  passport.authenticate 'local',
-    successRedirect: '/'
-    failureRedirect: '/login.html'
-    failureFlash: true
+app.post '/login', authentication.handler
 
 app.post '/register', (req, res, next) ->
   new User(
