@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+
+    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="register.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="/lib/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="/lib/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script src="/lib/jquery/dist/jquery.min.js" ></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="register.js" ></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Registration</h1>
+                <form class="form" role="form" id="registration" method="post" action="/register">
+                    <div class="form-group">
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label class="sr-only" for="email">Email Address</label>
+                                <input class="form-control" id="email" name="email" type="text" placeholder="Email Address"/>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-2">
+                                <label class="sr-only" for="key">Key</label>
+                                <input class="form-control" id="key" name="key" type="text" placeholder="Key"/>
+                                (<a href="https://community.eveonline.com/support/api-key/CreatePredefined?accessMask=2" target="_blank">create an API key</a>)
+                            </div>
+                            <div class="col-md-10">
+                                <label class="sr-only" for="vCode">vCode</label>
+                                <input class="form-control" id="vCode" name="vCode" type="text" placeholder="vCode"/>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label class="sr-only" for="password">Password</label>
+                                <input class="form-control" id="password" name="password" type="password" placeholder="Password"/>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label class="sr-only" for="verify">Verify</label>
+                                <input class="form-control" id="verify" name="verify" type="password" placeholder="Verify"/>
+                            </div>
+                        </div>
+                        <button type="submit" name="register" class="btn btn-default">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

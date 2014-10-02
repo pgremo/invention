@@ -37,8 +37,7 @@ $(document).ready ->
       renderer.zoom false
       layout = renderer.layout(layout).run g, d3.select 'svg g'
 
-      xCenterOffset = (svg.attr('width') - layout.graph().width) / 2
-      svgGroup.attr 'transform', "translate(#{xCenterOffset}, 20)"
+      svgGroup.attr 'transform', "translate(0, 20)"
       svg.attr 'width', '100%'
       svg.attr 'height', layout.graph().height + 40
 
