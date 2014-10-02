@@ -1,16 +1,12 @@
 express = require 'express'
 path = require 'path'
-favicon = require 'serve-favicon'
 bodyParser = require 'body-parser'
-logger = require 'morgan'
-routes = require './routes'
 authentication = require './authentication'
 
 app = express()
 
-app.use logger 'combined'
-app.use favicon path.join __dirname, '..', 'client', 'favicon.ico'
-app.use logger 'dev'
+app.use require('serve-favicon') path.join __dirname, '..', 'client', 'favicon.ico'
+app.use require('morgan') 'dev'
 app.use express.static path.join __dirname, '..', 'client'
 app.use require('cookie-parser')()
 app.use bodyParser.json()
@@ -20,7 +16,7 @@ app.use require('connect-flash')()
 app.use authentication.initialize
 app.use authentication.session
 
-app.use '/', routes
+app.use '/', require './routes'
 
 app.post '/login', authentication.handler
 
