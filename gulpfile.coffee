@@ -26,6 +26,7 @@ gulp.task 'server', ['build'],  ->
     nodeArgs: ['--nodejs', '--debug']
     env:
       NODE_ENV: 'development'
+      DEBUG: 'container'
     watch:
       './app/'
   .on 'start', () ->
