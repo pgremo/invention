@@ -2,11 +2,9 @@ gulp = require 'gulp'
 mocha = require 'gulp-mocha'
 coffeelint = require 'gulp-coffeelint'
 nodemon = require 'gulp-nodemon'
-browserify = require 'gulp-browserify'
 gutil = require 'gulp-util'
 rename = require 'gulp-rename'
 requireDir = require 'require-dir'
-stylus = require 'gulp-stylus'
 dir = requireDir 'tasks'
 
 onError = (err) ->
@@ -22,25 +20,7 @@ gulp.task 'mocha',() ->
   gulp.src ['./test/**/*.coffee']
     .pipe mocha(reporter: 'spec').on 'error', onError
 
-gulp.task 'coffee', () ->
-  gulp.src './client/invention/invention.coffee', read: false
-    .pipe browserify
-      transform: ['coffeeify']
-      extensions: ['.coffee']
-      debug: true
-    .pipe rename 'invention.js'
-    .pipe gulp.dest './client/invention'
-
-gulp.task 'stylus', () ->
-  gulp.src './client/invention/invention.styl'
-    .pipe stylus
-      sourcemap:
-        inline: true,
-        sourceRoot: '..',
-        basePath: 'css'
-    .pipe gulp.dest './client/invention'
-
-gulp.task 'server', ['build', 'watch'],  ->
+gulp.task 'server', ['build'],  ->
   nodemon
     script: './bin/www.coffee'
     nodeArgs: ['--nodejs', '--debug']
@@ -58,10 +38,6 @@ gulp.task 'server', ['build', 'watch'],  ->
   .on 'restart', (files) ->
     console.log "App restarted due to: #{files}"
 
-gulp.task 'watch', () ->
-  gulp.watch ['./client/**/*.coffee'], ['coffee']
-  gulp.watch ['./client/**/*.styl'], ['stylus']
-
-gulp.task 'build', ['lint', 'mocha', 'coffee', 'stylus']
+gulp.task 'build', ['lint', 'mocha']
 
 gulp.task 'default', ['build']

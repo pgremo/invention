@@ -38,7 +38,7 @@ $(document).ready ->
       layout = renderer.layout(layout).run g, d3.select 'svg g'
 
       svgGroup.attr 'transform', "translate(0, 20)"
-      svg.attr 'width', '100%'
+      svg.attr 'width', layout.graph().width + 20
       svg.attr 'height', layout.graph().height + 40
 
       $('#shopping-list').bootstrapTable 'load', (value for _, value of items when value.label isnt data.label and value.nodes.length is 0)

@@ -3,3 +3,9 @@ node_modules
 .DS_Store
 data/
 !lib/data
+client/**/*.js
+!client/lib/**/*.js
+client/**/*.css
+!client/lib/**/*.css
+client/**/*.map
+!client/lib/**/*.map

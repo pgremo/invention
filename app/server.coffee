@@ -2,9 +2,26 @@ express = require 'express'
 path = require 'path'
 bodyParser = require 'body-parser'
 authentication = require './authentication'
+User = require './users'
+
+config =
+  configurable: true,
+  value: ->
+    alt = {}
+    storeKey = (key) -> alt[key] = this[key]
+    Object.getOwnPropertyNames(this).forEach storeKey, this
+    alt
+
+Object.defineProperty Error.prototype, 'toJSON', config
 
 app = express()
 
+app.use require('stylus').middleware
+  src: path.join __dirname, '..', 'client'
+  sourcemap: true
+app.use require('connect-coffee-script')
+  src: path.join __dirname, '..', 'client'
+  sourceMap: true
 app.use require('serve-favicon') path.join __dirname, '..', 'client', 'favicon.ico'
 app.use require('morgan') 'dev'
 app.use express.static path.join __dirname, '..', 'client'
@@ -40,7 +57,7 @@ app.get '*', (req, res, next) ->
   next err
 
 app.use (err, req, res, next) ->
-  console.log err
+  console.log err.stack
   res.status err.status or 500
   res.send if app.get('env') is 'development' then err else {}
 

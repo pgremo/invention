@@ -24,5 +24,5 @@ exports.initialize = passport.initialize()
 exports.session = passport.session()
 exports.handler = passport.authenticate 'local',
   successRedirect: '/'
-  failureRedirect: '/login.html'
+  failureRedirect: '/#/login'
   failureFlash: true
