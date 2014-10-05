@@ -23,8 +23,8 @@ $(document).ready ->
           for y in x.nodes
             recur y, visited
             g.addEdge null, y.id, x.id
-      items = {}
-      recur data, items
+        visited
+      items = recur data, {}
 
       svg = d3.select 'svg'
       svgGroup = svg.append 'g'

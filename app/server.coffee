@@ -33,7 +33,7 @@ app.post '/register', (req, res, next) ->
     password: req.body.password
   ).save (err, user, count) ->
     if err? then next err
-    else res.send "saved!!!"
+    else res.send result: 'Success'
 
 app.use (req, res) ->
   res.status 404

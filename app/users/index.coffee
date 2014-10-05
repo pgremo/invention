@@ -18,7 +18,9 @@ userSchema = mongoose.Schema
     index: true
   password:
     type: Encrypted
+    required: true
     method: 'bcrypt'
+    minLength: 1
     encryptOptions:
       saltRounds: saltWorkFactor
       seedLength: 20

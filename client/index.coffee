@@ -6,7 +6,17 @@
 
     @get '#/register', -> @partial '/register/index.html'
 
-    @get '#/login', -> @partial '/login/index.html'
+    @post '#/register', ->
+      form_fields = @params
+      @log form_fields
+      @redirect '#/invention/'
+
+    @get '#/signIn', -> @partial '/signIn/index.html'
+
+    @post '#/signIn', ->
+      form_fields = @params
+      @log form_fields
+      @redirect '#/invention/'
 
     @get '', -> app.runRoute 'get', '#/invention/'
   )
