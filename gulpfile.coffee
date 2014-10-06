@@ -5,6 +5,8 @@ nodemon = require 'gulp-nodemon'
 gutil = require 'gulp-util'
 rename = require 'gulp-rename'
 requireDir = require 'require-dir'
+umd = require 'gulp-umd'
+
 dir = requireDir 'tasks'
 
 onError = (err) ->
@@ -42,3 +44,11 @@ gulp.task 'server', ['build'],  ->
 gulp.task 'build', ['lint', 'mocha']
 
 gulp.task 'default', ['build']
+
+gulp.task 'umd-dagre-d3', ->
+  gulp.src 'client/lib/dagre-d3/js/dagre-d3.js'
+    .pipe umd
+      dependencies: (file) -> ['d3']
+      exports: (file) -> 'dagreD3'
+      namespace: (file) -> 'dagreD3'
+    .pipe gulp.dest 'client/dagre-d3'
