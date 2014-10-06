@@ -25,7 +25,7 @@ define ['jquery', 'bootstrap', 'sammy', 'typeahead', 'bootstrap-table', 'd3', 'd
             recur = (x, visited) ->
               if !visited[x.id]?
                 visited[x.id] = x
-                g.addNode x.id, label: x.label
+                g.addNode x.id, label: x.label, nodeClass: if x.nodes.length is 0 then 'leaf' else 'branch'
                 for y in x.nodes
                   recur y, visited
                   g.addEdge null, y.id, x.id
@@ -40,6 +40,13 @@ define ['jquery', 'bootstrap', 'sammy', 'typeahead', 'bootstrap-table', 'd3', 'd
             .rankSep 10
             .rankDir 'RL'
             renderer = new dagreD3.Renderer()
+
+            oldDrawNodes = renderer.drawNodes();
+            renderer.drawNodes (graph, root) ->
+              svgNodes = oldDrawNodes graph, root
+              svgNodes.each (u) -> d3.select(this).classed(graph.node(u).nodeClass, true)
+              svgNodes;
+
             renderer.zoom false
             layout = renderer.layout(layout).run g, d3.select 'svg g'
 
