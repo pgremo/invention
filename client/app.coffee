@@ -7,6 +7,7 @@ requirejs.config
     sammy: 'sammy/lib/min/sammy-0.7.6.min'
     typeahead: 'typeahead.js/dist/typeahead.bundle.min'
     'bootstrap-table': 'bootstrap-table/dist/bootstrap-table.min'
+    bootstrapvalidator: 'bootstrapvalidator/dist/js/bootstrapValidator.min'
     d3: 'd3/d3.min'
     'dagre-d3': '../dagre-d3/dagre-d3'
   shim:
@@ -14,6 +15,8 @@ requirejs.config
       deps: ['jquery']
     'bootstrap-table':
       deps: ['bootstrap']
+    bootstrapvalidator:
+      deps: ['jquery']
     typeahead:
       deps: ['jquery']
     'dagre-d3':

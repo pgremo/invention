@@ -2,7 +2,7 @@ express = require 'express'
 path = require 'path'
 bodyParser = require 'body-parser'
 authentication = require './authentication'
-User = require './users'
+neow = require 'neow'
 
 app = express()
 
@@ -25,15 +25,25 @@ app.use '/', require './routes'
 
 app.post '/login', authentication.handler
 
-app.post '/register', (req, res, next) ->
-  new User(
-    email: req.body.email
-    key: req.body.key
-    vCode: req.body.vCode
-    password: req.body.password
-  ).save (err, user, count) ->
-    if err? then next err
-    else res.send result: 'Success'
+app.post '/api/users', (req, res, next) ->
+  app.models.user.create req.body, (err, user) ->
+    if err?
+      res.status err.status
+      res.send err
+    else res.send status: 'OK', userId: user.id
+
+app.get '/api/users/email/validate', (req, res, next) ->
+  app.models.user.count email: req.query.email
+    .then (x)-> res.send valid: x is 0
+
+app.get '/api/users/api/validate', (req, res, next) ->
+  client = new neow.EveClient keyID: req.query.key, vCode: req.query.vCode
+  client
+    .fetch 'account:APIKeyInfo'
+    .then (x) ->
+      res.send valid: parseInt(x.key.accessMask) & 2 is 2 and x.key.type is 'Account'
+    .catch (x) ->
+      res.send valid: false
 
 app.use (req, res) ->
   res.status 404
