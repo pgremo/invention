@@ -39,11 +39,11 @@ define ['jquery', 'bootstrap', 'sammy', 'typeahead', 'bootstrap-table', 'd3', 'd
                 .rankDir 'RL'
               renderer = new dagreD3.Renderer()
 
-              oldDrawNodes = renderer.drawNodes();
+              oldDrawNodes = renderer.drawNodes()
               renderer.drawNodes (graph, root) ->
                 svgNodes = oldDrawNodes graph, root
                 svgNodes.each (u) -> d3.select(this).classed graph.node(u).nodeClass, true
-                svgNodes;
+                svgNodes
 
               renderer.zoom false
 

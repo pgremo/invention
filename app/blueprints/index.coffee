@@ -14,7 +14,7 @@ reactions = fs.readFileAsync "#{__dirname}/reactions.json", 'utf8'
 schematics = fs.readFileAsync "#{__dirname}/schematics.json", 'utf8'
   .then (x) -> JSON.parse x
 
-products = Promise.all [blueprints, reactions, schematics]
+products = Promise.all [blueprints]
   .then (sources) ->
     result = {}
     for data in sources

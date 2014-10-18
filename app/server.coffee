@@ -56,6 +56,6 @@ app.get '*', (req, res, next) ->
 
 app.use (err, req, res, next) ->
   res.status err.status or 500
-  res.send if app.get('env') is 'development' then err else {}
+  res.send error: err.message
 
 module.exports = app
