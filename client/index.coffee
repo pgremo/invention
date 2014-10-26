@@ -19,7 +19,7 @@ define ['jquery', 'bootstrap', 'sammy', 'typeahead', 'bootstrap-table', 'd3', 'd
                 $.get '/api/typeLookup', query: q, (data) ->
                   cb data.map (x) -> id: x[0], value: x[1]
           .on 'typeahead:autocompleted typeahead:selected', (event, data) ->
-            $.get "/api/bom/#{data.id}", (data) ->
+            $.get "/api/bom/#{data.id}", {me: $('#me').val()}, (data) ->
               g = new dagreD3.Digraph()
 
               recur = (x, visited) ->

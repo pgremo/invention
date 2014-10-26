@@ -1,7 +1,6 @@
 express = require 'express'
 Promise = require 'bluebird'
 blueprints = require '../blueprints/index'
-_ = require 'underscore'
 
 router = express.Router()
 
@@ -21,15 +20,9 @@ router.get '/api/bom/:id', (req, res, next) ->
         throw err
       x
     .then (x) ->
-      me = req.query.me or 1
-      runs = 1
-      result = _.extend {}, x
-      for key, value of result.blueprint?.activities['1'].materials
-        value.quantity = Math.max(runs, Math.ceil((runs * value.quantity * me).toFixed(2)))
-      result
-    .then (x) ->
+      me = req.query.me or 1.0
       visited = {}
-      recur = (y, c) ->
+      recur = (y, c, ma) ->
         item = visited[y.id]
         if not item?
           item = id: y.id, total: 0, available: 0, runs: 0
@@ -41,9 +34,9 @@ router.get '/api/bom/:id', (req, res, next) ->
         item.total += c
         item.label = y.typeName
         item.nodes = for key, value of y.blueprint?.activities['1'].materials
-          recur value, runs * value.quantity
+          recur value, (Math.max runs, Math.ceil (runs * value.quantity * ma).toFixed 2), 1.0
         item
-      recur x, x.blueprint?.activities['1'].products[x.id]?.quantity
+      recur x, x.blueprint?.activities['1'].products[x.id]?.quantity, me
     .then (x) ->
       res.send x
     .catch (x) ->

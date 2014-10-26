@@ -4,9 +4,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Registration</title>
+        <base href="/">
 
         <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/lib/typeahead.js-bootstrap3.less/typeahead.css" rel="stylesheet">
+        <!--<link href="/lib/typeahead.js-bootstrap3.less/typeahead.css" rel="stylesheet">-->
+        <link href="/lib/angular-ui-select/dist/select.css" rel="stylesheet">
         <link href="/lib/bootstrap-table/dist/bootstrap-table.min.css" rel="stylesheet">
         <link href="/lib/bootstrapvalidator/dist/css/bootstrapValidator.min.css" rel="stylesheet">
         <link href="/invention/invention.css" rel="stylesheet">
@@ -21,7 +23,6 @@
         <script data-main="app" src="/lib/requirejs/require.js"></script>
     </head>
     <body>
-        <div id="main" class="container">
-        </div>
+        <div id="main" class="container" ng-view></div>
     </body>
 </html>

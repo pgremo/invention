@@ -25,25 +25,83 @@ app.use '/', require './routes'
 
 app.post '/login', authentication.handler
 
+#{
+#  "message": "",
+#  "error": {
+#    "error": "E_UNKNOWN",
+#    "status": 500,
+#    "summary": "Encountered an unexpected error",
+#    "raw": {
+#      "name": "MongoError",
+#      "code": 11000,
+#      "err": "insertDocument :: caused by :: 11000 E11000 duplicate key error index: invention.user.$email_1  dup key: { : \"c@b.com\" }"
+#    }
+#  }
+#}
+
+#{
+#  "message": "",
+#  "error": {
+#    "error": "E_VALIDATION",
+#    "status": 400,
+#    "summary": "2 attributes are invalid",
+#    "invalidAttributes": {
+#      "email": [
+#        {
+#          "rule": "email",
+#          "message": "`undefined` should be a email (instead of \"null\", which is a object)"
+#        },
+#        {
+#          "rule": "required",
+#          "message": "\"required\" validation rule failed for input: null"
+#        }
+#      ],
+#      "password": [
+#        {
+#          "rule": "string",
+#          "message": "`undefined` should be a string (instead of \"null\", which is a object)"
+#        },
+#        {
+#          "rule": "required",
+#          "message": "\"required\" validation rule failed for input: null"
+#        }
+#      ]
+#    }
+#  }
+#}
+
 app.post '/api/users', (req, res, next) ->
+  console.log req.body
   app.models.user.create req.body, (err, user) ->
     if err?
-      res.status err.status
-      res.send err
+      if err.code is 'E_UNKNOWN'
+        {originalError: {name, code}} = err
+        if name is 'MongoError' and code is 11000
+          console.log 'mongoerror'
+          err =
+            error: 'E_VALIDATION'
+            status: 400
+            summary: '1 attribute is invalid'
+            invalidAttributes:
+              email: [
+                rule: 'unique'
+                message: "Email is not unique"
+              ]
+    if err? then next err
     else res.send status: 'OK', userId: user.id
 
-app.get '/api/users/email/validate', (req, res, next) ->
-  app.models.user.count email: req.query.email
-    .then (x)-> res.send valid: x is 0
+app.post '/api/users/email/validate', (req, res, next) ->
+  app.models.user.count email: req.body.email
+    .then (x)-> res.send isValid: x is 0
 
-app.get '/api/users/api/validate', (req, res, next) ->
-  client = new neow.EveClient keyID: req.query.key, vCode: req.query.vCode
+app.post '/api/users/api/validate', (req, res, next) ->
+  client = new neow.EveClient keyID: req.body.key, vCode: req.body.vCode
   client
     .fetch 'account:APIKeyInfo'
     .then (x) ->
-      res.send valid: parseInt(x.key.accessMask) & 2 is 2 and x.key.type is 'Account'
-    .catch (x) ->
-      res.send valid: false
+      res.send isValid: parseInt(x.key.accessMask) & 2 is 2 and x.key.type is 'Account'
+    .catch () ->
+      res.send isValid: false
 
 app.use (req, res) ->
   res.status 404
@@ -55,7 +113,8 @@ app.get '*', (req, res, next) ->
   next err
 
 app.use (err, req, res, next) ->
+  console.log err
   res.status err.status or 500
-  res.send error: err.message
+  res.send message: err.message, error: err
 
 module.exports = app

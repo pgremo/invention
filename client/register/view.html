@@ -1,0 +1,81 @@
+<div class="row col-md-12">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Void.Tech</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <p class="navbar-text"><a href="#/signIn" class="navbar-link">Sign In</a></p>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Registration</h1>
+        </div>
+    </div>
+    <form class="form" novalidate role="form" id="registration" name="registration" method="post" ng-submit="registerUser()">
+        <div class="row form-group" ng-class="{ 'has-error has-feedback' : registration.email.$invalid && (registration.email.$touched || registration.$submitted) }">
+            <div class="col-md-8">
+                <label class="sr-only" for="email">Email Address</label>
+                <input class="form-control" id="email" name="email" ng-model="user.email" type="text" remote="/api/users/email/validate" required placeholder="Email Address"/>
+                <span ng-show="registration.email.$invalid && (registration.email.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
+                <div ng-messages="registration.email.$error" ng-if="registration.$submitted || registration.email.$touched">
+                    <p ng-message="remote" class="help-block">Email is already registered.</p>
+                    <p ng-message="required" class="help-block">Email is required.</p>
+                    <p ng-message="unique" class="help-block">Email is not unique.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row form-group" ng-class="{ 'has-error has-feedback' : registration.password.$invalid && (registration.password.$touched || registration.$submitted) }">
+            <div class="col-md-8">
+                <label class="sr-only" for="password">Password</label>
+                <input class="form-control" id="password" name="password" ng-model="user.password" type="password" placeholder="Password" required/>
+                <span ng-show="registration.password.$invalid && (registration.password.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
+                <div ng-messages="registration.password.$error" ng-if="registration.$submitted || registration.password.$touched">
+                    <p ng-message="required" class="help-block">Password is required.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row form-group" ng-class="{ 'has-error has-feedback' : registration.verify.$invalid && (registration.verify.$touched || registration.$submitted) }">
+            <div class="col-md-8">
+                <label class="sr-only" for="verify">Verify</label>
+                <input class="form-control" id="verify" name="verify" ng-model="verify" type="password" data-match="user.password" ng-model-options="{ updateOn: 'blur' }" placeholder="Verify"/>
+                <span ng-show="registration.verify.$invalid && (registration.verify.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
+                <div ng-messages="registration.verify.$error" ng-if="registration.$submitted || registration.verify.$touched">
+                    <p ng-message="match" class="help-block">Passwords do not match.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                (<a tabindex="-1" href="https://community.eveonline.com/support/api-key/CreatePredefined?accessMask=2" target="_blank">create an API key</a>)
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-xs-2" ng-class="{ 'has-error has-feedback' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }">
+                <label class="sr-only" for="key">Key</label>
+                <input class="form-control" name="key" id="key" ng-model="user.key" type="text" placeholder="Key"/>
+                <span ng-show="registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
+                <div ng-messages="registration.vCode.$error" ng-if="registration.$submitted || registration.vCode.$touched">
+                    <p ng-message="remote" class="help-block">Invalid key and/or vCode.</p>
+                </div>
+            </div>
+            <div class="col-xs-6" ng-class="{ 'has-error has-feedback' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }">
+                <label class="sr-only" for="vCode">vCode</label>
+                <input class="form-control" id="vCode" name="vCode" ng-model="user.vCode" type="text" placeholder="vCode" remote="/api/users/api/validate" revalidate-on="user.key" validate-params="{key: user.key}"/>
+                <span ng-show="registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" name="register" class="btn btn-primary">Register</button>
+            <a href="#/invention" role="button" class="btn btn-default">Cancel</a>
+        </div>
+    </form>
+</div>
