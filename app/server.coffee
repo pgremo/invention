@@ -25,53 +25,7 @@ app.use '/', require './routes'
 
 app.post '/login', authentication.handler
 
-#{
-#  "message": "",
-#  "error": {
-#    "error": "E_UNKNOWN",
-#    "status": 500,
-#    "summary": "Encountered an unexpected error",
-#    "raw": {
-#      "name": "MongoError",
-#      "code": 11000,
-#      "err": "insertDocument :: caused by :: 11000 E11000 duplicate key error index: invention.user.$email_1  dup key: { : \"c@b.com\" }"
-#    }
-#  }
-#}
-
-#{
-#  "message": "",
-#  "error": {
-#    "error": "E_VALIDATION",
-#    "status": 400,
-#    "summary": "2 attributes are invalid",
-#    "invalidAttributes": {
-#      "email": [
-#        {
-#          "rule": "email",
-#          "message": "`undefined` should be a email (instead of \"null\", which is a object)"
-#        },
-#        {
-#          "rule": "required",
-#          "message": "\"required\" validation rule failed for input: null"
-#        }
-#      ],
-#      "password": [
-#        {
-#          "rule": "string",
-#          "message": "`undefined` should be a string (instead of \"null\", which is a object)"
-#        },
-#        {
-#          "rule": "required",
-#          "message": "\"required\" validation rule failed for input: null"
-#        }
-#      ]
-#    }
-#  }
-#}
-
 app.post '/api/users', (req, res, next) ->
-  console.log req.body
   app.models.user.create req.body, (err, user) ->
     if err?
       if err.code is 'E_UNKNOWN'
