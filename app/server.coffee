@@ -53,7 +53,7 @@ app.post '/api/users/api/validate', (req, res, next) ->
   client
     .fetch 'account:APIKeyInfo'
     .then (x) ->
-      res.send isValid: parseInt(x.key.accessMask) & 2 is 2 and x.key.type is 'Account'
+      res.send isValid: (parseInt(x.key.accessMask) & 2) is 2 and x.key.type is 'Account'
     .catch () ->
       res.send isValid: false
 

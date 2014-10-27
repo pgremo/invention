@@ -24,7 +24,7 @@ module.exports =
     client
       .fetch 'account:APIKeyInfo'
       .then (x) ->
-        if parseInt(x.key.accessMask) & 2 is 2 and x.key.type is 'Account'
+        if (parseInt(x.key.accessMask) & 2) is 2 and x.key.type is 'Account'
           next()
         else
           error = new Error 'Invalid Key and or vCode'
