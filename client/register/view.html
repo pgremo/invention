@@ -63,14 +63,16 @@
                 <label class="sr-only" for="key">Key</label>
                 <input class="form-control" name="key" id="key" ng-model="user.key" type="text" placeholder="Key"/>
                 <span ng-show="registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
-                <div ng-messages="registration.vCode.$error" ng-if="registration.$submitted || registration.vCode.$touched">
-                    <p ng-message="remote" class="help-block">Invalid key and/or vCode.</p>
-                </div>
             </div>
             <div class="col-xs-6" ng-class="{ 'has-error has-feedback' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }">
                 <label class="sr-only" for="vCode">vCode</label>
                 <input class="form-control" id="vCode" name="vCode" ng-model="user.vCode" type="text" placeholder="vCode" remote="/api/users/api/validate" revalidate-on="user.key" validate-params="{key: user.key}"/>
                 <span ng-show="registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
+            </div>
+        </div>
+        <div class="row" ng-class="{ 'has-error has-feedback' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }">
+            <div class="col-xs-12" ng-messages="registration.vCode.$error" ng-if="registration.$submitted || registration.vCode.$touched">
+                <p ng-message="remote" class="help-block">Invalid key and/or vCode.</p>
             </div>
         </div>
         <div class="form-group">

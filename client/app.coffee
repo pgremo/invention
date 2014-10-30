@@ -72,14 +72,14 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         if attrs.revalidateOn then $scope.$watch 'revalidateOn', -> $controller.$validate()
         $controller.$asyncValidators.remote = (model, view) ->
           data = {}
-          data[attrs.name] = (model or view)
+          data[attrs.name] = model or view
           for key, value of $scope.validateParams
             data[key] = value
           deferred = $q.defer()
           $http.post attrs.remote, data
             .then (response) ->
               if response.data.isValid then deferred.resolve() else deferred.reject()
-            .catch (response) ->
+            .catch () ->
               deferred.reject()
           deferred.promise
     ]
@@ -87,6 +87,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
       $scope.user = {}
 
       $scope.registerUser = () ->
+        if not $scope.registration.$valid then return
         User.save $scope.user,
           (() ->
             $location.path '/invention'),
