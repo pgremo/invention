@@ -20,12 +20,9 @@ module.exports =
       type: 'string'
       required: true
   beforeValidate: (values, next) ->
-    client = new neow.EveClient keyID: values.key, vCode: values.vCode
-    client
-      .fetch 'account:APIKeyInfo'
+    validateAPI values.key, values.vCode
       .then (x) ->
-        if (parseInt(x.key.accessMask) & 2) is 2 and x.key.type is 'Account'
-          next()
+        if x then next()
         else
           error = new Error 'Invalid Key and or vCode'
           error.status = 400
@@ -45,3 +42,9 @@ module.exports =
         values.password = hash
         next()
     ]
+  validateAPI: (key, vCode) ->
+    client = new neow.EveClient keyID: key, vCode: vCode
+    client
+      .fetch 'account:APIKeyInfo'
+      .then (x) ->
+        (parseInt(x.key.accessMask) & 2) is 2 and x.key.type is 'Account'

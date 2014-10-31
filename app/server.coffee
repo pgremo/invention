@@ -44,18 +44,14 @@ app.post '/api/users', (req, res, next) ->
     if err? then next err
     else res.send status: 'OK', userId: user.id
 
-app.post '/api/users/email/validate', (req, res, next) ->
+app.post '/api/users/email/validate', (req, res) ->
   app.models.user.count email: req.body.email
     .then (x)-> res.send isValid: x is 0
 
-app.post '/api/users/api/validate', (req, res, next) ->
-  client = new neow.EveClient keyID: req.body.key, vCode: req.body.vCode
-  client
-    .fetch 'account:APIKeyInfo'
-    .then (x) ->
-      res.send isValid: (parseInt(x.key.accessMask) & 2) is 2 and x.key.type is 'Account'
-    .catch () ->
-      res.send isValid: false
+app.post '/api/users/api/validate', (req, res) ->
+  app.models.user.validateAPI req.body.key, req.body.vCode
+    .then (x) -> res.send isValid: x
+    .catch () -> res.send isValid: false
 
 app.use (req, res) ->
   res.status 404
