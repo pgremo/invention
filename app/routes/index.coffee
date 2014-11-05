@@ -23,20 +23,21 @@ router.get '/api/bom/:id', (req, res, next) ->
       me = req.query.me or 1.0
       visited = {}
       recur = (y, c, ma) ->
-        item = visited[y.id]
+        item = visited[y.typeID]
         if not item?
-          item = id: y.id, total: 0, available: 0, runs: 0
-          visited[y.id] = item
+          item = id: y.typeID, total: 0, available: 0, runs: 0
+          visited[y.typeID] = item
         need = if item.available < c then c - item.available else 0
-        quantity = y.blueprint?.activities['1'].products[y.id]?.quantity or 1
+        quantity = y.blueprint?.activities.manufacturing.products[0]?.quantity or 1
         runs = Math.ceil need / quantity
         item.available += runs * quantity - c
         item.total += c
         item.label = y.typeName
-        item.nodes = for key, value of y.blueprint?.activities['1'].materials
-          recur value, (Math.max runs, Math.ceil (runs * value.quantity * ma).toFixed 2), 1.0
+        if y.blueprint?
+          item.nodes = for value in y.blueprint.activities.manufacturing.materials
+            recur value, (Math.max runs, Math.ceil (runs * value.quantity * ma).toFixed 2), 1.0
         item
-      recur x, x.blueprint?.activities['1'].products[x.id]?.quantity, me
+      recur x, x.blueprint?.activities.manufacturing.products[0]?.quantity, me
     .then (x) ->
       res.send x
     .catch (x) ->

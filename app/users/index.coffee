@@ -19,6 +19,10 @@ module.exports =
     vCode:
       type: 'string'
       required: true
+    toJSON: () ->
+      email: @email
+      key: @key
+      vCode: @vCode
   beforeValidate: (values, next) ->
     validateAPI values.key, values.vCode
       .then (x) ->
@@ -27,7 +31,7 @@ module.exports =
           error = new Error 'Invalid Key and or vCode'
           error.status = 400
           next error
-      .catch (x) ->
+      .catch () ->
         error = new Error 'Invalid Key and or vCode'
         error.status = 400
         next error

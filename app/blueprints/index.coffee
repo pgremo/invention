@@ -19,10 +19,10 @@ products = Promise.all [blueprints]
     result = {}
     for data in sources
       for _, value of data
-        produces = value.activities["1"]?.products
-        if produces? and Object.keys(produces).length is 1
-          for id, _ of produces
-            result[id] = value
+        produces = value.activities.manufacturing?.products
+        if produces? and produces.length is 1
+          for item in produces
+            result[item.typeID] = value
     result
 
 boms = Promise.all [products, types]
@@ -31,15 +31,15 @@ boms = Promise.all [products, types]
       if visited.indexOf itemId < 0
         visited.push itemId
         item = products[itemId]
-        for key, value of item?.activities["1"].materials
-          bp = recur key, visited
-          value.blueprint = bp if bp?
-          value.typeName = types[key]
-          value.id = key
+        if item? and item.activities.manufacturing.materials?
+          for value in item.activities.manufacturing.materials
+            bp = recur value.typeID, visited
+            value.blueprint = bp if bp?
+            value.typeName = types[value.typeID]
         item
     things = {}
     for key, value of products
-      things[key] = blueprint: value, typeName: types[key], id: key
+      things[key] = blueprint: value, typeName: types[key], typeID: key
       recur key, []
     things
 

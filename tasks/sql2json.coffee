@@ -5,7 +5,7 @@ fs = Promise.promisifyAll require 'fs'
 sqlite = require 'sqlite3'
 
 gulp.task 'types2json', ->
-  db = new sqlite.Database "#{process.cwd()}/data/oceanus/eve.db", sqlite.OPEN_READONLY
+  db = new sqlite.Database "#{process.cwd()}/data/phoebe/eve.db", sqlite.OPEN_READONLY
 
   types = {}
   mapper = (err, row) ->
@@ -17,7 +17,7 @@ gulp.task 'types2json', ->
   db.each 'select typeID, typeName from invTypes where published = 1', mapper, completer
 
 gulp.task 'reactions2json', ->
-  db = new sqlite.Database "#{process.cwd()}/data/oceanus/eve.db", sqlite.OPEN_READONLY
+  db = new sqlite.Database "#{process.cwd()}/data/phoebe/eve.db", sqlite.OPEN_READONLY
 
   reactions = {}
   mapper = (err, row) ->
@@ -25,16 +25,16 @@ gulp.task 'reactions2json', ->
     if !reaction?
       reaction = {
         activities:
-          '1':
-            materials: {}
-            products: {}
+          manufacturing:
+            materials: []
+            products: []
         reactionTypeID: row.reactionTypeID
       }
       reactions[row.reactionTypeID] = reaction
     if row.input is 1
-      reaction.activities['1'].materials[row.typeID] = {quantity: row.qty}
+      reaction.activities.manufacturing.materials.push {typeID: row.typeID, quantity: row.qty}
     else
-      reaction.activities['1'].products[row.typeID] = {quantity: row.qty}
+      reaction.activities.manufacturing.products.push {typeID: row.typeID, quantity: row.qty}
   completer = () ->
     fs.writeFileAsync 'app/blueprints/reactions.json', JSON.stringify reactions, null, 2
     .catch (error) ->
@@ -61,16 +61,16 @@ gulp.task 'schematics2json', ->
     if !reaction?
       reaction = {
         activities:
-          '1':
-            materials: {}
-            products: {}
+          manufacturing:
+            materials: []
+            products: []
         schematicID: row.schematicID
       }
       reactions[row.schematicID] = reaction
     if row.isInput is 1
-      reaction.activities['1'].materials[row.typeID] = {quantity: row.quantity}
+      reaction.activities.manufacturing.materials.push {typeID: row.typeID, quantity: row.quantity}
     else
-      reaction.activities['1'].products[row.typeID] = {quantity: row.quantity}
+      reaction.activities.manufacturing.products.push {typeID: row.typeID, quantity: row.quantity}
   completer = () ->
     fs.writeFileAsync 'app/blueprints/schematics.json', JSON.stringify reactions, null, 2
     .catch (error) ->

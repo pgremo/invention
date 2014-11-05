@@ -1,2249 +1,2621 @@
 {
   "16868": {
     "activities": {
-      "1": {
-        "materials": {
-          "3645": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3645,
             "quantity": 100
           },
-          "25268": {
+          {
+            "typeID": 25268,
             "quantity": 20
           }
-        },
-        "products": {
-          "3645": {
+        ],
+        "products": [
+          {
+            "typeID": 3645,
             "quantity": 95
           },
-          "25237": {
+          {
+            "typeID": 25237,
             "quantity": 15
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 16868
   },
   "17941": {
     "activities": {
-      "1": {
-        "materials": {
-          "16643": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16643,
             "quantity": 100
           },
-          "16647": {
+          {
+            "typeID": 16647,
             "quantity": 100
           }
-        },
-        "products": {
-          "16663": {
+        ],
+        "products": [
+          {
+            "typeID": 16663,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17941
   },
   "17942": {
     "activities": {
-      "1": {
-        "materials": {
-          "16633": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16633,
             "quantity": 100
           },
-          "16636": {
+          {
+            "typeID": 16636,
             "quantity": 100
           }
-        },
-        "products": {
-          "16659": {
+        ],
+        "products": [
+          {
+            "typeID": 16659,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17942
   },
   "17943": {
     "activities": {
-      "1": {
-        "materials": {
-          "16635": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16635,
             "quantity": 100
           },
-          "16636": {
+          {
+            "typeID": 16636,
             "quantity": 100
           }
-        },
-        "products": {
-          "16660": {
+        ],
+        "products": [
+          {
+            "typeID": 16660,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17943
   },
   "17944": {
     "activities": {
-      "1": {
-        "materials": {
-          "16640": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16640,
             "quantity": 100
           },
-          "16643": {
+          {
+            "typeID": 16643,
             "quantity": 100
           }
-        },
-        "products": {
-          "16655": {
+        ],
+        "products": [
+          {
+            "typeID": 16655,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17944
   },
   "17945": {
     "activities": {
-      "1": {
-        "materials": {
-          "16646": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16646,
             "quantity": 100
           },
-          "16650": {
+          {
+            "typeID": 16650,
             "quantity": 100
           }
-        },
-        "products": {
-          "16668": {
+        ],
+        "products": [
+          {
+            "typeID": 16668,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17945
   },
   "17946": {
     "activities": {
-      "1": {
-        "materials": {
-          "16639": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16639,
             "quantity": 100
           },
-          "16642": {
+          {
+            "typeID": 16642,
             "quantity": 100
           }
-        },
-        "products": {
-          "16656": {
+        ],
+        "products": [
+          {
+            "typeID": 16656,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17946
   },
   "17947": {
     "activities": {
-      "1": {
-        "materials": {
-          "16648": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16648,
             "quantity": 100
           },
-          "16650": {
+          {
+            "typeID": 16650,
             "quantity": 100
           }
-        },
-        "products": {
-          "16669": {
+        ],
+        "products": [
+          {
+            "typeID": 16669,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17947
   },
   "17948": {
     "activities": {
-      "1": {
-        "materials": {
-          "16651": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16651,
             "quantity": 100
           },
-          "16653": {
+          {
+            "typeID": 16653,
             "quantity": 100
           }
-        },
-        "products": {
-          "17769": {
+        ],
+        "products": [
+          {
+            "typeID": 17769,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17948
   },
   "17949": {
     "activities": {
-      "1": {
-        "materials": {
-          "16641": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16641,
             "quantity": 100
           },
-          "16644": {
+          {
+            "typeID": 16644,
             "quantity": 100
           }
-        },
-        "products": {
-          "16665": {
+        ],
+        "products": [
+          {
+            "typeID": 16665,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17949
   },
   "17950": {
     "activities": {
-      "1": {
-        "materials": {
-          "16642": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16642,
             "quantity": 100
           },
-          "16652": {
+          {
+            "typeID": 16652,
             "quantity": 100
           }
-        },
-        "products": {
-          "16666": {
+        ],
+        "products": [
+          {
+            "typeID": 16666,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17950
   },
   "17951": {
     "activities": {
-      "1": {
-        "materials": {
-          "16646": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16646,
             "quantity": 100
           },
-          "16651": {
+          {
+            "typeID": 16651,
             "quantity": 100
           }
-        },
-        "products": {
-          "16667": {
+        ],
+        "products": [
+          {
+            "typeID": 16667,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17951
   },
   "17952": {
     "activities": {
-      "1": {
-        "materials": {
-          "16644": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16644,
             "quantity": 100
           },
-          "16649": {
+          {
+            "typeID": 16649,
             "quantity": 100
           }
-        },
-        "products": {
-          "16662": {
+        ],
+        "products": [
+          {
+            "typeID": 16662,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17952
   },
   "17953": {
     "activities": {
-      "1": {
-        "materials": {
-          "16637": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16637,
             "quantity": 100
           },
-          "16644": {
+          {
+            "typeID": 16644,
             "quantity": 100
           }
-        },
-        "products": {
-          "16657": {
+        ],
+        "products": [
+          {
+            "typeID": 16657,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17953
   },
   "17954": {
     "activities": {
-      "1": {
-        "materials": {
-          "16635": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16635,
             "quantity": 100
           },
-          "16636": {
+          {
+            "typeID": 16636,
             "quantity": 100
           }
-        },
-        "products": {
-          "16658": {
+        ],
+        "products": [
+          {
+            "typeID": 16658,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17954
   },
   "17955": {
     "activities": {
-      "1": {
-        "materials": {
-          "16641": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16641,
             "quantity": 100
           },
-          "16647": {
+          {
+            "typeID": 16647,
             "quantity": 100
           }
-        },
-        "products": {
-          "16664": {
+        ],
+        "products": [
+          {
+            "typeID": 16664,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17955
   },
   "17956": {
     "activities": {
-      "1": {
-        "materials": {
-          "16634": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16634,
             "quantity": 100
           },
-          "16635": {
+          {
+            "typeID": 16635,
             "quantity": 100
           }
-        },
-        "products": {
-          "16661": {
+        ],
+        "products": [
+          {
+            "typeID": 16661,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17956
   },
   "17957": {
     "activities": {
-      "1": {
-        "materials": {
-          "16638": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16638,
             "quantity": 100
           },
-          "16641": {
+          {
+            "typeID": 16641,
             "quantity": 100
           }
-        },
-        "products": {
-          "16654": {
+        ],
+        "products": [
+          {
+            "typeID": 16654,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17957
   },
   "17958": {
     "activities": {
-      "1": {
-        "materials": {
-          "16642": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16642,
             "quantity": 100
           },
-          "16648": {
+          {
+            "typeID": 16648,
             "quantity": 100
           }
-        },
-        "products": {
-          "17959": {
+        ],
+        "products": [
+          {
+            "typeID": 17959,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17958
   },
   "17961": {
     "activities": {
-      "1": {
-        "materials": {
-          "16643": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16643,
             "quantity": 100
           },
-          "16652": {
+          {
+            "typeID": 16652,
             "quantity": 100
           }
-        },
-        "products": {
-          "17960": {
+        ],
+        "products": [
+          {
+            "typeID": 17960,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17961
   },
   "17962": {
     "activities": {
-      "1": {
-        "materials": {
-          "16654": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16654,
             "quantity": 100
           },
-          "16658": {
+          {
+            "typeID": 16658,
             "quantity": 100
           }
-        },
-        "products": {
-          "16671": {
+        ],
+        "products": [
+          {
+            "typeID": 16671,
             "quantity": 10000
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17962
   },
   "17963": {
     "activities": {
-      "1": {
-        "materials": {
-          "16655": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16655,
             "quantity": 100
           },
-          "16659": {
+          {
+            "typeID": 16659,
             "quantity": 100
           }
-        },
-        "products": {
-          "16670": {
+        ],
+        "products": [
+          {
+            "typeID": 16670,
             "quantity": 10000
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17963
   },
   "17964": {
     "activities": {
-      "1": {
-        "materials": {
-          "16656": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16656,
             "quantity": 100
           },
-          "16660": {
+          {
+            "typeID": 16660,
             "quantity": 100
           }
-        },
-        "products": {
-          "16673": {
+        ],
+        "products": [
+          {
+            "typeID": 16673,
             "quantity": 10000
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17964
   },
   "17965": {
     "activities": {
-      "1": {
-        "materials": {
-          "16657": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16657,
             "quantity": 100
           },
-          "16661": {
+          {
+            "typeID": 16661,
             "quantity": 100
           }
-        },
-        "products": {
-          "16672": {
+        ],
+        "products": [
+          {
+            "typeID": 16672,
             "quantity": 10000
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17965
   },
   "17966": {
     "activities": {
-      "1": {
-        "materials": {
-          "16660": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16660,
             "quantity": 100
           },
-          "16665": {
+          {
+            "typeID": 16665,
             "quantity": 100
           }
-        },
-        "products": {
-          "16678": {
+        ],
+        "products": [
+          {
+            "typeID": 16678,
             "quantity": 6000
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17966
   },
   "17967": {
     "activities": {
-      "1": {
-        "materials": {
-          "16659": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16659,
             "quantity": 100
           },
-          "16662": {
+          {
+            "typeID": 16662,
             "quantity": 100
           }
-        },
-        "products": {
-          "16679": {
+        ],
+        "products": [
+          {
+            "typeID": 16679,
             "quantity": 3000
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17967
   },
   "17968": {
     "activities": {
-      "1": {
-        "materials": {
-          "16658": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16658,
             "quantity": 100
           },
-          "16663": {
+          {
+            "typeID": 16663,
             "quantity": 100
           },
-          "17959": {
+          {
+            "typeID": 17959,
             "quantity": 100
           }
-        },
-        "products": {
-          "16680": {
+        ],
+        "products": [
+          {
+            "typeID": 16680,
             "quantity": 2200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17968
   },
   "17969": {
     "activities": {
-      "1": {
-        "materials": {
-          "16661": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16661,
             "quantity": 100
           },
-          "16662": {
+          {
+            "typeID": 16662,
             "quantity": 100
           },
-          "16667": {
+          {
+            "typeID": 16667,
             "quantity": 100
           }
-        },
-        "products": {
-          "16681": {
+        ],
+        "products": [
+          {
+            "typeID": 16681,
             "quantity": 1500
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17969
   },
   "17970": {
     "activities": {
-      "1": {
-        "materials": {
-          "16664": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16664,
             "quantity": 100
           },
-          "16668": {
+          {
+            "typeID": 16668,
             "quantity": 100
           },
-          "17959": {
+          {
+            "typeID": 17959,
             "quantity": 100
           }
-        },
-        "products": {
-          "16682": {
+        ],
+        "products": [
+          {
+            "typeID": 16682,
             "quantity": 750
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17970
   },
   "17971": {
     "activities": {
-      "1": {
-        "materials": {
-          "16665": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16665,
             "quantity": 100
           },
-          "16666": {
+          {
+            "typeID": 16666,
             "quantity": 100
           },
-          "16669": {
+          {
+            "typeID": 16669,
             "quantity": 100
           },
-          "17960": {
+          {
+            "typeID": 17960,
             "quantity": 100
           }
-        },
-        "products": {
-          "16683": {
+        ],
+        "products": [
+          {
+            "typeID": 16683,
             "quantity": 400
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17971
   },
   "17972": {
     "activities": {
-      "1": {
-        "materials": {
-          "16663": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16663,
             "quantity": 100
           },
-          "16668": {
+          {
+            "typeID": 16668,
             "quantity": 100
           },
-          "17769": {
+          {
+            "typeID": 17769,
             "quantity": 100
           },
-          "17960": {
+          {
+            "typeID": 17960,
             "quantity": 100
           }
-        },
-        "products": {
-          "17317": {
+        ],
+        "products": [
+          {
+            "typeID": 17317,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 17972
   },
   "20432": {
     "activities": {
-      "1": {
-        "materials": {
-          "11399": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 11399,
             "quantity": 100
           },
-          "16649": {
+          {
+            "typeID": 16649,
             "quantity": 10000
           },
-          "16652": {
+          {
+            "typeID": 16652,
             "quantity": 10000
           }
-        },
-        "products": {
-          "20431": {
+        ],
+        "products": [
+          {
+            "typeID": 20431,
             "quantity": 100
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 20432
   },
   "25240": {
     "activities": {
-      "1": {
-        "materials": {
-          "3683": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3683,
             "quantity": 100
           },
-          "25237": {
+          {
+            "typeID": 25237,
             "quantity": 15
           },
-          "25242": {
+          {
+            "typeID": 25242,
             "quantity": 15
           }
-        },
-        "products": {
-          "3683": {
+        ],
+        "products": [
+          {
+            "typeID": 3683,
             "quantity": 95
           },
-          "25241": {
+          {
+            "typeID": 25241,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25240
   },
   "25243": {
     "activities": {
-      "1": {
-        "materials": {
-          "3645": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3645,
             "quantity": 100
           },
-          "25273": {
+          {
+            "typeID": 25273,
             "quantity": 20
           }
-        },
-        "products": {
-          "3645": {
+        ],
+        "products": [
+          {
+            "typeID": 3645,
             "quantity": 95
           },
-          "25242": {
+          {
+            "typeID": 25242,
             "quantity": 15
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25243
   },
   "25251": {
     "activities": {
-      "1": {
-        "materials": {
-          "3645": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3645,
             "quantity": 100
           },
-          "25277": {
+          {
+            "typeID": 25277,
             "quantity": 20
           }
-        },
-        "products": {
-          "3645": {
+        ],
+        "products": [
+          {
+            "typeID": 3645,
             "quantity": 95
           },
-          "25252": {
+          {
+            "typeID": 25252,
             "quantity": 15
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25251
   },
   "25282": {
     "activities": {
-      "1": {
-        "materials": {
-          "3773": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3773,
             "quantity": 100
           },
-          "25241": {
+          {
+            "typeID": 25241,
             "quantity": 12
           },
-          "25332": {
+          {
+            "typeID": 25332,
             "quantity": 15
           }
-        },
-        "products": {
-          "3773": {
+        ],
+        "products": [
+          {
+            "typeID": 3773,
             "quantity": 95
           },
-          "25283": {
+          {
+            "typeID": 25283,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25282
   },
   "25284": {
     "activities": {
-      "1": {
-        "materials": {
-          "3645": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3645,
             "quantity": 100
           },
-          "25274": {
+          {
+            "typeID": 25274,
             "quantity": 20
           }
-        },
-        "products": {
-          "3645": {
+        ],
+        "products": [
+          {
+            "typeID": 3645,
             "quantity": 95
           },
-          "25330": {
+          {
+            "typeID": 25330,
             "quantity": 15
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25284
   },
   "25285": {
     "activities": {
-      "1": {
-        "materials": {
-          "3645": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3645,
             "quantity": 100
           },
-          "25275": {
+          {
+            "typeID": 25275,
             "quantity": 20
           }
-        },
-        "products": {
-          "3645": {
+        ],
+        "products": [
+          {
+            "typeID": 3645,
             "quantity": 95
           },
-          "25331": {
+          {
+            "typeID": 25331,
             "quantity": 15
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25285
   },
   "25286": {
     "activities": {
-      "1": {
-        "materials": {
-          "3645": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3645,
             "quantity": 100
           },
-          "25276": {
+          {
+            "typeID": 25276,
             "quantity": 20
           }
-        },
-        "products": {
-          "3645": {
+        ],
+        "products": [
+          {
+            "typeID": 3645,
             "quantity": 95
           },
-          "25332": {
+          {
+            "typeID": 25332,
             "quantity": 15
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25286
   },
   "25287": {
     "activities": {
-      "1": {
-        "materials": {
-          "3645": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3645,
             "quantity": 100
           },
-          "25278": {
+          {
+            "typeID": 25278,
             "quantity": 20
           }
-        },
-        "products": {
-          "3645": {
+        ],
+        "products": [
+          {
+            "typeID": 3645,
             "quantity": 95
           },
-          "25333": {
+          {
+            "typeID": 25333,
             "quantity": 15
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25287
   },
   "25288": {
     "activities": {
-      "1": {
-        "materials": {
-          "3645": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3645,
             "quantity": 100
           },
-          "25279": {
+          {
+            "typeID": 25279,
             "quantity": 20
           }
-        },
-        "products": {
-          "3645": {
+        ],
+        "products": [
+          {
+            "typeID": 3645,
             "quantity": 95
           },
-          "25334": {
+          {
+            "typeID": 25334,
             "quantity": 15
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25288
   },
   "25289": {
     "activities": {
-      "1": {
-        "materials": {
-          "9850": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 9850,
             "quantity": 100
           },
-          "25237": {
+          {
+            "typeID": 25237,
             "quantity": 15
           },
-          "25242": {
+          {
+            "typeID": 25242,
             "quantity": 15
           }
-        },
-        "products": {
-          "9850": {
+        ],
+        "products": [
+          {
+            "typeID": 9850,
             "quantity": 95
           },
-          "25335": {
+          {
+            "typeID": 25335,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25289
   },
   "25290": {
     "activities": {
-      "1": {
-        "materials": {
-          "3683": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3683,
             "quantity": 100
           },
-          "25330": {
+          {
+            "typeID": 25330,
             "quantity": 15
           },
-          "25331": {
+          {
+            "typeID": 25331,
             "quantity": 15
           }
-        },
-        "products": {
-          "3683": {
+        ],
+        "products": [
+          {
+            "typeID": 3683,
             "quantity": 95
           },
-          "25336": {
+          {
+            "typeID": 25336,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25290
   },
   "25291": {
     "activities": {
-      "1": {
-        "materials": {
-          "9850": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 9850,
             "quantity": 100
           },
-          "25330": {
+          {
+            "typeID": 25330,
             "quantity": 15
           },
-          "25331": {
+          {
+            "typeID": 25331,
             "quantity": 15
           }
-        },
-        "products": {
-          "9850": {
+        ],
+        "products": [
+          {
+            "typeID": 9850,
             "quantity": 95
           },
-          "25337": {
+          {
+            "typeID": 25337,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25291
   },
   "25292": {
     "activities": {
-      "1": {
-        "materials": {
-          "3683": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3683,
             "quantity": 100
           },
-          "25252": {
+          {
+            "typeID": 25252,
             "quantity": 15
           },
-          "25332": {
+          {
+            "typeID": 25332,
             "quantity": 15
           }
-        },
-        "products": {
-          "3683": {
+        ],
+        "products": [
+          {
+            "typeID": 3683,
             "quantity": 95
           },
-          "25338": {
+          {
+            "typeID": 25338,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25292
   },
   "25293": {
     "activities": {
-      "1": {
-        "materials": {
-          "9850": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 9850,
             "quantity": 100
           },
-          "25252": {
+          {
+            "typeID": 25252,
             "quantity": 15
           },
-          "25332": {
+          {
+            "typeID": 25332,
             "quantity": 15
           }
-        },
-        "products": {
-          "9850": {
+        ],
+        "products": [
+          {
+            "typeID": 9850,
             "quantity": 95
           },
-          "25339": {
+          {
+            "typeID": 25339,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25293
   },
   "25294": {
     "activities": {
-      "1": {
-        "materials": {
-          "3683": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3683,
             "quantity": 100
           },
-          "25333": {
+          {
+            "typeID": 25333,
             "quantity": 15
           },
-          "25334": {
+          {
+            "typeID": 25334,
             "quantity": 15
           }
-        },
-        "products": {
-          "3683": {
+        ],
+        "products": [
+          {
+            "typeID": 3683,
             "quantity": 95
           },
-          "25340": {
+          {
+            "typeID": 25340,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25294
   },
   "25295": {
     "activities": {
-      "1": {
-        "materials": {
-          "9850": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 9850,
             "quantity": 100
           },
-          "25333": {
+          {
+            "typeID": 25333,
             "quantity": 15
           },
-          "25334": {
+          {
+            "typeID": 25334,
             "quantity": 15
           }
-        },
-        "products": {
-          "9850": {
+        ],
+        "products": [
+          {
+            "typeID": 9850,
             "quantity": 95
           },
-          "25341": {
+          {
+            "typeID": 25341,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25295
   },
   "25296": {
     "activities": {
-      "1": {
-        "materials": {
-          "3773": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3773,
             "quantity": 100
           },
-          "25252": {
+          {
+            "typeID": 25252,
             "quantity": 15
           },
-          "25335": {
+          {
+            "typeID": 25335,
             "quantity": 12
           }
-        },
-        "products": {
-          "3773": {
+        ],
+        "products": [
+          {
+            "typeID": 3773,
             "quantity": 95
           },
-          "25342": {
+          {
+            "typeID": 25342,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25296
   },
   "25297": {
     "activities": {
-      "1": {
-        "materials": {
-          "3773": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3773,
             "quantity": 100
           },
-          "25333": {
+          {
+            "typeID": 25333,
             "quantity": 15
           },
-          "25336": {
+          {
+            "typeID": 25336,
             "quantity": 12
           }
-        },
-        "products": {
-          "3773": {
+        ],
+        "products": [
+          {
+            "typeID": 3773,
             "quantity": 95
           },
-          "25343": {
+          {
+            "typeID": 25343,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25297
   },
   "25298": {
     "activities": {
-      "1": {
-        "materials": {
-          "3773": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3773,
             "quantity": 100
           },
-          "25334": {
+          {
+            "typeID": 25334,
             "quantity": 15
           },
-          "25337": {
+          {
+            "typeID": 25337,
             "quantity": 12
           }
-        },
-        "products": {
-          "3773": {
+        ],
+        "products": [
+          {
+            "typeID": 3773,
             "quantity": 95
           },
-          "25344": {
+          {
+            "typeID": 25344,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25298
   },
   "25299": {
     "activities": {
-      "1": {
-        "materials": {
-          "3773": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3773,
             "quantity": 100
           },
-          "25242": {
+          {
+            "typeID": 25242,
             "quantity": 15
           },
-          "25338": {
+          {
+            "typeID": 25338,
             "quantity": 12
           }
-        },
-        "products": {
-          "3773": {
+        ],
+        "products": [
+          {
+            "typeID": 3773,
             "quantity": 95
           },
-          "25345": {
+          {
+            "typeID": 25345,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25299
   },
   "25300": {
     "activities": {
-      "1": {
-        "materials": {
-          "3773": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3773,
             "quantity": 100
           },
-          "25237": {
+          {
+            "typeID": 25237,
             "quantity": 15
           },
-          "25339": {
+          {
+            "typeID": 25339,
             "quantity": 12
           }
-        },
-        "products": {
-          "3773": {
+        ],
+        "products": [
+          {
+            "typeID": 3773,
             "quantity": 95
           },
-          "25346": {
+          {
+            "typeID": 25346,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25300
   },
   "25301": {
     "activities": {
-      "1": {
-        "materials": {
-          "3773": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3773,
             "quantity": 100
           },
-          "25331": {
+          {
+            "typeID": 25331,
             "quantity": 15
           },
-          "25340": {
+          {
+            "typeID": 25340,
             "quantity": 12
           }
-        },
-        "products": {
-          "3773": {
+        ],
+        "products": [
+          {
+            "typeID": 3773,
             "quantity": 95
           },
-          "25347": {
+          {
+            "typeID": 25347,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25301
   },
   "25302": {
     "activities": {
-      "1": {
-        "materials": {
-          "3773": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3773,
             "quantity": 100
           },
-          "25330": {
+          {
+            "typeID": 25330,
             "quantity": 15
           },
-          "25341": {
+          {
+            "typeID": 25341,
             "quantity": 12
           }
-        },
-        "products": {
-          "3773": {
+        ],
+        "products": [
+          {
+            "typeID": 3773,
             "quantity": 95
           },
-          "25348": {
+          {
+            "typeID": 25348,
             "quantity": 12
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 25302
   },
   "28320": {
     "activities": {
-      "1": {
-        "materials": {
-          "3721": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 3721,
             "quantity": 1
           }
-        },
-        "products": {
-          "17791": {
+        ],
+        "products": [
+          {
+            "typeID": 17791,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28320
   },
   "28702": {
     "activities": {
-      "1": {
-        "materials": {
-          "41": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 41,
             "quantity": 20
           },
-          "28694": {
+          {
+            "typeID": 28694,
             "quantity": 40
           }
-        },
-        "products": {
-          "28686": {
+        ],
+        "products": [
+          {
+            "typeID": 28686,
             "quantity": 30
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28702
   },
   "28703": {
     "activities": {
-      "1": {
-        "materials": {
-          "41": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 41,
             "quantity": 20
           },
-          "28697": {
+          {
+            "typeID": 28697,
             "quantity": 40
           }
-        },
-        "products": {
-          "28687": {
+        ],
+        "products": [
+          {
+            "typeID": 28687,
             "quantity": 30
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28703
   },
   "28704": {
     "activities": {
-      "1": {
-        "materials": {
-          "41": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 41,
             "quantity": 20
           },
-          "28701": {
+          {
+            "typeID": 28701,
             "quantity": 40
           }
-        },
-        "products": {
-          "28688": {
+        ],
+        "products": [
+          {
+            "typeID": 28688,
             "quantity": 30
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28704
   },
   "28705": {
     "activities": {
-      "1": {
-        "materials": {
-          "41": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 41,
             "quantity": 20
           },
-          "28696": {
+          {
+            "typeID": 28696,
             "quantity": 40
           }
-        },
-        "products": {
-          "28689": {
+        ],
+        "products": [
+          {
+            "typeID": 28689,
             "quantity": 30
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28705
   },
   "28706": {
     "activities": {
-      "1": {
-        "materials": {
-          "41": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 41,
             "quantity": 20
           },
-          "28698": {
+          {
+            "typeID": 28698,
             "quantity": 40
           }
-        },
-        "products": {
-          "28690": {
+        ],
+        "products": [
+          {
+            "typeID": 28690,
             "quantity": 30
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28706
   },
   "28707": {
     "activities": {
-      "1": {
-        "materials": {
-          "41": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 41,
             "quantity": 20
           },
-          "28699": {
+          {
+            "typeID": 28699,
             "quantity": 40
           }
-        },
-        "products": {
-          "28691": {
+        ],
+        "products": [
+          {
+            "typeID": 28691,
             "quantity": 30
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28707
   },
   "28708": {
     "activities": {
-      "1": {
-        "materials": {
-          "41": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 41,
             "quantity": 20
           },
-          "28695": {
+          {
+            "typeID": 28695,
             "quantity": 40
           }
-        },
-        "products": {
-          "28692": {
+        ],
+        "products": [
+          {
+            "typeID": 28692,
             "quantity": 30
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28708
   },
   "28709": {
     "activities": {
-      "1": {
-        "materials": {
-          "41": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 41,
             "quantity": 20
           },
-          "28700": {
+          {
+            "typeID": 28700,
             "quantity": 40
           }
-        },
-        "products": {
-          "28693": {
+        ],
+        "products": [
+          {
+            "typeID": 28693,
             "quantity": 30
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 28709
   },
   "29640": {
     "activities": {
-      "1": {
-        "materials": {
-          "16641": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16641,
             "quantity": 100
           },
-          "16642": {
+          {
+            "typeID": 16642,
             "quantity": 100
           }
-        },
-        "products": {
-          "29664": {
+        ],
+        "products": [
+          {
+            "typeID": 29664,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 29640
   },
   "29641": {
     "activities": {
-      "1": {
-        "materials": {
-          "16643": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16643,
             "quantity": 100
           },
-          "16648": {
+          {
+            "typeID": 16648,
             "quantity": 100
           }
-        },
-        "products": {
-          "29663": {
+        ],
+        "products": [
+          {
+            "typeID": 29663,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 29641
   },
   "29642": {
     "activities": {
-      "1": {
-        "materials": {
-          "16641": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16641,
             "quantity": 100
           },
-          "16643": {
+          {
+            "typeID": 16643,
             "quantity": 100
           }
-        },
-        "products": {
-          "29662": {
+        ],
+        "products": [
+          {
+            "typeID": 29662,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 29642
   },
   "29643": {
     "activities": {
-      "1": {
-        "materials": {
-          "16644": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16644,
             "quantity": 100
           },
-          "16646": {
+          {
+            "typeID": 16646,
             "quantity": 100
           }
-        },
-        "products": {
-          "29661": {
+        ],
+        "products": [
+          {
+            "typeID": 29661,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 29643
   },
   "29644": {
     "activities": {
-      "1": {
-        "materials": {
-          "16643": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16643,
             "quantity": 100
           },
-          "16646": {
+          {
+            "typeID": 16646,
             "quantity": 100
           }
-        },
-        "products": {
-          "29660": {
+        ],
+        "products": [
+          {
+            "typeID": 29660,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 29644
   },
   "29645": {
     "activities": {
-      "1": {
-        "materials": {
-          "16642": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16642,
             "quantity": 100
           },
-          "16644": {
+          {
+            "typeID": 16644,
             "quantity": 100
           }
-        },
-        "products": {
-          "29659": {
+        ],
+        "products": [
+          {
+            "typeID": 29659,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 29645
   },
   "30344": {
     "activities": {
-      "1": {
-        "materials": {
-          "34": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 34,
             "quantity": 1000
           },
-          "30370": {
+          {
+            "typeID": 30370,
             "quantity": 200
           },
-          "30371": {
+          {
+            "typeID": 30371,
             "quantity": 100
           }
-        },
-        "products": {
-          "30303": {
+        ],
+        "products": [
+          {
+            "typeID": 30303,
             "quantity": 1000
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30344
   },
   "30345": {
     "activities": {
-      "1": {
-        "materials": {
-          "35": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 35,
             "quantity": 800
           },
-          "30370": {
+          {
+            "typeID": 30370,
             "quantity": 300
           },
-          "30371": {
+          {
+            "typeID": 30371,
             "quantity": 100
           }
-        },
-        "products": {
-          "30304": {
+        ],
+        "products": [
+          {
+            "typeID": 30304,
             "quantity": 250
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30345
   },
   "30346": {
     "activities": {
-      "1": {
-        "materials": {
-          "36": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 36,
             "quantity": 600
           },
-          "30371": {
+          {
+            "typeID": 30371,
             "quantity": 100
           },
-          "30372": {
+          {
+            "typeID": 30372,
             "quantity": 100
           }
-        },
-        "products": {
-          "30305": {
+        ],
+        "products": [
+          {
+            "typeID": 30305,
             "quantity": 120
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30346
   },
   "30347": {
     "activities": {
-      "1": {
-        "materials": {
-          "40": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 40,
             "quantity": 20
           },
-          "30370": {
+          {
+            "typeID": 30370,
             "quantity": 250
           },
-          "30374": {
+          {
+            "typeID": 30374,
             "quantity": 50
           }
-        },
-        "products": {
-          "30312": {
+        ],
+        "products": [
+          {
+            "typeID": 30312,
             "quantity": 60
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30347
   },
   "30348": {
     "activities": {
-      "1": {
-        "materials": {
-          "38": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 38,
             "quantity": 200
           },
-          "30372": {
+          {
+            "typeID": 30372,
             "quantity": 100
           },
-          "30374": {
+          {
+            "typeID": 30374,
             "quantity": 100
           }
-        },
-        "products": {
-          "30307": {
+        ],
+        "products": [
+          {
+            "typeID": 30307,
             "quantity": 120
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30348
   },
   "30349": {
     "activities": {
-      "1": {
-        "materials": {
-          "39": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 39,
             "quantity": 25
           },
-          "30373": {
+          {
+            "typeID": 30373,
             "quantity": 100
           },
-          "30375": {
+          {
+            "typeID": 30375,
             "quantity": 100
           }
-        },
-        "products": {
-          "30308": {
+        ],
+        "products": [
+          {
+            "typeID": 30308,
             "quantity": 160
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30349
   },
   "30350": {
     "activities": {
-      "1": {
-        "materials": {
-          "38": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 38,
             "quantity": 400
           },
-          "30375": {
+          {
+            "typeID": 30375,
             "quantity": 100
           },
-          "30376": {
+          {
+            "typeID": 30376,
             "quantity": 100
           }
-        },
-        "products": {
-          "30309": {
+        ],
+        "products": [
+          {
+            "typeID": 30309,
             "quantity": 120
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30350
   },
   "30351": {
     "activities": {
-      "1": {
-        "materials": {
-          "39": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 39,
             "quantity": 30
           },
-          "30376": {
+          {
+            "typeID": 30376,
             "quantity": 100
           },
-          "30377": {
+          {
+            "typeID": 30377,
             "quantity": 100
           }
-        },
-        "products": {
-          "30310": {
+        ],
+        "products": [
+          {
+            "typeID": 30310,
             "quantity": 160
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30351
   },
   "30352": {
     "activities": {
-      "1": {
-        "materials": {
-          "40": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 40,
             "quantity": 80
           },
-          "30374": {
+          {
+            "typeID": 30374,
             "quantity": 100
           },
-          "30378": {
+          {
+            "typeID": 30378,
             "quantity": 100
           }
-        },
-        "products": {
-          "30311": {
+        ],
+        "products": [
+          {
+            "typeID": 30311,
             "quantity": 100
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30352
   },
   "30353": {
     "activities": {
-      "1": {
-        "materials": {
-          "40": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 40,
             "quantity": 25
           },
-          "30371": {
+          {
+            "typeID": 30371,
             "quantity": 150
           },
-          "30375": {
+          {
+            "typeID": 30375,
             "quantity": 50
           }
-        },
-        "products": {
-          "30313": {
+        ],
+        "products": [
+          {
+            "typeID": 30313,
             "quantity": 60
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30353
   },
   "30354": {
     "activities": {
-      "1": {
-        "materials": {
-          "38": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 38,
             "quantity": 600
           },
-          "30372": {
+          {
+            "typeID": 30372,
             "quantity": 150
           },
-          "30375": {
+          {
+            "typeID": 30375,
             "quantity": 80
           }
-        },
-        "products": {
-          "30314": {
+        ],
+        "products": [
+          {
+            "typeID": 30314,
             "quantity": 60
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30354
   },
   "30355": {
     "activities": {
-      "1": {
-        "materials": {
-          "38": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 38,
             "quantity": 1000
           },
-          "30373": {
+          {
+            "typeID": 30373,
             "quantity": 125
           },
-          "30375": {
+          {
+            "typeID": 30375,
             "quantity": 50
           }
-        },
-        "products": {
-          "30315": {
+        ],
+        "products": [
+          {
+            "typeID": 30315,
             "quantity": 20
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30355
   },
   "30356": {
     "activities": {
-      "1": {
-        "materials": {
-          "39": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 39,
             "quantity": 30
           },
-          "30374": {
+          {
+            "typeID": 30374,
             "quantity": 150
           },
-          "30376": {
+          {
+            "typeID": 30376,
             "quantity": 80
           }
-        },
-        "products": {
-          "30316": {
+        ],
+        "products": [
+          {
+            "typeID": 30316,
             "quantity": 20
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30356
   },
   "30357": {
     "activities": {
-      "1": {
-        "materials": {
-          "40": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 40,
             "quantity": 50
           },
-          "30375": {
+          {
+            "typeID": 30375,
             "quantity": 250
           },
-          "30377": {
+          {
+            "typeID": 30377,
             "quantity": 100
           }
-        },
-        "products": {
-          "30317": {
+        ],
+        "products": [
+          {
+            "typeID": 30317,
             "quantity": 20
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30357
   },
   "30358": {
     "activities": {
-      "1": {
-        "materials": {
-          "40": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 40,
             "quantity": 75
           },
-          "30376": {
+          {
+            "typeID": 30376,
             "quantity": 300
           },
-          "30378": {
+          {
+            "typeID": 30378,
             "quantity": 150
           }
-        },
-        "products": {
-          "30318": {
+        ],
+        "products": [
+          {
+            "typeID": 30318,
             "quantity": 20
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30358
   },
   "30368": {
     "activities": {
-      "1": {
-        "materials": {
-          "37": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 37,
             "quantity": 300
           },
-          "30372": {
+          {
+            "typeID": 30372,
             "quantity": 100
           },
-          "30373": {
+          {
+            "typeID": 30373,
             "quantity": 100
           }
-        },
-        "products": {
-          "30306": {
+        ],
+        "products": [
+          {
+            "typeID": 30306,
             "quantity": 160
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 30368
   },
   "32830": {
     "activities": {
-      "1": {
-        "materials": {
-          "16638": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16638,
             "quantity": 100
           },
-          "16642": {
+          {
+            "typeID": 16642,
             "quantity": 100
           }
-        },
-        "products": {
-          "32821": {
+        ],
+        "products": [
+          {
+            "typeID": 32821,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32830
   },
   "32831": {
     "activities": {
-      "1": {
-        "materials": {
-          "16640": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16640,
             "quantity": 100
           },
-          "16644": {
+          {
+            "typeID": 16644,
             "quantity": 100
           }
-        },
-        "products": {
-          "32822": {
+        ],
+        "products": [
+          {
+            "typeID": 32822,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32831
   },
   "32832": {
     "activities": {
-      "1": {
-        "materials": {
-          "16639": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16639,
             "quantity": 100
           },
-          "16641": {
+          {
+            "typeID": 16641,
             "quantity": 100
           }
-        },
-        "products": {
-          "32823": {
+        ],
+        "products": [
+          {
+            "typeID": 32823,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32832
   },
   "32833": {
     "activities": {
-      "1": {
-        "materials": {
-          "16639": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16639,
             "quantity": 100
           },
-          "16643": {
+          {
+            "typeID": 16643,
             "quantity": 100
           }
-        },
-        "products": {
-          "32824": {
+        ],
+        "products": [
+          {
+            "typeID": 32824,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32833
   },
   "32834": {
     "activities": {
-      "1": {
-        "materials": {
-          "16634": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16634,
             "quantity": 100
           },
-          "16635": {
+          {
+            "typeID": 16635,
             "quantity": 100
           }
-        },
-        "products": {
-          "32825": {
+        ],
+        "products": [
+          {
+            "typeID": 32825,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32834
   },
   "32835": {
     "activities": {
-      "1": {
-        "materials": {
-          "16634": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16634,
             "quantity": 100
           },
-          "16637": {
+          {
+            "typeID": 16637,
             "quantity": 100
           }
-        },
-        "products": {
-          "32826": {
+        ],
+        "products": [
+          {
+            "typeID": 32826,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32835
   },
   "32836": {
     "activities": {
-      "1": {
-        "materials": {
-          "16635": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16635,
             "quantity": 100
           },
-          "16638": {
+          {
+            "typeID": 16638,
             "quantity": 100
           }
-        },
-        "products": {
-          "32827": {
+        ],
+        "products": [
+          {
+            "typeID": 32827,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32836
   },
   "32837": {
     "activities": {
-      "1": {
-        "materials": {
-          "16633": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16633,
             "quantity": 100
           },
-          "16639": {
+          {
+            "typeID": 16639,
             "quantity": 100
           }
-        },
-        "products": {
-          "32828": {
+        ],
+        "products": [
+          {
+            "typeID": 32828,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32837
   },
   "32838": {
     "activities": {
-      "1": {
-        "materials": {
-          "16636": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16636,
             "quantity": 100
           },
-          "16640": {
+          {
+            "typeID": 16640,
             "quantity": 100
           }
-        },
-        "products": {
-          "32829": {
+        ],
+        "products": [
+          {
+            "typeID": 32829,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 32838
   },
   "33340": {
     "activities": {
-      "1": {
-        "materials": {
-          "16648": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16648,
             "quantity": 100
           },
-          "16653": {
+          {
+            "typeID": 16653,
             "quantity": 100
           }
-        },
-        "products": {
-          "33336": {
+        ],
+        "products": [
+          {
+            "typeID": 33336,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 33340
   },
   "33341": {
     "activities": {
-      "1": {
-        "materials": {
-          "16646": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16646,
             "quantity": 100
           },
-          "16652": {
+          {
+            "typeID": 16652,
             "quantity": 100
           }
-        },
-        "products": {
-          "33337": {
+        ],
+        "products": [
+          {
+            "typeID": 33337,
             "quantity": 200
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 33341
   },
   "33342": {
     "activities": {
-      "1": {
-        "materials": {
-          "16642": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16642,
             "quantity": 100
           },
-          "16648": {
+          {
+            "typeID": 16648,
             "quantity": 100
           }
-        },
-        "products": {
-          "33339": {
+        ],
+        "products": [
+          {
+            "typeID": 33339,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 33342
   },
   "33343": {
     "activities": {
-      "1": {
-        "materials": {
-          "16641": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16641,
             "quantity": 100
           },
-          "16646": {
+          {
+            "typeID": 16646,
             "quantity": 100
           }
-        },
-        "products": {
-          "33338": {
+        ],
+        "products": [
+          {
+            "typeID": 33338,
             "quantity": 1
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 33343
   },
   "33363": {
     "activities": {
-      "1": {
-        "materials": {
-          "16654": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16654,
             "quantity": 100
           },
-          "16669": {
+          {
+            "typeID": 16669,
             "quantity": 100
           }
-        },
-        "products": {
-          "33362": {
+        ],
+        "products": [
+          {
+            "typeID": 33362,
             "quantity": 300
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 33363
   },
   "33364": {
     "activities": {
-      "1": {
-        "materials": {
-          "16655": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16655,
             "quantity": 100
           },
-          "33336": {
+          {
+            "typeID": 33336,
             "quantity": 100
           }
-        },
-        "products": {
-          "33359": {
+        ],
+        "products": [
+          {
+            "typeID": 33359,
             "quantity": 300
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 33364
   },
   "33365": {
     "activities": {
-      "1": {
-        "materials": {
-          "16656": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16656,
             "quantity": 100
           },
-          "16667": {
+          {
+            "typeID": 16667,
             "quantity": 100
           }
-        },
-        "products": {
-          "33361": {
+        ],
+        "products": [
+          {
+            "typeID": 33361,
             "quantity": 300
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 33365
   },
   "33366": {
     "activities": {
-      "1": {
-        "materials": {
-          "16657": {
+      "manufacturing": {
+        "materials": [
+          {
+            "typeID": 16657,
             "quantity": 100
           },
-          "33337": {
+          {
+            "typeID": 33337,
             "quantity": 100
           }
-        },
-        "products": {
-          "33360": {
+        ],
+        "products": [
+          {
+            "typeID": 33360,
             "quantity": 300
           }
-        }
+        ]
       }
     },
     "reactionTypeID": 33366

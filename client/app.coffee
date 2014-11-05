@@ -127,10 +127,11 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         recur = (x, visited) ->
           if !visited[x.id]?
             visited[x.id] = x
-            g.addNode x.id, label: x.label, nodeClass: if x.nodes.length is 0 then 'leaf' else 'branch'
-            for y in x.nodes
-              visited = recur y, visited
-              g.addEdge null, y.id, x.id
+            g.addNode x.id, label: x.label, nodeClass: if not x.nodes? then 'leaf' else 'branch'
+            if x.nodes?
+              for y in x.nodes
+                visited = recur y, visited
+                g.addEdge null, y.id, x.id
           visited
         items = recur data, {}
 
@@ -155,7 +156,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         svg.attr 'width', layout.graph().width + 20
         svg.attr 'height', layout.graph().height + 40
 
-        $scope.items = (value for _, value of items when value.nodes.length is 0)
+        $scope.items = (value for _, value of items when not value.nodes?)
     ]
 
   angular.element(document).ready () ->
