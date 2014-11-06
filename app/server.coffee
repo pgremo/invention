@@ -31,10 +31,17 @@ passport.use new EveOnlineStrategy(
     callbackURL: 'https://blooming-cliffs-4490.herokuapp.com/api/auth/eveonline/callback'
   ,
     (character, done) ->
-      console.log character
-      user = id: character.CharacterID, name: character.CharacterName
-
-      done(null, user)
+      app.models.user.findOne()
+        .where id: character.CharacterID
+        .then (user) ->
+          if user?
+            console.log 'character exists'
+            done null, user
+          else app.models.user.create {id: character.CharacterID, name: character.CharacterName}, (err, user) ->
+            if err? then console.log err
+            done null, user
+        .catch (x) ->
+          done x
   )
 
 app.use '/', require './routes'
