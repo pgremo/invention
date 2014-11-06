@@ -23,16 +23,17 @@ app.use authentication.initialize
 app.use authentication.session
 
 passport.use new EveOnlineStrategy(
-    clientID: 'a9be63771c6549bb9daedb0a3f9beb4e',
-    clientSecret: process.env.EVEONLINE_SECRET_KEY,
-    authorizationURL: 'https://login.eveonline.com/oauth/authorize',
-    tokenURL: 'https://login.eveonline.com/oauth/token',
+    clientID: 'a9be63771c6549bb9daedb0a3f9beb4e'
+    clientSecret: process.env.EVEONLINE_SECRET_KEY
+    authorizationURL: 'https://login.eveonline.com/oauth/authorize'
+    tokenURL: 'https://login.eveonline.com/oauth/token'
     verifyURL: 'https://login.eveonline.com/oauth/verify'
     callbackURL: 'https://blooming-cliffs-4490.herokuapp.com/api/auth/eveonline/callback'
-  ),
-  (characterInformation, done) ->
-    console.log characterInformation
-    done(err, user)
+  ,
+    (characterInformation, done) ->
+      console.log characterInformation
+      done(err, user)
+  )
 
 app.use '/', require './routes'
 
@@ -43,7 +44,7 @@ app.get '/api/auth/eveonline',
 
 app.get '/api/auth/eveonline/callback',
   passport.authenticate 'eveonline',
-    successRedirect: '/',
+    successRedirect: '/'
     failureRedirect: '/'
 
 app.post '/api/users', (req, res, next) ->

@@ -46,8 +46,6 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         .when '/register',
           templateUrl: 'register/view.html'
           controller: 'RegistrationController'
-        .when '/signon',
-          redirectTo: '/api/auth/eveonline'
         .otherwise
           redirectTo: '/invention'
     ]
