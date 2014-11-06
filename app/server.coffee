@@ -30,9 +30,9 @@ passport.use new EveOnlineStrategy(
     verifyURL: 'https://login.eveonline.com/oauth/verify'
     callbackURL: 'https://blooming-cliffs-4490.herokuapp.com/api/auth/eveonline/callback'
   ,
-    (characterInformation, done) ->
-      console.log characterInformation
-      done(err, user)
+    (character, done) ->
+      console.log character
+      done(null, character)
   )
 
 app.use '/', require './routes'
