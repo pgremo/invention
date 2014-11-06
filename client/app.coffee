@@ -46,7 +46,10 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         .when '/register',
           templateUrl: 'register/view.html'
           controller: 'RegistrationController'
-        .otherwise redirectTo: '/invention'
+        .when '/signon',
+          redirectTo: '/api/auth/eveonline'
+        .otherwise
+          redirectTo: '/invention'
     ]
     .factory 'BoM', ['$resource', ($resource) ->
       $resource '/api/bom/:id', {}

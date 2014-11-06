@@ -29,6 +29,7 @@ gulp.task 'server', ['build'],  ->
     env:
       NODE_ENV: 'development'
       DEBUG: 'container'
+      EVEONLINE_SECRET_KEY: 'anything'
     watch:
       './app/'
   .on 'start', () ->
