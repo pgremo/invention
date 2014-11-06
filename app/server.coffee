@@ -32,7 +32,9 @@ passport.use new EveOnlineStrategy(
   ,
     (character, done) ->
       console.log character
-      done(null, character)
+      user = id: character.CharacterID, name: character.CharacterName
+
+      done(null, user)
   )
 
 app.use '/', require './routes'
