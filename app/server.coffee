@@ -30,6 +30,7 @@ passport.deserializeUser (id, done) ->
     .then (user) ->
       done null, user
     .catch (err) ->
+      console.log err
       done err
 
 passport.use new EveOnlineStrategy(
