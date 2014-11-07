@@ -28,6 +28,7 @@ passport.deserializeUser (id, done) ->
   app.models.user.findOne {id: id}, (err, user) ->
     console.log "err=#{err}"
     console.log "user=#{user}"
+    user = if not user? then false else user
     done err, user
 
 passport.use new EveOnlineStrategy(
