@@ -1,7 +1,6 @@
 express = require 'express'
 path = require 'path'
 bodyParser = require 'body-parser'
-authentication = require './authentication'
 passport = require 'passport'
 EveOnlineStrategy = require('passport-eveonline')
 
@@ -19,8 +18,19 @@ app.use bodyParser.json()
 app.use bodyParser.urlencoded extended: true
 app.use require('express-session') secret: 'hullaballoo', resave: true, saveUninitialized: true
 app.use require('connect-flash')()
-app.use authentication.initialize
-app.use authentication.session
+app.use passport.initialize()
+app.use passport.session()
+
+passport.serializeUser (user, done) ->
+  done null, user.id
+
+passport.deserializeUser (id, done) ->
+  app.models.user.findOne()
+    .where id: character.CharacterID
+    .then (user) ->
+      done null, user
+    .catch (err) ->
+      done err
 
 passport.use new EveOnlineStrategy(
     clientID: 'a9be63771c6549bb9daedb0a3f9beb4e'
@@ -35,18 +45,14 @@ passport.use new EveOnlineStrategy(
         .where id: character.CharacterID
         .then (user) ->
           if user?
-            console.log 'character exists'
             done null, user
           else app.models.user.create {id: character.CharacterID, name: character.CharacterName}, (err, user) ->
-            if err? then console.log err
-            done null, user
+            done err, user
         .catch (x) ->
           done x
   )
 
 app.use '/', require './routes'
-
-app.post '/login', authentication.handler
 
 app.get '/api/auth/eveonline',
   passport.authenticate 'eveonline'
