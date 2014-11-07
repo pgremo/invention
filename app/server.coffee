@@ -26,7 +26,7 @@ passport.serializeUser (user, done) ->
 
 passport.deserializeUser (id, done) ->
   app.models.user.findOne()
-    .where id: character.CharacterID
+    .where id: id
     .then (user) ->
       done null, user
     .catch (err) ->
