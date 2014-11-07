@@ -25,13 +25,7 @@ passport.serializeUser (user, done) ->
   done null, user.id
 
 passport.deserializeUser (id, done) ->
-  app.models.user.findOne()
-    .where id: id
-    .then (user) ->
-      done null, user
-    .catch (err) ->
-      console.log err
-      done err
+  app.models.user.findOne {id: id}, (err, user) -> done err, user
 
 passport.use new EveOnlineStrategy(
     clientID: 'a9be63771c6549bb9daedb0a3f9beb4e'
