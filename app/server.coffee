@@ -17,7 +17,6 @@ app.use require('cookie-parser')()
 app.use bodyParser.json()
 app.use bodyParser.urlencoded extended: true
 app.use require('express-session') secret: 'hullaballoo', resave: true, saveUninitialized: true
-app.use require('connect-flash')()
 app.use passport.initialize()
 app.use passport.session()
 
