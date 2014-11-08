@@ -59,23 +59,7 @@ app.get '/api/auth/eveonline/callback',
     failureRedirect: '/'
 
 app.post '/api/users', (req, res, next) ->
-  app.models.user.create req.body, (err, user) ->
-    if err?
-      if err.code is 'E_UNKNOWN'
-        {originalError: {name, code}} = err
-        if name is 'MongoError' and code is 11000
-          console.log 'mongoerror'
-          err =
-            error: 'E_VALIDATION'
-            status: 400
-            summary: '1 attribute is invalid'
-            invalidAttributes:
-              email: [
-                rule: 'unique'
-                message: "Email is not unique"
-              ]
-    if err? then next err
-    else res.send status: 'OK', userId: user.id
+  res.send status: 'OK'
 
 app.post '/api/users/email/validate', (req, res) ->
   app.models.user.count email: req.body.email
