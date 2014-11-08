@@ -7,6 +7,8 @@ module.exports =
   attributes:
     id:
       type: 'integer'
+      primaryKey: true
+      required: true
     name:
       type: 'string'
     key:
