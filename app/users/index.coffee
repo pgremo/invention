@@ -3,7 +3,10 @@ neow = require 'neow'
 module.exports =
   identity: 'user'
   connection: 'invention'
+  autoPK: false
   attributes:
+    id:
+      type: 'integer'
     name:
       type: 'string'
     key:
