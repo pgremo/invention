@@ -53,7 +53,7 @@ app.use '/', require './routes'
 app.get '/api/auth/eveonline',
   passport.authenticate 'eveonline'
 
-app.get '/api/auth/eveonline/callback',
+app.get '/api/auth/eveonline/callback', (req, res, next) ->
   passport.authenticate 'eveonline', (err, user, info) ->
     if err? then return next err
     if not user then return res.redirect '/'
