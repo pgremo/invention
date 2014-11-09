@@ -21,7 +21,7 @@
     "morgan": "^1.4.1",
     "neow": "^1.0.0",
     "passport": "^0.2.1",
-    "passport-eveonline": "^0.1.0",
+    "passport-eveonline": "^0.1.1",
     "sails-mongo": "balderdashy/sails-mongo",
     "serve-favicon": "^2.1.6",
     "stylus": "^0.49.2",

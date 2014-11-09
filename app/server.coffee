@@ -31,9 +31,6 @@ passport.deserializeUser (id, done) ->
 passport.use new EveOnlineStrategy(
     clientID: 'a9be63771c6549bb9daedb0a3f9beb4e'
     clientSecret: process.env.EVEONLINE_SECRET_KEY
-    authorizationURL: 'https://login.eveonline.com/oauth/authorize'
-    tokenURL: 'https://login.eveonline.com/oauth/token'
-    verifyURL: 'https://login.eveonline.com/oauth/verify'
     callbackURL: 'https://blooming-cliffs-4490.herokuapp.com/api/auth/eveonline/callback'
   ,
     (character, done) ->
@@ -54,6 +51,7 @@ app.get '/api/auth/eveonline',
   passport.authenticate 'eveonline'
 
 app.get '/api/auth/eveonline/callback', (req, res, next) ->
+  console.log 'calling callback'
   passport.authenticate 'eveonline', (err, user, info) ->
     if err? then return next err
     if not user then return res.redirect '/'
