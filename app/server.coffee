@@ -54,9 +54,11 @@ app.get '/api/auth/eveonline',
   passport.authenticate 'eveonline'
 
 app.get '/api/auth/eveonline/callback',
-  passport.authenticate 'eveonline',
-    successRedirect: '/'
-    failureRedirect: '/'
+  passport.authenticate 'eveonline', (err, user, info) ->
+    if err? then return next err
+    if not user? then return res.redirect '/'
+    app.models.user.findOne {id: id}, (err, user) ->
+      res.redirect '/?token=something'
 
 app.get '/api/signout', (req, res) ->
   req.logout()

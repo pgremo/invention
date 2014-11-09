@@ -57,6 +57,17 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         .otherwise
           redirectTo: '/invention'
     ]
+    .config ($httpProvider) ->
+      $httpProvider.interceptors.push 'TokenInterceptor'
+    .factory 'TokenInterceptor', ($q, $window) ->
+        request:  (config) ->
+          config.headers = config.headers or {}
+          if $window.sessionStorage.token?
+            config.headers.Authorization = "Bearer #{$window.sessionStorage.token}"
+          config
+        ,
+        response:  (response) ->
+          response or $q.when(response)
     .factory 'BoM', ['$resource', ($resource) ->
       $resource '/api/bom/:id', {}
     ]
@@ -161,19 +172,8 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         renderer = new dagreD3.render()
         inner.call renderer, g
 
-        graphWidth = g.graph().width
-        graphHeight = g.graph().height
-#        width = parseInt svg.style('width').replace(/px/, '')
-#        height = parseInt svg.style('height').replace(/px/, '')
-#        zoomScale = Math.min(width / graphWidth, height / graphHeight)
-#        translate = [(width/2) - ((graphWidth*zoomScale)/2), (height/2) - ((graphHeight*zoomScale)/2)]
-#        inner.attr 'transform', "translate(#{translate})scale(#{zoomScale})"
-#        translate = [graphWidth / 2, graphHeight / 2]
-#        inner.attr 'transform', "translate(#{translate})"
-        svg.attr 'width', "#{graphWidth}px"
-        svg.attr 'height', "#{graphHeight}px"
-#        parent = d3.select '#svg-container'
-#        parent.attr 'height', "#{graphHeight}px"
+        svg.attr 'width', "#{g.graph().width}px"
+        svg.attr 'height', "#{g.graph().height}px"
 
         $scope.items = (value for _, value of items when not value.nodes?)
     ]
