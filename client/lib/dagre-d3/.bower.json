@@ -1,25 +1,39 @@
 {
   "name": "dagre-d3",
-  "version": "0.2.9",
+  "version": "0.3.2",
   "main": [
-    "js/dagre-d3.js",
-    "js/dagre-d3.min.js"
+    "dist/dagre-d3.core.js",
+    "dist/dagre-d3.core.min.js"
   ],
   "ignore": [
-    "README.md"
+    ".*",
+    "README.md",
+    "CHANGELOG.md",
+    "Makefile",
+    "browser.js",
+    "dist/dagre-d3.js",
+    "dist/dagre-d3.min.js",
+    "index.js",
+    "karma*",
+    "lib/**",
+    "package.json",
+    "src/**",
+    "test/**"
   ],
   "dependencies": {
-    "d3": "~3.3.8"
+    "d3": "^3.3.8",
+    "dagre": "^0.6.1",
+    "graphlib": "^0.9.1",
+    "lodash": "^2.4.1"
   },
-  "homepage": "https://github.com/cpettitt/dagre-d3-bower",
-  "_release": "0.2.9",
+  "homepage": "https://github.com/cpettitt/dagre-d3",
+  "_release": "0.3.2",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.9",
-    "commit": "536bd5b212e4dd1f2d63a20b4daecb2987a0568f"
+    "tag": "v0.3.2",
+    "commit": "2fbf7d9e6982866663c9c60e37253fd94ac8a904"
   },
-  "_source": "git://github.com/cpettitt/dagre-d3-bower.git",
-  "_target": "~0.2.9",
-  "_originalSource": "dagre-d3",
-  "_direct": true
+  "_source": "git://github.com/cpettitt/dagre-d3.git",
+  "_target": "~0.3.2",
+  "_originalSource": "cpettitt/dagre-d3"
 }

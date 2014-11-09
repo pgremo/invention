@@ -4,7 +4,10 @@ requirejs.config
     bootstrap: 'lib/bootstrap/dist/js/bootstrap.min'
     bootstrapvalidator: 'lib/bootstrapvalidator/dist/js/bootstrapValidator.min'
     d3: 'lib/d3/d3.min'
-    dagreD3: 'dagre-d3/dagre-d3'
+    dagre: 'lib/dagre/dist/dagre.core.min'
+    dagreD3: 'lib/dagre-d3/dist/dagre-d3.core.min'
+    graphlib: 'lib/graphlib/dist/graphlib.core.min'
+    lodash: 'lib/lodash/dist/lodash.min'
     angular: 'lib/angular/angular.min'
     angularSanitize: 'lib/angular-sanitize/angular-sanitize.min'
     angularRoute: 'lib/angular-route/angular-route.min'
@@ -17,8 +20,13 @@ requirejs.config
       deps: ['jquery']
     bootstrapvalidator:
       deps: ['jquery']
+    dagre:
+      deps: ['graphlib']
     dagreD3:
-      deps: ['d3']
+      deps: ['d3', 'dagre']
+      exports: 'dagreD3'
+    graphlib:
+      deps: ['lodash']
     angular:
       deps: ['jquery']
       exports: 'angular'
@@ -123,39 +131,49 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
       $scope.$watch 'bom', (data) ->
         if not data? then return
 
-        g = new dagreD3.Digraph()
+        g = new dagreD3.graphlib.Graph()
+        g.setGraph(
+            nodesep: 10
+            edgesep: 10
+            ranksep: 10
+            rankdir: 'RL'
+          )
+          .setDefaultEdgeLabel(() -> {})
 
         recur = (x, visited) ->
           if !visited[x.id]?
             visited[x.id] = x
-            g.addNode x.id, label: x.label, nodeClass: if not x.nodes? then 'leaf' else 'branch'
+            g.setNode x.id, label: x.label, class: if not x.nodes? then 'leaf' else 'branch'
             if x.nodes?
               for y in x.nodes
                 visited = recur y, visited
-                g.addEdge null, y.id, x.id
+                g.setEdge y.id, x.id
           visited
         items = recur data, {}
 
-        renderer = new dagreD3.Renderer()
-
-        oldDrawNodes = renderer.drawNodes()
-        renderer.drawNodes (graph, root) ->
-          svgNodes = oldDrawNodes graph, root
-          svgNodes.each (u) -> d3.select(this).classed graph.node(u).nodeClass, true
-          svgNodes
+        g.nodes().forEach (v) ->
+          node = g.node v
+          node.rx = node.ry = 5
 
         svg = d3.select 'svg'
-        svgGroup = svg.append 'g'
-        layout = dagreD3.layout()
-          .nodeSep 10
-          .edgeSep 10
-          .rankSep 10
-          .rankDir 'RL'
-        layout = renderer.zoom(false).layout(layout).run g, d3.select 'svg g'
+        inner = svg.select 'g'
 
-        svgGroup.attr 'transform', "translate(0, 20)"
-        svg.attr 'width', layout.graph().width + 20
-        svg.attr 'height', layout.graph().height + 40
+        renderer = new dagreD3.render()
+        inner.call renderer, g
+
+        graphWidth = g.graph().width
+        graphHeight = g.graph().height
+#        width = parseInt svg.style('width').replace(/px/, '')
+#        height = parseInt svg.style('height').replace(/px/, '')
+#        zoomScale = Math.min(width / graphWidth, height / graphHeight)
+#        translate = [(width/2) - ((graphWidth*zoomScale)/2), (height/2) - ((graphHeight*zoomScale)/2)]
+#        inner.attr 'transform', "translate(#{translate})scale(#{zoomScale})"
+#        translate = [graphWidth / 2, graphHeight / 2]
+#        inner.attr 'transform', "translate(#{translate})"
+        svg.attr 'width', "#{graphWidth}px"
+        svg.attr 'height', "#{graphHeight}px"
+#        parent = d3.select '#svg-container'
+#        parent.attr 'height', "#{graphHeight}px"
 
         $scope.items = (value for _, value of items when not value.nodes?)
     ]

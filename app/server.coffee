@@ -58,6 +58,10 @@ app.get '/api/auth/eveonline/callback',
     successRedirect: '/'
     failureRedirect: '/'
 
+app.get '/api/signout', (req, res) ->
+  req.logout()
+  res.redirect '/'
+
 app.post '/api/users', (req, res, next) ->
   res.send status: 'OK'
 
@@ -80,7 +84,6 @@ app.get '*', (req, res, next) ->
   next err
 
 app.use (err, req, res, next) ->
-  console.log err
   res.status err.status or 500
   res.send message: err.message, error: err
 
