@@ -46,7 +46,7 @@ requirejs.config
 require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angularSanitize', 'angularUISelect', 'angularSmartTable', 'angularMessages'], (angular, dagreD3, d3) ->
   app = angular.module 'invention', ['ngResource', 'ngRoute', 'ngSanitize', 'ui.select', 'smart-table', 'ngMessages']
     .config ['$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) ->
-      $locationProvider.html5Mode false
+      $locationProvider.html5Mode true
       $routeProvider
         .when '/invention',
           templateUrl: 'invention/view.html'
@@ -55,7 +55,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
           templateUrl: 'register/view.html'
           controller: 'RegistrationController'
         .otherwise
-          redirectTo: '/invention'
+          redirectTo: () -> "/invention#{location.search}"
     ]
     .config ($httpProvider) ->
       $httpProvider.interceptors.push 'TokenInterceptor'

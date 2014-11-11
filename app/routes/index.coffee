@@ -4,9 +4,6 @@ blueprints = require '../blueprints/index'
 
 router = express.Router()
 
-router.get '/', (req, res) ->
-  res.redirect '/invention/index.html'
-
 router.get '/api/typeLookup', (req, res) ->
   blueprints.queryTypes req.query.query
     .then (x) -> res.send x

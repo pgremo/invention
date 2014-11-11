@@ -51,11 +51,9 @@ app.get '/api/auth/eveonline',
   passport.authenticate 'eveonline'
 
 app.get '/api/auth/eveonline/callback', (req, res, next) ->
-  console.log 'calling callback'
   passport.authenticate('eveonline', (err, user, info) ->
     if err? then return next err
     if not user then return res.redirect '/'
-    console.log user
     app.models.user.findOne {id: user.id}, (err, user) ->
       res.redirect '/?token=something')(req, res, next)
 
@@ -63,7 +61,7 @@ app.get '/api/signout', (req, res) ->
   req.logout()
   res.redirect '/'
 
-app.post '/api/users', (req, res, next) ->
+app.post '/api/users', (req, res) ->
   res.send status: 'OK'
 
 app.post '/api/users/email/validate', (req, res) ->
@@ -75,14 +73,8 @@ app.post '/api/users/api/validate', (req, res) ->
     .then (x) -> res.send isValid: x
     .catch () -> res.send isValid: false
 
-app.use (req, res) ->
-  res.status 404
-  res.send 'Not Found'
-
-app.get '*', (req, res, next) ->
-  err = new Error 'Not Found'
-  err.status = 404
-  next err
+app.get '*', (req, res) ->
+  res.sendFile 'index.html', root: clientPath
 
 app.use (err, req, res, next) ->
   res.status err.status or 500
