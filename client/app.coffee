@@ -121,7 +121,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
     .controller 'InventionController', ['$scope', '$http', 'BoM', '$location', '$window', ($scope, $http, BoM, $location, $window) ->
       if $location.search().token?
         $window.sessionStorage.token = $location.search().token
-        $location.search token, null
+        $location.search 'token', null
 
       $scope.name = ''
       $scope.me = 1.0
