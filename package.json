@@ -18,6 +18,8 @@
     "debug": "^2.1.0",
     "express": "^4.10.0",
     "express-session": "^1.9.1",
+    "jwt-simple": "^0.2.0",
+    "moment": "^2.8.3",
     "morgan": "^1.4.1",
     "neow": "^1.0.0",
     "passport": "^0.2.1",

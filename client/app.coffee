@@ -63,7 +63,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         request:  (config) ->
           config.headers = config.headers or {}
           if $window.sessionStorage.token?
-            config.headers.Authorization = "Bearer #{$window.sessionStorage.token}"
+            config.headers['x-access-token'] = $window.sessionStorage.token
           config
         ,
         response:  (response) ->
@@ -118,7 +118,10 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
                   $scope.registration[key].$dirty = true
                   $scope.registration[key].$setValidity item.rule, false)
     ]
-    .controller 'InventionController', ['$scope', '$http', 'BoM', ($scope, $http, BoM) ->
+    .controller 'InventionController', ['$scope', '$http', 'BoM', '$location', ($scope, $http, BoM, $location) ->
+      if $location.search().token?
+        $window.sessionStorage.token = $location.search().token
+
       $scope.name = ''
       $scope.me = 1.0
 

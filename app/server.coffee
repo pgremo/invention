@@ -45,17 +45,43 @@ passport.use new EveOnlineStrategy(
           done x
   )
 
+url = require 'url'
+jwt = require 'jwt-simple'
+moment = require 'moment'
+
+app.use (req, res, next) ->
+  parsed = url.parse req.url, true
+  token = req.body?.access_token or parsed.query.access_token or req.headers["x-access-token"]
+  if token?
+    try
+      decoded = jwt.decode token, process.env.TOKEN_SECRET
+      console.log decoded.id
+      if decoded.exp <= Date.now()
+        res.end 'Access token has expired', 400
+      else
+        app.models.user.findOne {id: decoded.iss}, (err, user) ->
+          req.user = user
+          next()
+    catch err
+      next()
+  else
+    next()
+
 app.use '/', require './routes'
 
 app.get '/api/auth/eveonline',
   passport.authenticate 'eveonline'
 
 app.get '/api/auth/eveonline/callback', (req, res, next) ->
-  passport.authenticate('eveonline', (err, user, info) ->
+  passport.authenticate('eveonline', (err, user) ->
     if err? then return next err
     if not user then return res.redirect '/'
     app.models.user.findOne {id: user.id}, (err, user) ->
-      res.redirect '/?token=something')(req, res, next)
+      token = jwt.encode {
+        iss: user.id,
+        exp: moment().add('days', 7).valueOf()
+      }, process.env.TOKEN_SECRET
+      res.redirect "/?token=#{token}")(req, res, next)
 
 app.get '/api/signout', (req, res) ->
   req.logout()
