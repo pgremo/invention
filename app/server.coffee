@@ -79,7 +79,7 @@ app.get '/api/auth/eveonline/callback', (req, res, next) ->
     app.models.user.findOne {id: user.id}, (err, user) ->
       token = jwt.encode {
         iss: user.id,
-        exp: moment().add('days', 7).valueOf()
+        exp: moment().add(7, 'days').valueOf()
       }, process.env.TOKEN_SECRET
       res.redirect "/?token=#{token}")(req, res, next)
 
