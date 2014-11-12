@@ -56,7 +56,7 @@ app.use (req, res, next) ->
   if token?
     try
       decoded = jwt.decode token, process.env.TOKEN_SECRET
-      console.log "id=#{decoded.id}"
+      console.log "id=#{decoded.iss}"
       if decoded.exp <= Date.now()
         res.end 'Access token has expired', 400
       else
