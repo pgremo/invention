@@ -51,11 +51,12 @@ moment = require 'moment'
 
 app.use (req, res, next) ->
   parsed = url.parse req.url, true
-  token = req.body?.access_token or parsed.query.access_token or req.headers["x-access-token"]
+  token = req.body?.access_token or parsed.query.access_token or req.headers['x-access-token']
+  console.log "token=#{token}"
   if token?
     try
       decoded = jwt.decode token, process.env.TOKEN_SECRET
-      console.log decoded.id
+      console.log "id=#{decoded.id}"
       if decoded.exp <= Date.now()
         res.end 'Access token has expired', 400
       else
