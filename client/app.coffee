@@ -146,14 +146,13 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
       $scope.$watch 'bom', (data) ->
         if not data? then return
 
-        g = new dagreD3.graphlib.Graph()
-        g.setGraph(
+        g = new dagreD3.graphlib.Graph().setGraph(
             nodesep: 10
             edgesep: 10
             ranksep: 10
             rankdir: 'RL'
           )
-          .setDefaultEdgeLabel(() -> {})
+          .setDefaultEdgeLabel () -> {}
 
         recur = (x, visited) ->
           if !visited[x.id]?
@@ -174,10 +173,11 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         inner = svg.select 'g'
 
         renderer = new dagreD3.render()
-        inner.call renderer, g
+        renderer inner, g
 
-        svg.attr 'width', "#{g.graph().width}px"
-        svg.attr 'height', "#{g.graph().height}px"
+        inner.attr 'transform', 'translate(20, 20)'
+        svg.attr 'width', "#{g.graph().width + 40}px"
+        svg.attr 'height', "#{g.graph().height + 40}px"
 
         $scope.items = (value for _, value of items when not value.nodes?)
     ]
