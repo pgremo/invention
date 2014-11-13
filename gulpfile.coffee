@@ -30,7 +30,7 @@ gulp.task 'server', ['build'],  ->
       NODE_ENV: 'development'
       DEBUG: 'container'
       EVEONLINE_SECRET_KEY: 'anything'
-      TOKEN_SECRET: 'anything'
+      TOKEN_SECRET: 'PTaYmFCeiogCmpz7.W7KLt]kCFBJNebG'
     watch:
       './app/'
   .on 'start', () ->

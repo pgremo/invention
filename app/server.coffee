@@ -49,6 +49,8 @@ url = require 'url'
 jwt = require 'jwt-simple'
 moment = require 'moment'
 
+#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOjkxMzc4NDg2LCJleHAiOjE0MTY0NDc4ODQzODF9.pLLwCBgkYdMG5kWUuVumhkra5JGyU7oo1-g01XJTe5I
+
 app.use (req, res, next) ->
   parsed = url.parse req.url, true
   token = req.body?.access_token or parsed.query.access_token or req.headers['x-access-token']
@@ -58,7 +60,7 @@ app.use (req, res, next) ->
       if decoded.exp <= Date.now()
         res.end 'Access token has expired', 400
       else
-        app.models.user.findOne {id: decoded.iss}, (err, user) ->
+        app.models.user.findOne {id: parseInt decoded.iss}, (err, user) ->
           req.user = user
           next()
     catch err
