@@ -89,6 +89,10 @@ app.get '/api/signout', (req, res) ->
 app.post '/api/users', (req, res) ->
   res.send status: 'OK'
 
+app.get '/api/users', (req, res) ->
+  if req.user? then res.send req.user
+  else res.end 'Invalid/Missing access token', 400
+
 app.post '/api/users/email/validate', (req, res) ->
   app.models.user.count email: req.body.email
     .then (x)-> res.send isValid: x is 0
