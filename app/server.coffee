@@ -49,8 +49,6 @@ url = require 'url'
 jwt = require 'jwt-simple'
 moment = require 'moment'
 
-#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOjkxMzc4NDg2LCJleHAiOjE0MTY0NDc4ODQzODF9.pLLwCBgkYdMG5kWUuVumhkra5JGyU7oo1-g01XJTe5I
-#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOjkxMzc4NDg2LCJleHAiOjE0MTY0NDk4MjQ3MTh9.YLnzfuEV47b-NKk6JlegQ_Vxdo2mTU6gyTdpExLZ9x0
 app.use (req, res, next) ->
   parsed = url.parse req.url, true
   token = req.body?.access_token or parsed.query.access_token or req.headers['x-access-token']
@@ -92,7 +90,6 @@ app.post '/api/users', (req, res) ->
   res.send status: 'OK'
 
 app.get '/api/users', (req, res) ->
-  console.log JSON.stringify req.user
   if req.user? then res.send req.user
   else res.end 'Invalid/Missing access token', 400
 
