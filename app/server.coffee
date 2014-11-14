@@ -3,6 +3,11 @@ path = require 'path'
 bodyParser = require 'body-parser'
 passport = require 'passport'
 EveOnlineStrategy = require('passport-eveonline')
+url = require 'url'
+jwt = require 'jwt-simple'
+moment = require 'moment'
+session = require 'express-session'
+MongoStore = require('connect-mongo') session
 
 app = express()
 
@@ -16,7 +21,7 @@ app.use express.static clientPath
 app.use require('cookie-parser')()
 app.use bodyParser.json()
 app.use bodyParser.urlencoded extended: true
-app.use require('express-session') secret: 'hullaballoo', resave: true, saveUninitialized: true
+app.use session secret: process.env.SESSION_SECRET, resave: true, saveUninitialized: true, store: new MongoStore(url: process.env.MONGOHQ_URL)
 app.use passport.initialize()
 app.use passport.session()
 
@@ -44,10 +49,6 @@ passport.use new EveOnlineStrategy(
         .catch (x) ->
           done x
   )
-
-url = require 'url'
-jwt = require 'jwt-simple'
-moment = require 'moment'
 
 app.use (req, res, next) ->
   parsed = url.parse req.url, true

@@ -14,7 +14,7 @@ options =
   connections:
     invention:
       adapter: 'mongodb'
-      url: process.env.MONGOHQ_URL or 'mongodb://localhost/invention'
+      url: process.env.MONGOHQ_URL
   schemas:
     [require '../app/users']
 
