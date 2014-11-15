@@ -118,7 +118,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
                   $scope.registration[key].$dirty = true
                   $scope.registration[key].$setValidity item.rule, false)
     ]
-    .controller 'InventionController', ['$scope', '$http', 'BoM', '$location', '$window', ($scope, $http, BoM, $location, $window, User) ->
+    .controller 'InventionController', ['$scope', '$http', 'BoM', '$location', '$window', 'User', ($scope, $http, BoM, $location, $window, User) ->
       if $location.search().token?
         $window.sessionStorage.token = $location.search().token
         $location.search 'token', null
