@@ -118,10 +118,13 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
                   $scope.registration[key].$dirty = true
                   $scope.registration[key].$setValidity item.rule, false)
     ]
-    .controller 'InventionController', ['$scope', '$http', 'BoM', '$location', '$window', ($scope, $http, BoM, $location, $window) ->
+    .controller 'InventionController', ['$scope', '$http', 'BoM', '$location', '$window', ($scope, $http, BoM, $location, $window, User) ->
       if $location.search().token?
         $window.sessionStorage.token = $location.search().token
         $location.search 'token', null
+
+      if $window.sessionStorage.token?
+        $scope.user = User.get
 
       $scope.name = ''
       $scope.me = 1.0
