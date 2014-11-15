@@ -124,7 +124,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         $location.search 'token', null
 
       if $window.sessionStorage.token?
-        $scope.user = User.get
+        $scope.user = User.get()
 
       $scope.name = ''
       $scope.me = 1.0
