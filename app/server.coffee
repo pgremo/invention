@@ -21,7 +21,11 @@ app.use express.static clientPath
 app.use require('cookie-parser')()
 app.use bodyParser.json()
 app.use bodyParser.urlencoded extended: true
-app.use session secret: process.env.SESSION_SECRET, resave: true, saveUninitialized: true, store: new MongoStore(url: process.env.MONGOHQ_URL)
+app.use session
+  secret: process.env.SESSION_SECRET
+  resave: true
+  saveUninitialized: true
+  store: new MongoStore(url: process.env.MONGOHQ_URL)
 app.use passport.initialize()
 app.use passport.session()
 
@@ -84,15 +88,22 @@ app.get '/api/auth/eveonline/callback', (req, res, next) ->
       res.redirect "/?token=#{token}")(req, res, next)
 
 app.get '/api/signout', (req, res) ->
-  req.logout()
-  res.redirect '/'
+      req.logout()
+      res.redirect '/'
 
-app.post '/api/users', (req, res) ->
-  res.send status: 'OK'
+ensureUser = (req, res, next) ->
+  if not req.user?
+    error = new Error()
+    error.status = 401
+    next error
+  else
+    next()
 
-app.get '/api/users', (req, res) ->
-  if req.user? then res.send req.user
-  else res.end 'Invalid/Missing access token', 400
+app.post '/api/users', ensureUser, (req, res) ->
+    res.send status: 'OK'
+
+app.get '/api/users', ensureUser, (req, res) ->
+    res.send req.user
 
 app.post '/api/users/email/validate', (req, res) ->
   app.models.user.count email: req.body.email
