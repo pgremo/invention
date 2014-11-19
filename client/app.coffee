@@ -127,7 +127,8 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         $scope.user = User.get()
 
       $scope.name = ''
-      $scope.me = 1.0
+      $scope.ml = 0
+      $scope.quantity = 1
 
       $scope.type = {}
       $scope.refreshTypes = (query) ->
@@ -138,12 +139,17 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
 
       $scope.$watch 'type.selected', (newValue) ->
         if newValue?
-          BoM.get id: newValue.id, me: $scope.me, (result) ->
+          BoM.get id: newValue.id, ml: $scope.ml, quantity: $scope.quantity, (result) ->
             $scope.bom = result
 
-      $scope.$watch 'me', (newValue, oldValue) ->
+      $scope.$watch 'ml', (newValue, oldValue) ->
         if newValue? and newValue isnt oldValue and $scope.type.selected?
-          BoM.get id: $scope.type.selected.id, me: newValue, (result) ->
+          BoM.get id: $scope.type.selected.id, ml: newValue, quantity: $scope.quantity, (result) ->
+            $scope.bom = result
+
+      $scope.$watch 'quantity', (newValue, oldValue) ->
+        if newValue? and newValue isnt oldValue and $scope.type.selected?
+          BoM.get id: $scope.type.selected.id, ml: $scope.ml, quantity: newValue, (result) ->
             $scope.bom = result
 
       $scope.$watch 'bom', (data) ->

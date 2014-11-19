@@ -35,5 +35,5 @@
   },
   "_source": "git://github.com/cpettitt/dagre-d3.git",
   "_target": "~0.3.2",
-  "_originalSource": "cpettitt/dagre-d3"
+  "_originalSource": "dagre-d3"
 }

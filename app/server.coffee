@@ -40,7 +40,7 @@ passport.deserializeUser (id, done) ->
 passport.use new EveOnlineStrategy(
     clientID: 'a9be63771c6549bb9daedb0a3f9beb4e'
     clientSecret: process.env.EVEONLINE_SECRET_KEY
-    callbackURL: 'https://blooming-cliffs-4490.herokuapp.com/api/auth/eveonline/callback'
+    callbackURL: '/api/auth/eveonline/callback'
   ,
     (character, done) ->
       app.models.user.findOne()
@@ -87,9 +87,17 @@ app.get '/api/auth/eveonline/callback', (req, res, next) ->
       }, process.env.TOKEN_SECRET
       res.redirect "/?token=#{token}")(req, res, next)
 
+app.get '/api/auth/refresh', (req, res, next) ->
+  app.models.user.findOne {id: user.id}, (err, user) ->
+    token = jwt.encode {
+      iss: user.id,
+      exp: moment().add(7, 'days').valueOf()
+    }, process.env.TOKEN_SECRET
+    res.send token
+
 app.get '/api/signout', (req, res) ->
-      req.logout()
-      res.redirect '/'
+  req.logout()
+  res.redirect '/'
 
 ensureUser = (req, res, next) ->
   if not req.user?
@@ -100,10 +108,10 @@ ensureUser = (req, res, next) ->
     next()
 
 app.post '/api/users', ensureUser, (req, res) ->
-    res.send status: 'OK'
+  res.send status: 'OK'
 
 app.get '/api/users', ensureUser, (req, res) ->
-    res.send req.user
+   res.send req.user
 
 app.post '/api/users/email/validate', (req, res) ->
   app.models.user.count email: req.body.email
