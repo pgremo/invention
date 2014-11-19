@@ -31,9 +31,9 @@ router.get '/api/bom/:id', (req, res, next) ->
         item.label = y.typeName
         if y.blueprint?
           item.nodes = for value in y.blueprint.activities.manufacturing.materials
-            recur value, (Math.max runs, Math.ceil (runs * value.quantity * (1.0 - ml)).toFixed 2), 1.0
+            recur value, (Math.max runs, Math.ceil (runs * value.quantity * (1.0 - (ml / 100))).toFixed 2), 1.0
         item
-      ml = 0.1 / ((req.query.ml or 0) + 1)
+      ml = req.query.ml or 0
       quantity = req.query.quantity or 1
       recur x, (x.blueprint?.activities.manufacturing.products[0]?.quantity * quantity), ml
     .then (x) ->
