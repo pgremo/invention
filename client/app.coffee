@@ -103,6 +103,18 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
               deferred.reject()
           deferred.promise
     ]
+    .controller 'SignInController', ['$scope', '$location', '$window', '$http', 'User', ($scope, $location, $window, $http, User) ->
+      if $location.search().token?
+        $window.sessionStorage.token = $location.search().token
+        $location.search 'token', null
+
+      if $window.sessionStorage.token?
+        $scope.user = User.get()
+
+      $scope.signOut = ->
+        $http.get '/api/signout'
+        delete $window.sessionStorage.token
+    ]
     .controller 'RegistrationController', ['$location', '$scope', 'User', ($location, $scope, User) ->
       $scope.user = {}
 
@@ -119,13 +131,6 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
                   $scope.registration[key].$setValidity item.rule, false)
     ]
     .controller 'InventionController', ['$scope', '$http', 'BoM', '$location', '$window', 'User', ($scope, $http, BoM, $location, $window, User) ->
-      if $location.search().token?
-        $window.sessionStorage.token = $location.search().token
-        $location.search 'token', null
-
-      if $window.sessionStorage.token?
-        $scope.user = User.get()
-
       $scope.name = ''
       $scope.ml = 0
       $scope.quantity = 1
