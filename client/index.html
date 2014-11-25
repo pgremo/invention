@@ -37,7 +37,7 @@
                         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" ng-controller="SignInController">
                             <p class="navbar-text" ng-show="user">Signed in as <a href="#" class="navbar-link">{{user.name}}</a></p>
                             <p class="navbar-text" ng-hide="user"><a href="/api/auth/eveonline" target="_self" class="navbar-link">Sign In</a></p>
-                            <p class="navbar-text" ng-show="user"><a href="/api/auth/eveonline" target="_self" class="navbar-link">Sign Out</a></p>
+                            <p class="navbar-text" ng-show="user"><a href ng-click="signOut()" class="navbar-link">Sign Out</a></p>
                         </div>
                     </div>
                 </nav>

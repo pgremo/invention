@@ -111,6 +111,8 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
       if $window.sessionStorage.token?
         $scope.user = User.get()
 
+      console.log "user=#{$scope.user}"
+
       $scope.signOut = ->
         $http.get '/api/signout'
         delete $window.sessionStorage.token
@@ -130,12 +132,12 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
                   $scope.registration[key].$dirty = true
                   $scope.registration[key].$setValidity item.rule, false)
     ]
-    .controller 'InventionController', ['$scope', '$http', 'BoM', '$location', '$window', 'User', ($scope, $http, BoM, $location, $window, User) ->
+    .controller 'InventionController', ['$scope', '$http', 'BoM', ($scope, $http, BoM) ->
       $scope.name = ''
       $scope.ml = 0
       $scope.quantity = 1
-
       $scope.type = {}
+
       $scope.refreshTypes = (query) ->
         if query.length < 3 then return
         $http.get '/api/typeLookup', params: {query: query}
