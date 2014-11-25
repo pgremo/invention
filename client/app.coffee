@@ -129,8 +129,6 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
       if $window.sessionStorage.token?
         $scope.user = User.get()
 
-      console.log "user=#{$scope.user}"
-
       $scope.signOut = ->
         $http.get '/api/signout'
         delete $window.sessionStorage.token
@@ -178,8 +176,20 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
           BoM.get id: $scope.type.selected.id, ml: $scope.ml, quantity: newValue, (result) ->
             $scope.bom = result
 
+      flatten = (x, visited) ->
+        if visited.indexOf(x) is -1
+          visited.push x
+          if x.nodes?
+            for y in x.nodes
+              visited = flatten y, visited
+        visited
+
       $scope.$watch 'bom', (data) ->
         if not data? then return
+        $scope.items = flatten data, []
+
+      $scope.$watch 'items', (items) ->
+        if not items? then return
 
         g = new dagreD3.graphlib.Graph().setGraph(
             nodesep: 10
@@ -189,18 +199,15 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
           )
           .setDefaultEdgeLabel () -> {}
 
-        recur = (x, visited) ->
-          if !visited[x.id]?
-            visited[x.id] = x
-            g.setNode x.id, label: x.label, class: if not x.nodes? then 'leaf' else 'branch'
-            if x.nodes?
-              for y in x.nodes
-                visited = recur y, visited
-                g.setEdge y.id, x.id
-          visited
-        items = recur data, {}
+        for x in items
+          g.setNode x.id, label: x.label, class: if not x.nodes? then 'leaf' else 'branch'
 
-        g.nodes().forEach (v) ->
+        for x in items
+          if x.nodes?
+            for y in x.nodes
+              g.setEdge y.id, x.id
+
+        for v in g.nodes()
           node = g.node v
           node.rx = node.ry = 5
 
@@ -214,7 +221,9 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         svg.attr 'width', "#{g.graph().width + 40}px"
         svg.attr 'height', "#{g.graph().height + 40}px"
 
-        $scope.items = (value for _, value of items when not value.nodes?)
+      $scope.$watch 'items', (items) ->
+        if not items? then return
+        $scope.itemToBuy = (value for _, value of items when not value.nodes?)
     ]
 
   angular.element(document).ready () ->
