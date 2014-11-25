@@ -67,30 +67,24 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
           config
         ,
         responseError:  (response) ->
-          # error - was it 401 or something else?
           if response.status is 401 and response.data.error and response.data.error is "invalid_token"
-            deferred = $q.defer() # defer until we can re-request a new token
-            # Get a new token... (cannot inject $http directly as will cause a circular ref)
+            deferred = $q.defer()
             $injector.get("$http").get('/api/auth/refresh').then ((loginResponse) ->
               if loginResponse.data
-                $window.sessionStorage.token = loginResponse.data # we have a new oauth token - set at $rootScope
-                # now let's retry the original request - transformRequest in .run() below will add the new OAuth token
+                $window.sessionStorage.token = loginResponse.data
                 $injector.get("$http")(response.config).then ((response) ->
-
-                  # we have a successful response - resolve it using deferred
                   deferred.resolve response
                 ), (response) ->
-                  deferred.reject() # something went wrong
+                  deferred.reject()
               else
-                deferred.reject() # login.json didn't give us data
-
+                deferred.reject()
               return
             ), (response) ->
-              deferred.reject() # token retry failed, redirect so user can login again
+              deferred.reject()
               $location.path '/'
-
-            return deferred.promise # return the deferred promise
-          $q.reject response # not a recoverable error
+            deferred.promise
+          else
+            $q.reject response
     ]
     .factory 'BoM', ['$resource', ($resource) ->
       $resource '/api/bom/:id', {}

@@ -29,6 +29,7 @@ gulp.task 'server', ['build'],  ->
     env:
       NODE_ENV: 'development'
       DEBUG: 'container'
+      EVEONLINE_CLIENT_ID: 'asgafasdfasdfadsgqwerewqrqwer'
       EVEONLINE_SECRET_KEY: 'UspiFh6xharsVGctAXhMf6LD)YfCh(ZK'
       TOKEN_SECRET: 'PTaYmFCeiogCmpz7.W7KLt]kCFBJNebG'
       SESSION_SECRET: 'MVfdRZoETCmcVq3BhQA?wssdk7mA=sAq'

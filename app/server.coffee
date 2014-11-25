@@ -38,7 +38,7 @@ passport.deserializeUser (id, done) ->
     done err, user
 
 passport.use new EveOnlineStrategy(
-    clientID: 'a9be63771c6549bb9daedb0a3f9beb4e'
+    clientID: process.env.EVEONLINE_CLIENT_ID
     clientSecret: process.env.EVEONLINE_SECRET_KEY
     callbackURL: '/api/auth/eveonline/callback'
   ,
