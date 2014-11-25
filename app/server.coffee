@@ -62,7 +62,9 @@ app.use (req, res, next) ->
     try
       decoded = jwt.decode token, process.env.TOKEN_SECRET
       if decoded.exp <= Date.now()
-        res.end 'Access token has expired', 400
+        res.status 401
+        res.json end: 'Access token has expired'
+        return
       else
         app.models.user.findOne {id: parseInt decoded.iss}, (err, user) ->
           req.user = user
