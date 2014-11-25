@@ -59,7 +59,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
     ]
     .config ($httpProvider) ->
       $httpProvider.interceptors.push 'TokenInterceptor'
-    .factory 'TokenInterceptor', ['$q', '$window', '$injector', ($q, $window, $injector) ->
+    .factory 'TokenInterceptor', ['$q', '$window', '$injector', '$location', ($q, $window, $injector, $location) ->
         request:  (config) ->
           config.headers = config.headers or {}
           if $window.sessionStorage.token?

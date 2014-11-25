@@ -55,15 +55,18 @@ passport.use new EveOnlineStrategy(
   )
 
 app.use (req, res, next) ->
-  if req.path is '/api/auth/refresh' then return next()
   parsed = url.parse req.url, true
   token = req.body?.access_token or parsed.query.access_token or req.headers['x-access-token']
   if token?
     try
       decoded = jwt.decode token, process.env.TOKEN_SECRET
-      if decoded.exp <= Date.now()
-        res.status 401
-        res.json error: 'invalid_token'
+      if req.path is '/api/auth/refresh'
+        req.token = decoded
+        next()
+      else if decoded.exp <= Date.now()
+        res
+          .status 401
+          .json error: 'invalid_token'
         return
       else
         app.models.user.findOne {id: parseInt decoded.iss}, (err, user) ->
@@ -91,10 +94,10 @@ app.get '/api/auth/eveonline/callback', (req, res, next) ->
       res.redirect "/?token=#{token}")(req, res, next)
 
 app.get '/api/auth/refresh', (req, res, next) ->
-  app.models.user.findOne {id: user.id}, (err, user) ->
+  app.models.user.findOne {id: req.token.iss}, (err, user) ->
     token = jwt.encode {
       iss: user.id,
-      exp: moment().add(7, 'days').valueOf()
+      exp: moment().add(5, 'minutes').valueOf()
     }, process.env.TOKEN_SECRET
     res.send token
 
