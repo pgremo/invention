@@ -134,6 +134,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
       $scope.signOut = ->
         $http.get '/api/signout'
         delete $window.sessionStorage.token
+        delete $scope.user
     ]
     .controller 'RegistrationController', ['$location', '$scope', 'User', ($location, $scope, User) ->
       $scope.user = {}
