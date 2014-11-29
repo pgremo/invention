@@ -51,9 +51,9 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         .when '/invention',
           templateUrl: 'invention/view.html'
           controller: 'InventionController'
-        .when '/register',
-          templateUrl: 'register/view.html'
-          controller: 'RegistrationController'
+        .when '/profile',
+          templateUrl: 'profile/view.html'
+          controller: 'ProfileController'
         .otherwise
           redirectTo: () -> "/invention#{location.search}"
     ]
@@ -134,20 +134,12 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         delete $window.sessionStorage.token
         delete $scope.user
     ]
-    .controller 'RegistrationController', ['$location', '$scope', 'User', ($location, $scope, User) ->
-      $scope.user = {}
+    .controller 'ProfileController', ['$location', '$scope', 'User', ($location, $scope, User) ->
+      $scope.user = User.get()
 
-      $scope.registerUser = () ->
+      $scope.updateProfile = () ->
         if not $scope.registration.$valid then return
-        User.save $scope.user,
-          (() ->
-            $location.path '/invention'),
-          ((response) ->
-            if response.data.error.error is 'E_VALIDATION'
-              for key, value of response.data.error.invalidAttributes
-                for item in value
-                  $scope.registration[key].$dirty = true
-                  $scope.registration[key].$setValidity item.rule, false)
+        User.save $scope.user, () -> $location.path '/invention'
     ]
     .controller 'InventionController', ['$scope', '$http', 'BoM', ($scope, $http, BoM) ->
       $scope.name = ''

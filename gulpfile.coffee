@@ -29,8 +29,8 @@ gulp.task 'server', ['build'],  ->
     env:
       NODE_ENV: 'development'
       DEBUG: 'container'
-      EVEONLINE_CLIENT_ID: 'asgafasdfasdfadsgqwerewqrqwer'
-      EVEONLINE_SECRET_KEY: 'UspiFh6xharsVGctAXhMf6LD)YfCh(ZK'
+      EVEONLINE_CLIENT_ID: 'cabc40b7353a42d5ac55b42f52416596'
+      EVEONLINE_SECRET_KEY: 'vx3FowaRzWxtXn9Uyx9f1HbrLNfCe5j9U98AHIh3'
       TOKEN_SECRET: 'PTaYmFCeiogCmpz7.W7KLt]kCFBJNebG'
       SESSION_SECRET: 'MVfdRZoETCmcVq3BhQA?wssdk7mA=sAq'
       MONGOHQ_URL: 'mongodb://localhost/invention/sessions'

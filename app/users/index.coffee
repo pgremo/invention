@@ -27,9 +27,9 @@ module.exports =
 #        error = new Error 'Invalid Key and or vCode'
 #        error.status = 400
 #        next error
-#  validateAPI: (key, vCode) ->
-#    client = new neow.EveClient keyID: key, vCode: vCode
-#    client
-#      .fetch 'account:APIKeyInfo'
-#      .then (x) ->
-#        (parseInt(x.key.accessMask) & 2) is 2 and x.key.type is 'Account'
+  validateAPI: (key, vCode) ->
+    client = new neow.EveClient keyID: key, vCode: vCode
+    client
+      .fetch 'account:APIKeyInfo'
+      .then (x) ->
+        (parseInt(x.key.accessMask) & 2) is 2 and x.key.type is 'Account'

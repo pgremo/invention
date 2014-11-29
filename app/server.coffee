@@ -113,15 +113,15 @@ ensureUser = (req, res, next) ->
   else
     next()
 
-app.post '/api/users', ensureUser, (req, res) ->
-  res.send status: 'OK'
+app.post '/api/users', ensureUser, (req, res, next) ->
+  app.models.user.update req.user.id, {key: req.body.key, vCode: req.body.vCode}, (err, user) ->
+    if err?
+      next err
+    else
+      res.send status: 'OK'
 
 app.get '/api/users', ensureUser, (req, res) ->
    res.send req.user
-
-app.post '/api/users/email/validate', (req, res) ->
-  app.models.user.count email: req.body.email
-    .then (x)-> res.send isValid: x is 0
 
 app.post '/api/users/api/validate', (req, res) ->
   app.models.user.validateAPI req.body.key, req.body.vCode
