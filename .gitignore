@@ -2,10 +2,9 @@
 node_modules
 .DS_Store
 data/
-!lib/data
+!app/data
 client/**/*.js
 !client/lib/**/*.js
-!client/dagre-d3/*.js
 client/**/*.css
 !client/lib/**/*.css
 client/**/*.map
