@@ -4,7 +4,7 @@ yaml = require 'js-yaml'
 gutil = require 'gulp-util'
 
 gulp.task 'blueprints2json', ->
-  gulp.src ['data/phoebe/*.yml', 'data/phoebe/*.yaml']
+  gulp.src ['data/rhea/*.yml', 'data/rhea/*.yaml']
   .pipe map (file, cb) ->
     if file.isNull() then return cb null, file
     if file.isStream() then return cb new Error 'Streaming not supported'
@@ -20,4 +20,4 @@ gulp.task 'blueprints2json', ->
     file.contents = new Buffer JSON.stringify json, null, 2
 
     cb null,file
-  .pipe gulp.dest 'app/blueprints'
+  .pipe gulp.dest 'app/data'

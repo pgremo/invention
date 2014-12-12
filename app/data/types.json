@@ -62564,6 +62564,81 @@
     "groupId": 1092,
     "categoryId": 30
   },
+  "34080": {
+    "typeName": "Women's 'Eternity' Boots (Black/Gold)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34083": {
+    "typeName": "Women's 'Eternity' Boots (Olive)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34086": {
+    "typeName": "Women's 'Eternity' Boots (Black/Red)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34088": {
+    "typeName": "Women's 'Eternity' Boots (White)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34089": {
+    "typeName": "Women's 'Eternity' Boots (Yellow)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34091": {
+    "typeName": "Women's 'Eternity' Suit Top (Black/Gold)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34094": {
+    "typeName": "Women's 'Eternity' Suit Top (Olive)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34097": {
+    "typeName": "Women's 'Eternity' Suit Top (Black/Red)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34099": {
+    "typeName": "Women's 'Eternity' Suit Top (White)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34100": {
+    "typeName": "Women's 'Eternity' Suit Top (Yellow)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34102": {
+    "typeName": "Women's 'Eternity' Suit (Black/Gold)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34105": {
+    "typeName": "Women's 'Eternity' Suit (Olive)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34108": {
+    "typeName": "Women's 'Eternity' Suit (Black/Red)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34110": {
+    "typeName": "Women's 'Eternity' Suit (White)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34111": {
+    "typeName": "Women's 'Eternity' Suit (Yellow)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
   "34118": {
     "typeName": "Megathron Quafe Edition",
     "groupId": 27,
@@ -63061,7 +63136,7 @@
   },
   "34266": {
     "typeName": "Small Higgs Anchor I",
-    "groupId": 782,
+    "groupId": 1308,
     "categoryId": 7
   },
   "34267": {
@@ -63071,7 +63146,7 @@
   },
   "34268": {
     "typeName": "Medium Higgs Anchor I",
-    "groupId": 782,
+    "groupId": 1308,
     "categoryId": 7
   },
   "34269": {
@@ -63085,7 +63160,7 @@
     "categoryId": 7
   },
   "34273": {
-    "typeName": "Stigmatic Small Pulse Laser Blueprint",
+    "typeName": "Polarized Small Pulse Laser Blueprint",
     "groupId": 133,
     "categoryId": 9
   },
@@ -63095,7 +63170,7 @@
     "categoryId": 7
   },
   "34275": {
-    "typeName": "Stigmatic Heavy Pulse Laser Blueprint",
+    "typeName": "Polarized Heavy Pulse Laser Blueprint",
     "groupId": 133,
     "categoryId": 9
   },
@@ -63105,7 +63180,7 @@
     "categoryId": 7
   },
   "34277": {
-    "typeName": "Stigmatic Mega Pulse Laser Blueprint",
+    "typeName": "Polarized Mega Pulse Laser Blueprint",
     "groupId": 133,
     "categoryId": 9
   },
@@ -63115,7 +63190,7 @@
     "categoryId": 7
   },
   "34279": {
-    "typeName": "Stigmatic Light Neutron Blaster Blueprint",
+    "typeName": "Polarized Light Neutron Blaster Blueprint",
     "groupId": 154,
     "categoryId": 9
   },
@@ -63125,7 +63200,7 @@
     "categoryId": 7
   },
   "34281": {
-    "typeName": "Stigmatic Heavy Neutron Blaster Blueprint",
+    "typeName": "Polarized Heavy Neutron Blaster Blueprint",
     "groupId": 154,
     "categoryId": 9
   },
@@ -63135,7 +63210,7 @@
     "categoryId": 7
   },
   "34283": {
-    "typeName": "Stigmatic Neutron Blaster Cannon Blueprint",
+    "typeName": "Polarized Neutron Blaster Cannon Blueprint",
     "groupId": 154,
     "categoryId": 9
   },
@@ -63145,7 +63220,7 @@
     "categoryId": 7
   },
   "34285": {
-    "typeName": "Stigmatic 200mm AutoCannon Blueprint",
+    "typeName": "Polarized 200mm AutoCannon Blueprint",
     "groupId": 135,
     "categoryId": 9
   },
@@ -63155,7 +63230,7 @@
     "categoryId": 7
   },
   "34287": {
-    "typeName": "Stigmatic 425mm AutoCannon Blueprint",
+    "typeName": "Polarized 425mm AutoCannon Blueprint",
     "groupId": 135,
     "categoryId": 9
   },
@@ -63165,7 +63240,7 @@
     "categoryId": 7
   },
   "34289": {
-    "typeName": "Stigmatic 800mm Repeating Cannon Blueprint",
+    "typeName": "Polarized 800mm Repeating Cannon Blueprint",
     "groupId": 135,
     "categoryId": 9
   },
@@ -63175,7 +63250,7 @@
     "categoryId": 7
   },
   "34291": {
-    "typeName": "Stigmatic Rocket Launcher Blueprint",
+    "typeName": "Polarized Rocket Launcher Blueprint",
     "groupId": 136,
     "categoryId": 9
   },
@@ -63185,7 +63260,7 @@
     "categoryId": 7
   },
   "34293": {
-    "typeName": "Stigmatic Heavy Assault Missile Launcher Blueprint",
+    "typeName": "Polarized Heavy Assault Missile Launcher Blueprint",
     "groupId": 136,
     "categoryId": 9
   },
@@ -63195,13 +63270,13 @@
     "categoryId": 7
   },
   "34295": {
-    "typeName": "Stigmatic Torpedo Launcher Blueprint",
+    "typeName": "Polarized Torpedo Launcher Blueprint",
     "groupId": 136,
     "categoryId": 9
   },
   "34306": {
     "typeName": "Large Higgs Anchor I",
-    "groupId": 782,
+    "groupId": 1308,
     "categoryId": 7
   },
   "34307": {
@@ -63211,7 +63286,7 @@
   },
   "34308": {
     "typeName": "Capital Higgs Anchor I",
-    "groupId": 782,
+    "groupId": 1308,
     "categoryId": 7
   },
   "34309": {
@@ -63239,10 +63314,350 @@
     "groupId": 314,
     "categoryId": 17
   },
+  "34317": {
+    "typeName": "Confessor",
+    "groupId": 1305,
+    "categoryId": 6
+  },
+  "34318": {
+    "typeName": "Confessor Blueprint",
+    "groupId": 1309,
+    "categoryId": 9
+  },
+  "34327": {
+    "typeName": "ORE Freighter",
+    "groupId": 257,
+    "categoryId": 16
+  },
+  "34328": {
+    "typeName": "Bowhead",
+    "groupId": 513,
+    "categoryId": 6
+  },
+  "34329": {
+    "typeName": "Bowhead Blueprint",
+    "groupId": 525,
+    "categoryId": 9
+  },
   "34330": {
     "typeName": "Resource Container",
     "groupId": 306,
     "categoryId": 11
+  },
+  "34339": {
+    "typeName": "Moros Interbus Edition",
+    "groupId": 485,
+    "categoryId": 6
+  },
+  "34340": {
+    "typeName": "Moros Interbus Edition Blueprint",
+    "groupId": 537,
+    "categoryId": 9
+  },
+  "34341": {
+    "typeName": "Naglfar Justice Edition",
+    "groupId": 485,
+    "categoryId": 6
+  },
+  "34342": {
+    "typeName": "Naglfar Justice Edition Blueprint",
+    "groupId": 537,
+    "categoryId": 9
+  },
+  "34343": {
+    "typeName": "Phoenix Wiyrkomi Edition",
+    "groupId": 485,
+    "categoryId": 6
+  },
+  "34344": {
+    "typeName": "Phoenix Wiyrkomi Edition Blueprint",
+    "groupId": 537,
+    "categoryId": 9
+  },
+  "34345": {
+    "typeName": "Revelation Sarum Edition",
+    "groupId": 485,
+    "categoryId": 6
+  },
+  "34346": {
+    "typeName": "Revelation Sarum Edition Blueprint",
+    "groupId": 537,
+    "categoryId": 9
+  },
+  "34347": {
+    "typeName": "Men's 'Outlaw' Jacket (Blood Raiders)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34348": {
+    "typeName": "Men's 'Outlaw' Jacket (Sansha's Nation)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34349": {
+    "typeName": "Men's 'Outlaw' Jacket (Guristas)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34350": {
+    "typeName": "Women's 'Outlaw' Coat (Sansha's Nation)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34351": {
+    "typeName": "Women's 'Outlaw' Coat (Guristas)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34353": {
+    "typeName": "Women's 'Outlaw' Coat (Blood Raiders)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34354": {
+    "typeName": "Men's 'Outlaw' Pants (Blood Raiders)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34355": {
+    "typeName": "Men's 'Outlaw' Pants (Sansha's Nation)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34356": {
+    "typeName": "Men's 'Outlaw' Pants (Guristas)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34357": {
+    "typeName": "Women's 'Outlaw' Pants (Blood Raiders)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34358": {
+    "typeName": "Women's 'Outlaw' Pants (Sansha's Nation)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34359": {
+    "typeName": "Women's 'Outlaw' Pants (Guristas)",
+    "groupId": 1090,
+    "categoryId": 30
+  },
+  "34360": {
+    "typeName": "Men's 'Outlaw' Boots (Blood Raiders)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34361": {
+    "typeName": "Men's 'Outlaw' Boots (Sansha's Nation)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34362": {
+    "typeName": "Men's 'Outlaw' Boots (Guristas)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34363": {
+    "typeName": "Women's 'Outlaw' Boots (Blood Raiders)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34364": {
+    "typeName": "Women's 'Outlaw' Boots (Sansha's Nation)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34365": {
+    "typeName": "Women's 'Outlaw' Boots (Guristas)",
+    "groupId": 1091,
+    "categoryId": 30
+  },
+  "34381": {
+    "typeName": "X-Axis Calibration Coordinate",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34382": {
+    "typeName": "Y-Axis Calibration Coordinate",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34383": {
+    "typeName": "Z-Axis Calibration Coordinate",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34390": {
+    "typeName": "Amarr Tactical Destroyer",
+    "groupId": 257,
+    "categoryId": 16
+  },
+  "34393": {
+    "typeName": "Men's 'Outlaw' Jacket (Burnt Orange)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34394": {
+    "typeName": "Women's 'Outlaw' Coat (Burnt Orange)",
+    "groupId": 1088,
+    "categoryId": 30
+  },
+  "34396": {
+    "typeName": "Self-Assembling Nanolattice",
+    "groupId": 964,
+    "categoryId": 17
+  },
+  "34397": {
+    "typeName": "Self-Assembling Nanolattice Blueprint",
+    "groupId": 965,
+    "categoryId": 9
+  },
+  "34400": {
+    "typeName": "Gamma Ray Modulate Disc",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34401": {
+    "typeName": "Infrared Ray Modulate Disc",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34402": {
+    "typeName": "Radio Ray Modulate Disc",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34412": {
+    "typeName": "Small Intact Hull Section",
+    "groupId": 997,
+    "categoryId": 34
+  },
+  "34414": {
+    "typeName": "Small Malfunctioning Hull Section",
+    "groupId": 997,
+    "categoryId": 34
+  },
+  "34416": {
+    "typeName": "Small Wrecked Hull Section",
+    "groupId": 997,
+    "categoryId": 34
+  },
+  "34417": {
+    "typeName": "Manufacturing Union�s Placard",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34418": {
+    "typeName": "The Galactic Party Planning Guide",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34419": {
+    "typeName": "Jump Fatigue Recovery Agent",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34420": {
+    "typeName": "Cooking With Veldspar",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34421": {
+    "typeName": "Chribba�s Modified Strip Miner",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34422": {
+    "typeName": "Rooks & Kings � The Clarion Call Compilation",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34423": {
+    "typeName": "Pre-Completed CSM 10 Ballot Paper",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34424": {
+    "typeName": "Titanium Plated Cranial Shielding",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34425": {
+    "typeName": "SCC Guidelines � Lotteries For Dummies",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34426": {
+    "typeName": "Sort Dragon�s Guide To Diplomacy",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34427": {
+    "typeName": "Polaris Eviction Notice",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34428": {
+    "typeName": "Jump Portal Generation Instruction Holoreel",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34429": {
+    "typeName": "Vincent Pryce�s Warp Disruption Field Generator",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34430": {
+    "typeName": "My God, It�s Full Of Holes!",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34431": {
+    "typeName": "Guillome Renard�s Sleeper Loot Stash",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34432": {
+    "typeName": "Sister�s Of EVE Charity Statue",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34433": {
+    "typeName": "The Damsel�s Drunk Bodyguard",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34434": {
+    "typeName": "Alice Saki�s Good Posting Guide",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34435": {
+    "typeName": "Soxfour�s Spaceboots",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34436": {
+    "typeName": "The Friend Ship",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34450": {
+    "typeName": "Intravenous Oscillation Fluid",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34451": {
+    "typeName": "Nanoplastic Membrane Patch",
+    "groupId": 314,
+    "categoryId": 17
+  },
+  "34452": {
+    "typeName": "Self-regulating Machine Gears",
+    "groupId": 314,
+    "categoryId": 17
   },
   "350916": {
     "typeName": "Plasma Cannon",
@@ -68624,6 +69039,11 @@
     "groupId": 350858,
     "categoryId": 350001
   },
+  "363570": {
+    "typeName": "Assault Scrambler Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
   "363578": {
     "typeName": "Ion Pistol",
     "groupId": 350858,
@@ -68636,6 +69056,11 @@
   },
   "363604": {
     "typeName": "Rail Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "363770": {
+    "typeName": "Assault Rail Rifle",
     "groupId": 350858,
     "categoryId": 350001
   },
@@ -70422,6 +70847,11 @@
   "365408": {
     "typeName": "Magsec SMG Rapid Reload",
     "groupId": 351648,
+    "categoryId": 350001
+  },
+  "365409": {
+    "typeName": "Assault Combat Rifle",
+    "groupId": 350858,
     "categoryId": 350001
   },
   "365420": {
@@ -73255,7 +73685,7 @@
     "categoryId": 350001
   },
   "367578": {
-    "typeName": "Jara Kumora",
+    "typeName": "Jara Kumora - Contract",
     "groupId": 367580,
     "categoryId": 350001
   },
@@ -73290,23 +73720,23 @@
     "categoryId": 350001
   },
   "367596": {
-    "typeName": "Instant Booster1",
+    "typeName": "Instant Booster 2X",
     "groupId": 367487,
     "categoryId": 350001
   },
   "367597": {
-    "typeName": "Instant Booster2",
+    "typeName": "Instant Booster 3X",
     "groupId": 367487,
     "categoryId": 350001
   },
   "367598": {
-    "typeName": "Instant Booster3",
+    "typeName": "Instant Booster 4X",
     "groupId": 367487,
     "categoryId": 350001
   },
   "367600": {
-    "typeName": "Amarr 'Dominus' Sentinel",
-    "groupId": 351064,
+    "typeName": "APEX 'Dominus' Sentinel",
+    "groupId": 367594,
     "categoryId": 350001
   },
   "367621": {
@@ -73420,98 +73850,388 @@
     "categoryId": 350001
   },
   "367677": {
-    "typeName": "Caldari 'Shogun' Sentinel",
+    "typeName": "APEX 'Shogun' Sentinel",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367679": {
-    "typeName": "Gallente 'Atlas' Sentinel",
+    "typeName": "APEX 'Atlas' Sentinel",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367681": {
-    "typeName": "Minmatar 'Warlord' Sentinel",
+    "typeName": "APEX 'Warlord' Sentinel",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367685": {
-    "typeName": "Caldari 'Rasetsu' Assault",
+    "typeName": "APEX 'Rasetsu' Assault",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367687": {
-    "typeName": "Gallente 'Spartan' Assault",
+    "typeName": "APEX 'Spartan' Assault",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367689": {
-    "typeName": "Minmatar 'Nomad' Assault",
+    "typeName": "APEX 'Nomad' Assault",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367691": {
-    "typeName": "Amarr 'Opus' Assault",
+    "typeName": "APEX 'Opus' Assault",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367693": {
-    "typeName": "Caldari 'Kampo' Logistics",
+    "typeName": "APEX 'Kampo' Logistics",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367695": {
-    "typeName": "Gallente 'Chiron' Logistics",
+    "typeName": "APEX 'Chiron' Logistics",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367697": {
-    "typeName": "Minmatar 'Shaman' Logistics",
+    "typeName": "APEX 'Shaman' Logistics",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367699": {
-    "typeName": "Amarr 'Seraph' Logistics",
+    "typeName": "APEX 'Seraph' Logistics",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367701": {
-    "typeName": "Caldari 'Hawk' Scout",
+    "typeName": "APEX 'Hawk' Scout",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367703": {
-    "typeName": "Gallente 'Serpent' Scout",
+    "typeName": "APEX 'Serpent' Scout",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367705": {
-    "typeName": "Minmatar 'Tiger' Scout",
+    "typeName": "APEX 'Tiger' Scout",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367707": {
-    "typeName": "Amarr 'Dragon' Scout",
+    "typeName": "APEX 'Dragon' Scout",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367709": {
-    "typeName": "Caldari 'Samurai' Commando",
+    "typeName": "APEX 'Samurai' Commando",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367711": {
-    "typeName": "Gallente 'Centurion' Commando",
+    "typeName": "APEX 'Centurion' Commando",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367713": {
-    "typeName": "Minmatar 'Renegade' Commando",
+    "typeName": "APEX 'Renegade' Commando",
     "groupId": 367594,
     "categoryId": 350001
   },
   "367715": {
-    "typeName": "Amarr 'Paladin' Commando",
+    "typeName": "APEX 'Paladin' Commando",
     "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367716": {
+    "typeName": "Archduke's Modified Sentinel mk.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367738": {
+    "typeName": "Frame's Modified Assault ck.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367742": {
+    "typeName": "Scotsman's Modified Scout gk.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367751": {
+    "typeName": "Logibro's Modified Logistics mk.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367760": {
+    "typeName": "Rattati's Modified Assault gk.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367765": {
+    "typeName": "Encrypted Strongbox",
+    "groupId": 367774,
+    "categoryId": 350001
+  },
+  "367770": {
+    "typeName": "Hacked Decryptor Key",
+    "groupId": 367776,
+    "categoryId": 350001
+  },
+  "367777": {
+    "typeName": "Basic Decryptor2",
+    "groupId": 367776,
+    "categoryId": 350001
+  },
+  "367778": {
+    "typeName": "Enhanced Decryptor1",
+    "groupId": 367776,
+    "categoryId": 350001
+  },
+  "367779": {
+    "typeName": "Complex Decryptor_test",
+    "groupId": 367776,
+    "categoryId": 350001
+  },
+  "367811": {
+    "typeName": "State 'Shogun' Sentinel",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367813": {
+    "typeName": "Republic Assault Combat Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "367843": {
+    "typeName": "mission_reroll",
+    "groupId": 367487,
+    "categoryId": 350001
+  },
+  "367845": {
+    "typeName": "instant_booster4",
+    "groupId": 367487,
+    "categoryId": 350001
+  },
+  "367848": {
+    "typeName": "Federation Burst Assault Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "367854": {
+    "typeName": "Imperial 'Opus' Assault",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367856": {
+    "typeName": "Republic 'Shaman' Logistics",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367863": {
+    "typeName": "Federation 'Serpent' Scout",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367864": {
+    "typeName": "Federation 'Centurion' Commando",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367885": {
+    "typeName": "Storm Raider's Modified Commando ak.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367895": {
+    "typeName": "Archduke's Modified Sentinel mk.0 (Master)",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367896": {
+    "typeName": "Logibro's Modified Logistics mk.0 (Master)",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367897": {
+    "typeName": "Rattati's Modified Assault gk.0 (Master)",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367898": {
+    "typeName": "Storm Raider's Modified Commando ak.0 (Master)",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367899": {
+    "typeName": "Frame's Modified Assault ck.0 (Master)",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367900": {
+    "typeName": "Scotsman's Modified Scout gk.0 (Master)",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "367948": {
+    "typeName": "Federation 'Atlas' Sentinel",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367955": {
+    "typeName": "State 'Rasetsu' Assault",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367959": {
+    "typeName": "Imperial 'Seraph' Logistics",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367960": {
+    "typeName": "Republic 'Tiger' Scout",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367963": {
+    "typeName": "Republic 'Renegade' Commando",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367987": {
+    "typeName": "APEX 'Atlas' Sentinel vX.1",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367988": {
+    "typeName": "APEX 'Nomad' Assault vX.1",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367989": {
+    "typeName": "APEX 'Dragon' Scout vX.1",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367992": {
+    "typeName": "Militia Assault Combat Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "367994": {
+    "typeName": "Militia Assault Scrambler Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "367996": {
+    "typeName": "Militia Assault Rail Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "367998": {
+    "typeName": "Republic 'Warlord' Sentinel",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "367999": {
+    "typeName": "Federation 'Spartan' Assault",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368000": {
+    "typeName": "State 'Kampo' Logistics",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368001": {
+    "typeName": "Imperial 'Dragon' Scout",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368003": {
+    "typeName": "Imperial 'Paladin' Commando",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368014": {
+    "typeName": "Imperial Assault Scrambler Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368015": {
+    "typeName": "State Assault Rail Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368016": {
+    "typeName": "Federation Breach Assault Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368022": {
+    "typeName": "Imperial 'Dominus' Sentinel",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368023": {
+    "typeName": "Republic 'Nomad' Assault",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368024": {
+    "typeName": "Federation 'Chiron' Logistics",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368025": {
+    "typeName": "State 'Hawk' Scout",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368026": {
+    "typeName": "State 'Samurai' Commando",
+    "groupId": 367594,
+    "categoryId": 350001
+  },
+  "368061": {
+    "typeName": "Amarr Combat Standard Loadout",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368062": {
+    "typeName": "Amarr Combat Advanced Loadout",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368064": {
+    "typeName": "Gallente Combat Standard Loadout",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368065": {
+    "typeName": "Gallente Combat Advanced Loadout",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368066": {
+    "typeName": "Minmatar Combat Standard Loadout",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368067": {
+    "typeName": "Minmatar Combat Advanced Loadout",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368069": {
+    "typeName": "Caldari Combat Standard Loadout",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368071": {
+    "typeName": "Caldari Combat Advanced Loadout",
+    "groupId": 351064,
     "categoryId": 350001
   }
 }

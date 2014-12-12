@@ -4,7 +4,7 @@ path = require 'path'
 fs = Promise.promisifyAll require 'fs'
 sqlite = require 'sqlite3'
 
-database = "#{process.cwd()}/data/phoebe/eve.db"
+database = "#{process.cwd()}/data/rhea/eve.db"
 
 gulp.task 'types2json', ->
   db = new sqlite.Database database, sqlite.OPEN_READONLY

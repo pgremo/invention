@@ -1,5 +1,8 @@
 Promise = require 'bluebird'
 fs = require 'fs'
+neow = require 'neow'
+
+client = new neow.EveClient()
 
 Promise.promisifyAll fs
 
