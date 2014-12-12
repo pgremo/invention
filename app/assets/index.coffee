@@ -7,7 +7,7 @@ data = require '../data'
 client = new neow.EveClient()
 
 exports.get = (props) ->
-  raw = client.fetch 'corp:AssetList', props
+  raw = client.fetch 'char:AssetList', props
   .then (result) -> result.assets
   assets = Promise.join data.types, raw,  (types, raw) ->
     walk = (items, func) ->
@@ -27,7 +27,7 @@ exports.get = (props) ->
         named.push value
 
     chunks = for x in chunk named, 250
-      client.fetch 'corp:Locations', _.assign {IDs: x.map((x) -> x.itemID).join(',')}, props
+      client.fetch 'char:Locations', _.assign {IDs: x.map((x) -> x.itemID).join(',')}, props
     Promise.reduce chunks, (seed, x) ->
       _.assign seed, x.locations
     , {}
@@ -36,9 +36,7 @@ exports.get = (props) ->
         item.itemName = locations[item.itemID].itemName
     .return items
 
-  conquerables = client.fetch 'eve:ConquerableStationList'
-  .then (result) -> result.outposts
-  Promise.join conquerables, data.stations, data.locations, assets,  (conquerables, stations, locations, assets) ->
+  Promise.join data.conquerableStations, data.stations, data.locations, assets,  (conquerables, stations, locations, assets) ->
     for item in assets
       locationID = parseInt item.locationID
       item.locationName = switch

@@ -14,3 +14,5 @@ exports.blueprints = loadFile './app/data/blueprints.json'
 exports.reactions = loadFile './app/data/reactions.json'
 exports.schematics = loadFile './app/data/schematics.json'
 exports.types = loadFile './app/data/types.json'
+exports.conquerableStations = client.fetch 'eve:ConquerableStationList'
+  .then (result) -> result.outposts

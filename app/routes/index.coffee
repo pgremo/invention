@@ -11,7 +11,7 @@ router.get '/api/typeLookup', (req, res) ->
 router.get '/api/bom/:id', (req, res, next) ->
   blueprints.bom req.params.id
     .then (x) ->
-      if !x?
+      if not x?
         err = new Error 'Not Found'
         err.status = 404
         throw err
