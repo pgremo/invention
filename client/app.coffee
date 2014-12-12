@@ -168,8 +168,15 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
           BoM.get id: $scope.type.selected.id, ml: $scope.ml, quantity: newValue, (result) ->
             $scope.bom = result
 
+      unless Array::find
+        Array::find = (predicate) ->
+          for x in this
+            if predicate x
+              return x
+          return undefined;
+
       flatten = (x, visited) ->
-        if visited.indexOf(x) is -1
+        if not visited.find((i) -> i.id is x.id)?
           visited.push x
           if x.nodes?
             for y in x.nodes
@@ -177,8 +184,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         visited
 
       $scope.$watch 'bom', (data) ->
-        if not data? then return
-        $scope.items = flatten data, []
+        $scope.items = flatten data, [] if data?
 
       $scope.$watch 'items', (items) ->
         if not items? then return
