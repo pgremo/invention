@@ -7,9 +7,8 @@ script:
 - gulp build --require coffee-script/register
 deploy:
   provider: heroku
-  strategy: api
   api_key:
-    secure: YXT1c/60L1tMxuxwtFRoQVGHHevxb+lemo/wxODhNhzn6jfDBukQ+Cj3Uhf8LvCmtmjPt5Il9nuVnvY70b5seiJEEcgLk60mB70y+mAHahHP2Lva0zj7TXIAbaVdwNG1915MbhtGyKFSBItut+G49KomO9pjKR2j9wCrLhXp9fQ=
+    secure: iIE6yXVeBgIDiHJ+vmdjHQ7I2ZUOCmHpA+MSOgAfPHdYYsaO6TQts6SGZ5K7JLoJZjLzADcdypQDYXqhYYUEevCOGlYb4lIwQgqa9viboTMOaaY9uU+kIBpk2irvHqqMp6mRzwXVCyXDCMtW7IEhqdG0ytBHctSItcFReJqyC6M=
   app: blooming-cliffs-4490
   on:
     repo: pgremo/invention
