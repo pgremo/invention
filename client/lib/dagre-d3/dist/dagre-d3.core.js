@@ -36,7 +36,8 @@ var util = require("./util");
 module.exports = {
   "default": normal,
   "normal": normal,
-  "vee": vee
+  "vee": vee,
+  "undirected": undirected
 };
 
 function normal(parent, id, edge, type) {
@@ -70,6 +71,24 @@ function vee(parent, id, edge, type) {
 
   var path = marker.append("path")
     .attr("d", "M 0 0 L 10 5 L 0 10 L 4 5 z")
+    .style("stroke-width", 1)
+    .style("stroke-dasharray", "1,0");
+  util.applyStyle(path, edge[type + "Style"]);
+}
+
+function undirected(parent, id, edge, type) {
+  var marker = parent.append("marker")
+    .attr("id", id)
+    .attr("viewBox", "0 0 10 10")
+    .attr("refX", 9)
+    .attr("refY", 5)
+    .attr("markerUnits", "strokeWidth")
+    .attr("markerWidth", 8)
+    .attr("markerHeight", 6)
+    .attr("orient", "auto");
+
+  var path = marker.append("path")
+    .attr("d", "M 0 5 L 10 5")
     .style("stroke-width", 1)
     .style("stroke-dasharray", "1,0");
   util.applyStyle(path, edge[type + "Style"]);
@@ -168,6 +187,15 @@ function createEdgePaths(selection, g, arrows) {
   util.applyTransition(svgPaths, g)
     .style("opacity", 1);
 
+  // Save DOM element in the path group, and set ID
+  svgPaths.each(function(e) {
+    var edge = g.edge(e);
+    edge.elem = this;
+    if (edge.id) {
+      d3.select(this).attr("id", edge.id);
+    }
+  });
+
   svgPaths.selectAll("path.path")
     .each(function(e) {
       var edge = g.edge(e);
@@ -182,7 +210,6 @@ function createEdgePaths(selection, g, arrows) {
       util.applyTransition(domEdge, g)
         .attr("d", function(e) { return calcPoints(g, e); });
 
-      if (edge.id) { domEdge.attr("id", edge.id); }
       util.applyStyle(domEdge, edge.style);
     });
 
@@ -299,7 +326,8 @@ function createNodes(selection, g, shapes) {
 
     if (node.id) { thisGroup.attr("id", node.id); }
     if (node.labelId) { labelGroup.attr("id", node.labelId); }
-    util.applyClass(thisGroup, node.class, (thisGroup.classed("update") ? "update " : "") + "node");
+    util.applyClass(thisGroup, node["class"],
+      (thisGroup.classed("update") ? "update " : "") + "node");
 
     if (_.has(node, "width")) { bbox.width = node.width; }
     if (_.has(node, "height")) { bbox.height = node.height; }
@@ -930,12 +958,14 @@ function createOrSelectGroup(root, name) {
 
 var intersectRect = require("./intersect/intersect-rect"),
     intersectEllipse = require("./intersect/intersect-ellipse"),
-    intersectCircle = require("./intersect/intersect-circle");
+    intersectCircle = require("./intersect/intersect-circle"),
+    intersectPolygon = require("./intersect/intersect-polygon");
 
 module.exports = {
   rect: rect,
   ellipse: ellipse,
-  circle: circle
+  circle: circle,
+  diamond: diamond
 };
 
 function rect(parent, bbox, node) {
@@ -984,7 +1014,29 @@ function circle(parent, bbox, node) {
   return shapeSvg;
 }
 
-},{"./intersect/intersect-circle":11,"./intersect/intersect-ellipse":12,"./intersect/intersect-rect":16}],25:[function(require,module,exports){
+// Circumscribe an ellipse for the bounding box with a diamond shape. I derived
+// the function to calculate the diamond shape from:
+// http://mathforum.org/kb/message.jspa?messageID=3750236
+function diamond(parent, bbox, node) {
+  var w = (bbox.width * Math.SQRT2) / 2,
+      h = (bbox.height * Math.SQRT2) / 2,
+      points = [
+        { x:  0, y: -h },
+        { x: -w, y:  0 },
+        { x:  0, y:  h },
+        { x:  w, y:  0 }
+      ],
+      shapeSvg = parent.insert("polygon", ":first-child")
+        .attr("points", points.map(function(p) { return p.x + "," + p.y; }).join(" "));
+
+  node.intersect = function(p) {
+    return intersectPolygon(node, points, p);
+  };
+
+  return shapeSvg;
+}
+
+},{"./intersect/intersect-circle":11,"./intersect/intersect-ellipse":12,"./intersect/intersect-polygon":15,"./intersect/intersect-rect":16}],25:[function(require,module,exports){
 var _ = require("./lodash");
 
 // Public utility functions
@@ -1041,7 +1093,7 @@ function applyTransition(selection, g) {
 }
 
 },{"./lodash":20}],26:[function(require,module,exports){
-module.exports = "0.3.3";
+module.exports = "0.4.2";
 
 },{}]},{},[1])(1)
 });
