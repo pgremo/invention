@@ -580,7 +580,7 @@
     "categoryId": 7
   },
   "421": {
-    "typeName": "Basic Capacitor Recharger",
+    "typeName": "'Basic' Capacitor Recharger",
     "groupId": 43,
     "categoryId": 7
   },
@@ -805,7 +805,7 @@
     "categoryId": 7
   },
   "506": {
-    "typeName": "Basic Capacitor Power Relay",
+    "typeName": "'Basic' Capacitor Power Relay",
     "groupId": 767,
     "categoryId": 7
   },
@@ -2415,7 +2415,7 @@
     "categoryId": 9
   },
   "1192": {
-    "typeName": "Basic Overdrive Injector System",
+    "typeName": "'Basic' Overdrive Injector System",
     "groupId": 764,
     "categoryId": 7
   },
@@ -2570,12 +2570,12 @@
     "categoryId": 9
   },
   "1240": {
-    "typeName": "Basic Reinforced Bulkheads",
+    "typeName": "'Basic' Reinforced Bulkheads",
     "groupId": 78,
     "categoryId": 7
   },
   "1242": {
-    "typeName": "Basic Nanofiber Internal Structure",
+    "typeName": "'Basic' Nanofiber Internal Structure",
     "groupId": 763,
     "categoryId": 7
   },
@@ -2755,7 +2755,7 @@
     "categoryId": 9
   },
   "1315": {
-    "typeName": "Basic Expanded Cargohold",
+    "typeName": "'Basic' Expanded Cargohold",
     "groupId": 765,
     "categoryId": 7
   },
@@ -2825,27 +2825,27 @@
     "categoryId": 9
   },
   "1401": {
-    "typeName": "Basic Inertia Stabilizers",
+    "typeName": "'Basic' Inertial Stabilizers",
     "groupId": 762,
     "categoryId": 7
   },
   "1403": {
-    "typeName": "Inertia Stabilizers I",
+    "typeName": "Inertial Stabilizers I",
     "groupId": 762,
     "categoryId": 7
   },
   "1404": {
-    "typeName": "Inertia Stabilizers I Blueprint",
+    "typeName": "Inertial Stabilizers I Blueprint",
     "groupId": 158,
     "categoryId": 9
   },
   "1405": {
-    "typeName": "Inertia Stabilizers II",
+    "typeName": "Inertial Stabilizers II",
     "groupId": 762,
     "categoryId": 7
   },
   "1406": {
-    "typeName": "Inertia Stabilizers II Blueprint",
+    "typeName": "Inertial Stabilizers II Blueprint",
     "groupId": 158,
     "categoryId": 9
   },
@@ -2895,7 +2895,7 @@
     "categoryId": 9
   },
   "1537": {
-    "typeName": "Basic Power Diagnostic System",
+    "typeName": "'Basic' Power Diagnostic System",
     "groupId": 766,
     "categoryId": 7
   },
@@ -11669,43 +11669,8 @@
     "groupId": 272,
     "categoryId": 16
   },
-  "4421": {
-    "typeName": "F-a10 Buffer Capacitor Regenerator",
-    "groupId": 43,
-    "categoryId": 7
-  },
-  "4423": {
-    "typeName": "Industrial Capacitor Recharger",
-    "groupId": 43,
-    "categoryId": 7
-  },
-  "4425": {
-    "typeName": "AGM Capacitor Charge Array",
-    "groupId": 43,
-    "categoryId": 7
-  },
-  "4427": {
-    "typeName": "Secondary Parallel Link-Capacitor",
-    "groupId": 43,
-    "categoryId": 7
-  },
-  "4431": {
-    "typeName": "F-b10 Nominal Capacitor Regenerator",
-    "groupId": 43,
-    "categoryId": 7
-  },
-  "4433": {
-    "typeName": "Barton Reactor Capacitor Recharger I",
-    "groupId": 43,
-    "categoryId": 7
-  },
   "4435": {
-    "typeName": "Eutectic Capacitor Charge Array",
-    "groupId": 43,
-    "categoryId": 7
-  },
-  "4437": {
-    "typeName": "Fixed Parallel Link-Capacitor I",
+    "typeName": "Eutectic Compact Cap Recharger",
     "groupId": 43,
     "categoryId": 7
   },
@@ -12019,43 +11984,18 @@
     "groupId": 53,
     "categoryId": 7
   },
-  "5231": {
-    "typeName": "EP-R Argon Ion Basic Excavation Pulse",
-    "groupId": 54,
-    "categoryId": 7
-  },
   "5233": {
     "typeName": "Single Diode Basic Mining Laser",
     "groupId": 54,
     "categoryId": 7
   },
-  "5235": {
-    "typeName": "Xenon Basic Drilling Beam",
-    "groupId": 54,
-    "categoryId": 7
-  },
-  "5237": {
-    "typeName": "Rubin Basic Particle Bore Stream",
-    "groupId": 54,
-    "categoryId": 7
-  },
   "5239": {
-    "typeName": "EP-S Gaussian Excavation Pulse",
-    "groupId": 54,
-    "categoryId": 7
-  },
-  "5241": {
-    "typeName": "Dual Diode Mining Laser I",
-    "groupId": 54,
-    "categoryId": 7
-  },
-  "5243": {
-    "typeName": "XeCl Drilling Beam I",
+    "typeName": "EP-S Gaussian Scoped Mining Laser",
     "groupId": 54,
     "categoryId": 7
   },
   "5245": {
-    "typeName": "Cu Vapor Particle Bore Stream I",
+    "typeName": "Particle Bore Compact Mining Laser",
     "groupId": 54,
     "categoryId": 7
   },
@@ -12199,203 +12139,33 @@
     "groupId": 52,
     "categoryId": 7
   },
-  "5479": {
-    "typeName": "Marked Modified SS Expanded Cargo",
-    "groupId": 765,
-    "categoryId": 7
-  },
-  "5481": {
-    "typeName": "Partial Hull Conversion Expanded Cargo",
-    "groupId": 765,
-    "categoryId": 7
-  },
-  "5483": {
-    "typeName": "Alpha Hull Mod Expanded Cargo",
-    "groupId": 765,
-    "categoryId": 7
-  },
-  "5485": {
-    "typeName": "Type-E Altered SS Expanded Cargo",
-    "groupId": 765,
-    "categoryId": 7
-  },
-  "5487": {
-    "typeName": "Mark I Modified SS Expanded Cargo",
-    "groupId": 765,
-    "categoryId": 7
-  },
-  "5489": {
-    "typeName": "Local Hull Conversion Expanded Cargo I",
-    "groupId": 765,
-    "categoryId": 7
-  },
-  "5491": {
-    "typeName": "Beta Hull Mod Expanded Cargo",
-    "groupId": 765,
-    "categoryId": 7
-  },
   "5493": {
-    "typeName": "Type-D Altered SS Expanded Cargo",
+    "typeName": "Type-D Restrained Expanded Cargo",
     "groupId": 765,
-    "categoryId": 7
-  },
-  "5519": {
-    "typeName": "Marked Modified SS Inertial Stabilizers",
-    "groupId": 762,
-    "categoryId": 7
-  },
-  "5521": {
-    "typeName": "Partial Hull Conversion Inertial Stabilizers",
-    "groupId": 762,
-    "categoryId": 7
-  },
-  "5523": {
-    "typeName": "Alpha Hull Mod Inertial Stabilizers",
-    "groupId": 762,
-    "categoryId": 7
-  },
-  "5525": {
-    "typeName": "Type-E Altered SS Inertial Stabilizers",
-    "groupId": 762,
-    "categoryId": 7
-  },
-  "5527": {
-    "typeName": "Mark I Modified SS Inertial Stabilizers",
-    "groupId": 762,
-    "categoryId": 7
-  },
-  "5529": {
-    "typeName": "Local Hull Conversion Inertial Stabilizers I",
-    "groupId": 762,
-    "categoryId": 7
-  },
-  "5531": {
-    "typeName": "Beta Hull Mod Inertial Stabilizers",
-    "groupId": 762,
     "categoryId": 7
   },
   "5533": {
-    "typeName": "Type-D Altered SS Inertial Stabilizers",
+    "typeName": "Type-D Restrained Inertial Stabilizers",
     "groupId": 762,
     "categoryId": 7
   },
-  "5559": {
-    "typeName": "Partial Hull Conversion Nanofiber Structure",
-    "groupId": 763,
-    "categoryId": 7
-  },
-  "5561": {
-    "typeName": "Local Hull Conversion Nanofiber Structure I",
-    "groupId": 763,
-    "categoryId": 7
-  },
-  "5591": {
-    "typeName": "Alpha Hull Mod Nanofiber Structure",
-    "groupId": 763,
-    "categoryId": 7
-  },
-  "5593": {
-    "typeName": "Type-E Altered SS Nanofiber Structure",
-    "groupId": 763,
-    "categoryId": 7
-  },
-  "5595": {
-    "typeName": "Marked Modified SS Nanofiber Structure",
-    "groupId": 763,
-    "categoryId": 7
-  },
-  "5597": {
-    "typeName": "Beta Hull Mod Nanofiber Structure",
-    "groupId": 763,
-    "categoryId": 7
-  },
   "5599": {
-    "typeName": "Type-D Altered SS Nanofiber Structure",
+    "typeName": "Type-D Restrained Nanofiber Structure",
     "groupId": 763,
-    "categoryId": 7
-  },
-  "5601": {
-    "typeName": "Mark I Modified SS Nanofiber Structure",
-    "groupId": 763,
-    "categoryId": 7
-  },
-  "5611": {
-    "typeName": "Partial Hull Conversion Overdrive Injector",
-    "groupId": 764,
-    "categoryId": 7
-  },
-  "5613": {
-    "typeName": "Alpha Hull Mod Overdrive Injector",
-    "groupId": 764,
-    "categoryId": 7
-  },
-  "5615": {
-    "typeName": "Type-E Altered SS Overdrive Injector",
-    "groupId": 764,
-    "categoryId": 7
-  },
-  "5617": {
-    "typeName": "Marked Modified SS Overdrive Injector",
-    "groupId": 764,
-    "categoryId": 7
-  },
-  "5627": {
-    "typeName": "Local Hull Conversion Overdrive Injector I",
-    "groupId": 764,
-    "categoryId": 7
-  },
-  "5629": {
-    "typeName": "Beta Hull Mod Overdrive Injector",
-    "groupId": 764,
     "categoryId": 7
   },
   "5631": {
-    "typeName": "Type-D Altered SS Overdrive Injector",
+    "typeName": "Type-D Restrained Overdrive Injector",
     "groupId": 764,
-    "categoryId": 7
-  },
-  "5633": {
-    "typeName": "Mark I Modified SS Overdrive Injector",
-    "groupId": 764,
-    "categoryId": 7
-  },
-  "5643": {
-    "typeName": "Local Hull Conversion Reinforced Bulkheads I",
-    "groupId": 78,
-    "categoryId": 7
-  },
-  "5645": {
-    "typeName": "Beta Hull Mod Reinforced Bulkheads",
-    "groupId": 78,
     "categoryId": 7
   },
   "5647": {
-    "typeName": "Type-D Altered SS Reinforced Bulkheads",
+    "typeName": "Type-D Restrained Reinforced Bulkheads",
     "groupId": 78,
     "categoryId": 7
   },
   "5649": {
-    "typeName": "Mark I Modified SS Reinforced Bulkheads",
-    "groupId": 78,
-    "categoryId": 7
-  },
-  "5675": {
-    "typeName": "Partial Hull Conversion Reinforced Bulkheads",
-    "groupId": 78,
-    "categoryId": 7
-  },
-  "5677": {
-    "typeName": "Alpha Hull Mod Reinforced Bulkheads",
-    "groupId": 78,
-    "categoryId": 7
-  },
-  "5679": {
-    "typeName": "Type-E Altered SS Reinforced Bulkheads",
-    "groupId": 78,
-    "categoryId": 7
-  },
-  "5681": {
-    "typeName": "Marked Modified SS Reinforced Bulkheads",
+    "typeName": "Mark I Compact Reinforced Bulkheads",
     "groupId": 78,
     "categoryId": 7
   },
@@ -13819,88 +13589,18 @@
     "groupId": 768,
     "categoryId": 7
   },
-  "8171": {
-    "typeName": "Local Power Plant Manager: Capacity Power Relay I",
-    "groupId": 767,
-    "categoryId": 7
-  },
-  "8173": {
-    "typeName": "Beta Reactor Control: Capacitor Power Relay I",
-    "groupId": 767,
-    "categoryId": 7
-  },
   "8175": {
-    "typeName": "Type-D Power Core Modification: Capacitor Power Relay",
+    "typeName": "Type-D Restrained Capacitor Power Relay",
     "groupId": 767,
     "categoryId": 7
   },
   "8177": {
-    "typeName": "Mark I Generator Refitting: Capacitor Power Relay",
+    "typeName": "Mark I Compact Capacitor Power Relay",
     "groupId": 767,
-    "categoryId": 7
-  },
-  "8203": {
-    "typeName": "Partial Power Plant Manager: Capacity Power Relay",
-    "groupId": 767,
-    "categoryId": 7
-  },
-  "8205": {
-    "typeName": "Alpha Reactor Control: Capacitor Power Relay",
-    "groupId": 767,
-    "categoryId": 7
-  },
-  "8207": {
-    "typeName": "Type-E Power Core Modification: Capacitor Power Relay",
-    "groupId": 767,
-    "categoryId": 7
-  },
-  "8209": {
-    "typeName": "Marked Generator Refitting: Capacitor Power Relay",
-    "groupId": 767,
-    "categoryId": 7
-  },
-  "8211": {
-    "typeName": "Partial Power Plant Manager: Diagnostic System",
-    "groupId": 766,
-    "categoryId": 7
-  },
-  "8213": {
-    "typeName": "Alpha Reactor Control: Diagnostic System",
-    "groupId": 766,
-    "categoryId": 7
-  },
-  "8215": {
-    "typeName": "Type-E Power Core Modification: Diagnostic System",
-    "groupId": 766,
-    "categoryId": 7
-  },
-  "8217": {
-    "typeName": "Marked Generator Refitting: Diagnostic System",
-    "groupId": 766,
-    "categoryId": 7
-  },
-  "8219": {
-    "typeName": "Local Power Plant Manager: Diagnostic System I",
-    "groupId": 766,
-    "categoryId": 7
-  },
-  "8221": {
-    "typeName": "Beta Reactor Control: Diagnostic System I",
-    "groupId": 766,
-    "categoryId": 7
-  },
-  "8223": {
-    "typeName": "Type-D Power Core Modification: Diagnostic System",
-    "groupId": 766,
     "categoryId": 7
   },
   "8225": {
-    "typeName": "Mark I Generator Refitting: Diagnostic System",
-    "groupId": 766,
-    "categoryId": 7
-  },
-  "8255": {
-    "typeName": "Type-E Power Core Modification: Reaction Control",
+    "typeName": "Mark I Compact Power Diagnostic System",
     "groupId": 766,
     "categoryId": 7
   },
@@ -35150,52 +34850,52 @@
     "categoryId": 9
   },
   "21491": {
-    "typeName": "Synthetic Hull Conversion Overdrive Injector I",
+    "typeName": "Synthetic Hull Conversion Overdrive Injector",
     "groupId": 764,
     "categoryId": 7
   },
   "21492": {
-    "typeName": "Synthetic Hull Conversion Overdrive Injector I Blueprint",
+    "typeName": "Synthetic Hull Conversion Overdrive Injector Blueprint",
     "groupId": 158,
     "categoryId": 9
   },
   "21493": {
-    "typeName": "Limited Expanded 'Archiver' Cargo I",
+    "typeName": "Limited Expanded 'Archiver' Cargo",
     "groupId": 765,
     "categoryId": 7
   },
   "21494": {
-    "typeName": "Limited Expanded 'Archiver' Cargo I Blueprint",
+    "typeName": "Limited Expanded 'Archiver' Cargo Blueprint",
     "groupId": 158,
     "categoryId": 9
   },
   "21496": {
-    "typeName": "Synthetic Hull Conversion Reinforced Bulkheads I",
+    "typeName": "Synthetic Hull Conversion Reinforced Bulkheads",
     "groupId": 78,
     "categoryId": 7
   },
   "21497": {
-    "typeName": "Synthetic Hull Conversion Reinforced Bulkheads I Blueprint",
+    "typeName": "Synthetic Hull Conversion Reinforced Bulkheads Blueprint",
     "groupId": 158,
     "categoryId": 9
   },
   "21498": {
-    "typeName": "Synthetic Hull Conversion Inertia Stabilizers I",
+    "typeName": "Synthetic Hull Conversion Inertia Stabilizers",
     "groupId": 762,
     "categoryId": 7
   },
   "21499": {
-    "typeName": "Synthetic Hull Conversion Inertia Stabilizers I Blueprint",
+    "typeName": "Synthetic Hull Conversion Inertia Stabilizers Blueprint",
     "groupId": 158,
     "categoryId": 9
   },
   "21500": {
-    "typeName": "Synthetic Hull Conversion Nanofiber Structure I",
+    "typeName": "Synthetic Hull Conversion Nanofiber Structure",
     "groupId": 763,
     "categoryId": 7
   },
   "21501": {
-    "typeName": "Synthetic Hull Conversion Nanofiber Structure I Blueprint",
+    "typeName": "Synthetic Hull Conversion Nanofiber Structure Blueprint",
     "groupId": 158,
     "categoryId": 9
   },
@@ -37519,43 +37219,33 @@
     "groupId": 1218,
     "categoryId": 16
   },
-  "22609": {
-    "typeName": "Erin Mining Laser Upgrade",
-    "groupId": 546,
-    "categoryId": 7
-  },
   "22611": {
-    "typeName": "Elara Mining Laser Upgrade",
+    "typeName": "Elara Restrained Mining Laser Upgrade",
     "groupId": 546,
     "categoryId": 7
   },
   "22613": {
-    "typeName": "Carpo Mining Laser Upgrade",
+    "typeName": "'Carpo' Mining Laser Upgrade",
     "groupId": 546,
     "categoryId": 7
   },
   "22615": {
-    "typeName": "Aoede Mining Laser Upgrade",
-    "groupId": 546,
-    "categoryId": 7
-  },
-  "22617": {
-    "typeName": "Crisium Ice Harvester Upgrade",
+    "typeName": "'Aoede' Mining Laser Upgrade",
     "groupId": 546,
     "categoryId": 7
   },
   "22619": {
-    "typeName": "Frigoris Ice Harvester Upgrade",
+    "typeName": "Frigoris Restrained Ice Harvester Upgrade",
     "groupId": 546,
     "categoryId": 7
   },
   "22621": {
-    "typeName": "Anguis Ice Harvester Upgrade",
+    "typeName": "'Anguis' Ice Harvester Upgrade",
     "groupId": 546,
     "categoryId": 7
   },
   "22623": {
-    "typeName": "Ingenii Ice Harvester Upgrade",
+    "typeName": "'Ingenii' Ice Harvester Upgrade",
     "groupId": 546,
     "categoryId": 7
   },
@@ -60790,12 +60480,12 @@
     "categoryId": 9
   },
   "33637": {
-    "typeName": "Hyperion Innerzone Shipping Edition",
+    "typeName": "Hyperion Inner Zone Shipping Edition",
     "groupId": 27,
     "categoryId": 6
   },
   "33638": {
-    "typeName": "Hyperion Innerzone Shipping Edition Blueprint",
+    "typeName": "Hyperion Inner Zone Shipping Edition Blueprint",
     "groupId": 107,
     "categoryId": 9
   },
@@ -60870,12 +60560,12 @@
     "categoryId": 9
   },
   "33653": {
-    "typeName": "Thorax Innerzone Shipping Edition",
+    "typeName": "Thorax Inner Zone Shipping Edition",
     "groupId": 26,
     "categoryId": 6
   },
   "33654": {
-    "typeName": "Thorax Innerzone Shipping Edition Blueprint",
+    "typeName": "Thorax Inner Zone Shipping Edition Blueprint",
     "groupId": 106,
     "categoryId": 9
   },
@@ -60950,12 +60640,12 @@
     "categoryId": 9
   },
   "33669": {
-    "typeName": "Incursus Innerzone Shipping Edition",
+    "typeName": "Incursus Inner Zone Shipping Edition",
     "groupId": 25,
     "categoryId": 6
   },
   "33670": {
-    "typeName": "Incursus Innerzone Shipping Edition Blueprint",
+    "typeName": "Incursus Inner Zone Shipping Edition Blueprint",
     "groupId": 105,
     "categoryId": 9
   },
@@ -63015,12 +62705,12 @@
     "categoryId": 9
   },
   "34239": {
-    "typeName": "Megathron Innerzone Shipping Edition",
+    "typeName": "Megathron Inner Zone Shipping Edition",
     "groupId": 27,
     "categoryId": 6
   },
   "34240": {
-    "typeName": "Megathron Innerzone Shipping Edition Blueprint",
+    "typeName": "Megathron Inner Zone Shipping Edition Blueprint",
     "groupId": 107,
     "categoryId": 9
   },
@@ -63045,12 +62735,12 @@
     "categoryId": 9
   },
   "34245": {
-    "typeName": "Kronos Innerzone Shipping Edition",
+    "typeName": "Kronos Inner Zone Shipping Edition",
     "groupId": 900,
     "categoryId": 6
   },
   "34246": {
-    "typeName": "Kronos Innerzone Shipping Edition Blueprint",
+    "typeName": "Kronos Inner Zone Shipping Edition Blueprint",
     "groupId": 107,
     "categoryId": 9
   },
@@ -63546,103 +63236,133 @@
   },
   "34417": {
     "typeName": "Manufacturing Union�s Placard",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34418": {
     "typeName": "The Galactic Party Planning Guide",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34419": {
     "typeName": "Jump Fatigue Recovery Agent",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34420": {
     "typeName": "Cooking With Veldspar",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34421": {
     "typeName": "Chribba�s Modified Strip Miner",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34422": {
     "typeName": "Rooks & Kings � The Clarion Call Compilation",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34423": {
     "typeName": "Pre-Completed CSM 10 Ballot Paper",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34424": {
     "typeName": "Titanium Plated Cranial Shielding",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34425": {
     "typeName": "SCC Guidelines � Lotteries For Dummies",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34426": {
     "typeName": "Sort Dragon�s Guide To Diplomacy",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34427": {
     "typeName": "Polaris Eviction Notice",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34428": {
     "typeName": "Jump Portal Generation Instruction Holoreel",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34429": {
     "typeName": "Vincent Pryce�s Warp Disruption Field Generator",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34430": {
     "typeName": "My God, It�s Full Of Holes!",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34431": {
     "typeName": "Guillome Renard�s Sleeper Loot Stash",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34432": {
-    "typeName": "Sister�s Of EVE Charity Statue",
-    "groupId": 314,
-    "categoryId": 17
+    "typeName": "Sisters Of EVE Charity Statue",
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34433": {
     "typeName": "The Damsel�s Drunk Bodyguard",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34434": {
     "typeName": "Alice Saki�s Good Posting Guide",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34435": {
     "typeName": "Soxfour�s Spaceboots",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
   },
   "34436": {
     "typeName": "The Friend Ship",
-    "groupId": 314,
-    "categoryId": 17
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34441": {
+    "typeName": "Dominix Quafe Edition",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34442": {
+    "typeName": "Dominix Quafe Edition Blueprint",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34443": {
+    "typeName": "Tristan Quafe Edition",
+    "groupId": 25,
+    "categoryId": 6
+  },
+  "34444": {
+    "typeName": "Tristan Quafe Edition Blueprint",
+    "groupId": 105,
+    "categoryId": 9
+  },
+  "34445": {
+    "typeName": "Vexor Quafe Edition",
+    "groupId": 26,
+    "categoryId": 6
+  },
+  "34446": {
+    "typeName": "Vexor Quafe Edition Blueprint",
+    "groupId": 106,
+    "categoryId": 9
   },
   "34450": {
     "typeName": "Intravenous Oscillation Fluid",
@@ -63658,6 +63378,151 @@
     "typeName": "Self-regulating Machine Gears",
     "groupId": 314,
     "categoryId": 17
+  },
+  "34457": {
+    "typeName": "?????YC117????",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34458": {
+    "typeName": "?????YC117??????",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34459": {
+    "typeName": "?????YC117????",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34460": {
+    "typeName": "?????YC117??????",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34461": {
+    "typeName": "????YC117????",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34462": {
+    "typeName": "????YC117??????",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34463": {
+    "typeName": "????YC117????",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34464": {
+    "typeName": "????YC117??????",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34465": {
+    "typeName": "??????YC117????",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34466": {
+    "typeName": "??????YC117??????",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34467": {
+    "typeName": "?????YC117????",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34468": {
+    "typeName": "?????YC117??????",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34469": {
+    "typeName": "???YC117????",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34470": {
+    "typeName": "???YC117??????",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34471": {
+    "typeName": "???YC117????",
+    "groupId": 27,
+    "categoryId": 6
+  },
+  "34472": {
+    "typeName": "???YC117??????",
+    "groupId": 107,
+    "categoryId": 9
+  },
+  "34473": {
+    "typeName": "???YC117????",
+    "groupId": 419,
+    "categoryId": 6
+  },
+  "34474": {
+    "typeName": "???YC117??????",
+    "groupId": 489,
+    "categoryId": 9
+  },
+  "34475": {
+    "typeName": "???YC117????",
+    "groupId": 26,
+    "categoryId": 6
+  },
+  "34476": {
+    "typeName": "???YC117??????",
+    "groupId": 106,
+    "categoryId": 9
+  },
+  "34477": {
+    "typeName": "???YC117????",
+    "groupId": 358,
+    "categoryId": 6
+  },
+  "34478": {
+    "typeName": "???YC117??????",
+    "groupId": 106,
+    "categoryId": 9
+  },
+  "34479": {
+    "typeName": "????YC117????",
+    "groupId": 358,
+    "categoryId": 6
+  },
+  "34480": {
+    "typeName": "????YC117??????",
+    "groupId": 106,
+    "categoryId": 9
+  },
+  "34481": {
+    "typeName": "Domination Inertial Stabilizers",
+    "groupId": 762,
+    "categoryId": 7
+  },
+  "34483": {
+    "typeName": "Shadow Serpentis Inertial Stabilizers",
+    "groupId": 762,
+    "categoryId": 7
+  },
+  "34485": {
+    "typeName": "ORE Reinforced Bulkheads",
+    "groupId": 78,
+    "categoryId": 7
+  },
+  "34487": {
+    "typeName": "Syndicate Reinforced Bulkheads",
+    "groupId": 78,
+    "categoryId": 7
+  },
+  "34489": {
+    "typeName": "ORE Expanded Cargohold",
+    "groupId": 765,
+    "categoryId": 7
   },
   "350916": {
     "typeName": "Plasma Cannon",
@@ -64235,7 +64100,7 @@
     "categoryId": 350001
   },
   "352591": {
-    "typeName": "Frontline",
+    "typeName": "Frontline - CA",
     "groupId": 351064,
     "categoryId": 350001
   },
@@ -66335,12 +66200,12 @@
     "categoryId": 350001
   },
   "354934": {
-    "typeName": "Sniper",
+    "typeName": "Sniper - CA",
     "groupId": 351064,
     "categoryId": 350001
   },
   "354935": {
-    "typeName": "Anti-Armor",
+    "typeName": "Anti-Armor - CA",
     "groupId": 351064,
     "categoryId": 350001
   },
@@ -68270,7 +68135,7 @@
     "categoryId": 350001
   },
   "356559": {
-    "typeName": "Medic",
+    "typeName": "Medic - CA",
     "groupId": 351064,
     "categoryId": 350001
   },
@@ -70115,62 +69980,62 @@
     "categoryId": 350001
   },
   "364726": {
-    "typeName": "Anti-Armor",
+    "typeName": "Anti-Armor - AM",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364732": {
-    "typeName": "Anti-Armor",
+    "typeName": "Anti-Armor - GA",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364736": {
-    "typeName": "Anti-Armor",
+    "typeName": "Anti-Armor - MN",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364738": {
-    "typeName": "Medic",
+    "typeName": "Medic - AM",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364739": {
-    "typeName": "Sniper",
+    "typeName": "Sniper - AM",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364740": {
-    "typeName": "Frontline",
+    "typeName": "Frontline - AM",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364741": {
-    "typeName": "Medic",
+    "typeName": "Medic - GA",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364742": {
-    "typeName": "Sniper",
+    "typeName": "Sniper - GA",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364743": {
-    "typeName": "Frontline",
+    "typeName": "Frontline - GA",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364744": {
-    "typeName": "Medic",
+    "typeName": "Medic - MN",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364745": {
-    "typeName": "Frontline",
+    "typeName": "Frontline - MN",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364746": {
-    "typeName": "Sniper",
+    "typeName": "Sniper - MN",
     "groupId": 351064,
     "categoryId": 350001
   },
@@ -74231,6 +74096,96 @@
   },
   "368071": {
     "typeName": "Caldari Combat Advanced Loadout",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368242": {
+    "typeName": "Boundless Packed Remote Explosive",
+    "groupId": 351844,
+    "categoryId": 350001
+  },
+  "368243": {
+    "typeName": "Packed Remote Explosive",
+    "groupId": 351844,
+    "categoryId": 350001
+  },
+  "368244": {
+    "typeName": "F/45 Packed Remote Explosive",
+    "groupId": 351844,
+    "categoryId": 350001
+  },
+  "368245": {
+    "typeName": "X-MS15 Snowball Launcher",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368518": {
+    "typeName": "CreoDron Methana vX.1",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368519": {
+    "typeName": "X-MS Snowball Launcher",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368524": {
+    "typeName": "Imperial Scout A-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368574": {
+    "typeName": "Imperial Scout A/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368579": {
+    "typeName": "Imperial Scout ak.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368586": {
+    "typeName": "State Scout C-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368594": {
+    "typeName": "State Scout C/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368614": {
+    "typeName": "State Scout ck.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368615": {
+    "typeName": "State Commando C-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368616": {
+    "typeName": "State Commando C/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368617": {
+    "typeName": "State Commando ck.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368618": {
+    "typeName": "State Sentinel C-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368619": {
+    "typeName": "State Sentinel C/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368620": {
+    "typeName": "State Sentinel ck.0",
     "groupId": 351064,
     "categoryId": 350001
   }
