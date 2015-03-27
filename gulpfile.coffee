@@ -4,10 +4,13 @@ coffeelint = require 'gulp-coffeelint'
 nodemon = require 'gulp-nodemon'
 gutil = require 'gulp-util'
 rename = require 'gulp-rename'
-requireDir = require 'require-dir'
 umd = require 'gulp-umd'
 
-dir = requireDir 'tasks'
+opts = {}
+
+require('./tasks/data')(gulp, opts)
+require('./tasks/sql2json')(gulp, opts)
+require('./tasks/yaml2json')(gulp, opts)
 
 onError = (err) ->
   console.log err.toString()
@@ -47,5 +50,7 @@ gulp.task 'server', ['build'],  ->
     console.log "App restarted due to: #{files}"
 
 gulp.task 'build', ['lint', 'mocha']
+
+gulp.task 'data', ['blueprints2json', 'types2json', 'regions2json', 'locations2json', 'stations2json', 'reactions2json', 'schematics2json']
 
 gulp.task 'default', ['build']

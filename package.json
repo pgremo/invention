@@ -38,9 +38,12 @@
   "devDependencies": {
     "chai": "^2.1.2",
     "chai-webdriver": "^1.1.1",
+    "cheerio": "^0.19.0",
+    "decompress-bzip2": "^3.0.0",
     "gulp": "^3.8.11",
     "gulp-coffee": "^2.3.1",
     "gulp-coffeelint": "~0.4.0",
+    "gulp-download": "0.0.1",
     "gulp-mocha": "^2.0.0",
     "gulp-nodemon": "^2.0.2",
     "gulp-rename": "^1.2.0",
@@ -50,12 +53,15 @@
     "gulp-util": "^3.0.4",
     "js-yaml": "^3.2.7",
     "map-stream": "0.0.5",
+    "minimist": "^1.1.1",
     "request": "^2.51.0",
+    "request-promise": "^0.4.1",
     "require-dir": "^0.3.0",
     "selenium-webdriver": "^2.45.1",
+    "semver": "^4.3.1",
     "should": "^5.2.0",
     "sqlite3": "^3.0.5",
     "stylus": "^0.50.0",
-    "xml-object-stream": "git://github.com/pgremo/xml-object-stream"
+    "vinyl-assign": "^1.1.0"
   }
 }

@@ -12450,12 +12450,12 @@
     "categoryId": 7
   },
   "6131": {
-    "typeName": "Enduring Cargo Scanner",
+    "typeName": "Type-E Enduring Cargo Scanner",
     "groupId": 47,
     "categoryId": 7
   },
   "6135": {
-    "typeName": "Scoped Cargo Scanner",
+    "typeName": "PL-0 Scoped Cargo Scanner",
     "groupId": 47,
     "categoryId": 7
   },
@@ -12820,12 +12820,12 @@
     "categoryId": 7
   },
   "6527": {
-    "typeName": "Compact Ship Scanner",
+    "typeName": "Ta3 Compact Ship Scanner",
     "groupId": 48,
     "categoryId": 7
   },
   "6569": {
-    "typeName": "Scoped Survey Scanner",
+    "typeName": "ML-3 Scoped Survey Scanner",
     "groupId": 49,
     "categoryId": 7
   },
@@ -13540,12 +13540,12 @@
     "categoryId": 7
   },
   "8089": {
-    "typeName": "Compact Light Missile Launcher",
+    "typeName": "Arbalest Compact Light Missile Launcher",
     "groupId": 509,
     "categoryId": 7
   },
   "8091": {
-    "typeName": "Ample Light Missile Launcher",
+    "typeName": "TE-2100 Ample Light Missile Launcher",
     "groupId": 509,
     "categoryId": 7
   },
@@ -13580,12 +13580,12 @@
     "categoryId": 7
   },
   "8133": {
-    "typeName": "Compact Capacitor Flux Coil",
+    "typeName": "Mark I Compact Capacitor Flux Coil",
     "groupId": 768,
     "categoryId": 7
   },
   "8135": {
-    "typeName": "Restrained Capacitor Flux Coil",
+    "typeName": "Type-D Restrained Capacitor Flux Coil",
     "groupId": 768,
     "categoryId": 7
   },
@@ -13605,7 +13605,7 @@
     "categoryId": 7
   },
   "8263": {
-    "typeName": "Compact Reactor Control Unit",
+    "typeName": "Mark I Compact Reactor Control Unit",
     "groupId": 769,
     "categoryId": 7
   },
@@ -13850,7 +13850,7 @@
     "categoryId": 7
   },
   "8748": {
-    "typeName": "Upgraded Co-Processor",
+    "typeName": "Photonic Upgraded Co-Processor",
     "groupId": 285,
     "categoryId": 7
   },
@@ -25685,7 +25685,7 @@
     "categoryId": 7
   },
   "16537": {
-    "typeName": "Compact Micro Auxiliary Power Core",
+    "typeName": "Vigor Compact Micro Auxiliary Power Core",
     "groupId": 339,
     "categoryId": 7
   },
@@ -35789,15 +35789,30 @@
     "groupId": 62,
     "categoryId": 7
   },
+  "21854": {
+    "typeName": "Civilian Armor Repairer Blueprint",
+    "groupId": 142,
+    "categoryId": 9
+  },
   "21855": {
     "typeName": "Civilian Expanded Cargohold",
     "groupId": 765,
     "categoryId": 7
   },
+  "21856": {
+    "typeName": "Civilian Expanded Cargohold Blueprint",
+    "groupId": 158,
+    "categoryId": 9
+  },
   "21857": {
     "typeName": "Civilian Afterburner",
     "groupId": 46,
     "categoryId": 7
+  },
+  "21858": {
+    "typeName": "Civilian Afterburner Blueprint",
+    "groupId": 126,
+    "categoryId": 9
   },
   "21862": {
     "typeName": "Karo Zulak's Insignia",
@@ -44394,6 +44409,11 @@
     "groupId": 314,
     "categoryId": 17
   },
+  "26984": {
+    "typeName": "Civilian Salvager Blueprint",
+    "groupId": 1123,
+    "categoryId": 9
+  },
   "26998": {
     "typeName": "Hejilmar the Slave",
     "groupId": 283,
@@ -51410,7 +51430,7 @@
     "categoryId": 7
   },
   "30329": {
-    "typeName": "Civilian Stasis Webifier I Blueprint",
+    "typeName": "Civilian Stasis Webifier Blueprint",
     "groupId": 145,
     "categoryId": 9
   },
@@ -52135,12 +52155,12 @@
     "categoryId": 9
   },
   "30842": {
-    "typeName": "Interbus Shuttle",
+    "typeName": "InterBus Shuttle",
     "groupId": 31,
     "categoryId": 6
   },
   "30843": {
-    "typeName": "Interbus Shuttle Blueprint",
+    "typeName": "InterBus Shuttle Blueprint",
     "groupId": 111,
     "categoryId": 9
   },
@@ -52340,7 +52360,7 @@
     "categoryId": 17
   },
   "30952": {
-    "typeName": "Dossier � Author Unknown",
+    "typeName": "Dossier – Author Unknown",
     "groupId": 314,
     "categoryId": 17
   },
@@ -57650,12 +57670,12 @@
     "categoryId": 17
   },
   "32371": {
-    "typeName": "Capital Ship Design � �Dictator�",
+    "typeName": "Capital Ship Design – “Dictator”",
     "groupId": 314,
     "categoryId": 17
   },
   "32372": {
-    "typeName": "Minedrill � E518 Crew",
+    "typeName": "Minedrill – E518 Crew",
     "groupId": 283,
     "categoryId": 17
   },
@@ -57675,7 +57695,7 @@
     "categoryId": 17
   },
   "32383": {
-    "typeName": "Guristas �Dirty' Explosive System",
+    "typeName": "Guristas ‘Dirty' Explosive System",
     "groupId": 314,
     "categoryId": 17
   },
@@ -57690,7 +57710,7 @@
     "categoryId": 17
   },
   "32398": {
-    "typeName": "Lieutenant Kipo �Foxfire� Tekira",
+    "typeName": "Lieutenant Kipo “Foxfire” Tekira",
     "groupId": 283,
     "categoryId": 17
   },
@@ -57700,7 +57720,7 @@
     "categoryId": 17
   },
   "32407": {
-    "typeName": "Holoreel � Torture Log I15B",
+    "typeName": "Holoreel – Torture Log I15B",
     "groupId": 314,
     "categoryId": 17
   },
@@ -58665,7 +58685,7 @@
     "categoryId": 63
   },
   "33041": {
-    "typeName": "NEO YC 114: Africa�s Finest",
+    "typeName": "NEO YC 114: Africa‘s Finest",
     "groupId": 1195,
     "categoryId": 63
   },
@@ -58690,7 +58710,7 @@
     "categoryId": 63
   },
   "33046": {
-    "typeName": "NEO YC 114: ISN � Incursion Shiny Network",
+    "typeName": "NEO YC 114: ISN – Incursion Shiny Network",
     "groupId": 1195,
     "categoryId": 63
   },
@@ -58700,7 +58720,7 @@
     "categoryId": 63
   },
   "33048": {
-    "typeName": "NEO YC 114: Asine Hitama�s team",
+    "typeName": "NEO YC 114: Asine Hitama‘s team",
     "groupId": 1195,
     "categoryId": 63
   },
@@ -62430,7 +62450,7 @@
     "categoryId": 30
   },
   "34163": {
-    "typeName": "Men's 'Marshal' Jacket (interBus)",
+    "typeName": "Men's 'Marshal' Jacket (InterBus)",
     "groupId": 1088,
     "categoryId": 30
   },
@@ -62495,7 +62515,7 @@
     "categoryId": 30
   },
   "34176": {
-    "typeName": "Women's 'Gunner' Jacket (interBus)",
+    "typeName": "Women's 'Gunner' Jacket (InterBus)",
     "groupId": 1088,
     "categoryId": 30
   },
@@ -62809,20 +62829,10 @@
     "groupId": 548,
     "categoryId": 8
   },
-  "34261": {
-    "typeName": "Surgical Warp Disrupt Probe Blueprint",
-    "groupId": 486,
-    "categoryId": 9
-  },
   "34264": {
     "typeName": "Focused Void Bomb",
     "groupId": 864,
     "categoryId": 8
-  },
-  "34265": {
-    "typeName": "Focused Void Bomb Blueprint",
-    "groupId": 172,
-    "categoryId": 9
   },
   "34266": {
     "typeName": "Small Higgs Anchor I",
@@ -63235,7 +63245,7 @@
     "categoryId": 34
   },
   "34417": {
-    "typeName": "Manufacturing Union�s Placard",
+    "typeName": "Manufacturing Union’s Placard",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -63255,12 +63265,12 @@
     "categoryId": 63
   },
   "34421": {
-    "typeName": "Chribba�s Modified Strip Miner",
+    "typeName": "Chribba’s Modified Strip Miner",
     "groupId": 1194,
     "categoryId": 63
   },
   "34422": {
-    "typeName": "Rooks & Kings � The Clarion Call Compilation",
+    "typeName": "Rooks & Kings – The Clarion Call Compilation",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -63275,12 +63285,12 @@
     "categoryId": 63
   },
   "34425": {
-    "typeName": "SCC Guidelines � Lotteries For Dummies",
+    "typeName": "SCC Guidelines – Lotteries For Dummies",
     "groupId": 1194,
     "categoryId": 63
   },
   "34426": {
-    "typeName": "Sort Dragon�s Guide To Diplomacy",
+    "typeName": "Sort Dragon’s Guide To Diplomacy",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -63295,17 +63305,17 @@
     "categoryId": 63
   },
   "34429": {
-    "typeName": "Vincent Pryce�s Warp Disruption Field Generator",
+    "typeName": "Vincent Pryce’s Warp Disruption Field Generator",
     "groupId": 1194,
     "categoryId": 63
   },
   "34430": {
-    "typeName": "My God, It�s Full Of Holes!",
+    "typeName": "My God, It’s Full Of Holes!",
     "groupId": 1194,
     "categoryId": 63
   },
   "34431": {
-    "typeName": "Guillome Renard�s Sleeper Loot Stash",
+    "typeName": "Guillome Renard’s Sleeper Loot Stash",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -63315,17 +63325,17 @@
     "categoryId": 63
   },
   "34433": {
-    "typeName": "The Damsel�s Drunk Bodyguard",
+    "typeName": "The Damsel’s Drunk Bodyguard",
     "groupId": 1194,
     "categoryId": 63
   },
   "34434": {
-    "typeName": "Alice Saki�s Good Posting Guide",
+    "typeName": "Alice Saki’s Good Posting Guide",
     "groupId": 1194,
     "categoryId": 63
   },
   "34435": {
-    "typeName": "Soxfour�s Spaceboots",
+    "typeName": "Soxfour’s Spaceboots",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -63380,122 +63390,122 @@
     "categoryId": 17
   },
   "34457": {
-    "typeName": "?????YC117????",
+    "typeName": "末日沙场级YC117年特别版",
     "groupId": 27,
     "categoryId": 6
   },
   "34458": {
-    "typeName": "?????YC117??????",
+    "typeName": "末日沙场级YC117年特别版蓝图",
     "groupId": 107,
     "categoryId": 9
   },
   "34459": {
-    "typeName": "?????YC117????",
+    "typeName": "地狱天使级YC117年特别版",
     "groupId": 27,
     "categoryId": 6
   },
   "34460": {
-    "typeName": "?????YC117??????",
+    "typeName": "地狱天使级YC117年特别版蓝图",
     "groupId": 107,
     "categoryId": 9
   },
   "34461": {
-    "typeName": "????YC117????",
+    "typeName": "马克瑞级YC117年特别版",
     "groupId": 27,
     "categoryId": 6
   },
   "34462": {
-    "typeName": "????YC117??????",
+    "typeName": "马克瑞级YC117年特别版蓝图",
     "groupId": 107,
     "categoryId": 9
   },
   "34463": {
-    "typeName": "????YC117????",
+    "typeName": "响尾蛇级YC117年特别版",
     "groupId": 27,
     "categoryId": 6
   },
   "34464": {
-    "typeName": "????YC117??????",
+    "typeName": "响尾蛇级YC117年特别版蓝图",
     "groupId": 107,
     "categoryId": 9
   },
   "34465": {
-    "typeName": "??????YC117????",
+    "typeName": "多米尼克斯级YC117年特别版",
     "groupId": 27,
     "categoryId": 6
   },
   "34466": {
-    "typeName": "??????YC117??????",
+    "typeName": "多米尼克斯级YC117年特别版蓝图",
     "groupId": 107,
     "categoryId": 9
   },
   "34467": {
-    "typeName": "?????YC117????",
+    "typeName": "万王宝座级YC117年特别版",
     "groupId": 27,
     "categoryId": 6
   },
   "34468": {
-    "typeName": "?????YC117??????",
+    "typeName": "万王宝座级YC117年特别版蓝图",
     "groupId": 107,
     "categoryId": 9
   },
   "34469": {
-    "typeName": "???YC117????",
+    "typeName": "乌鸦级YC117年特别版",
     "groupId": 27,
     "categoryId": 6
   },
   "34470": {
-    "typeName": "???YC117??????",
+    "typeName": "乌鸦级YC117年特别版蓝图",
     "groupId": 107,
     "categoryId": 9
   },
   "34471": {
-    "typeName": "???YC117????",
+    "typeName": "灾难级YC117年特别版",
     "groupId": 27,
     "categoryId": 6
   },
   "34472": {
-    "typeName": "???YC117??????",
+    "typeName": "灾难级YC117年特别版蓝图",
     "groupId": 107,
     "categoryId": 9
   },
   "34473": {
-    "typeName": "???YC117????",
+    "typeName": "幼龙级YC117年特别版",
     "groupId": 419,
     "categoryId": 6
   },
   "34474": {
-    "typeName": "???YC117??????",
+    "typeName": "幼龙级YC117年特别版蓝图",
     "groupId": 489,
     "categoryId": 9
   },
   "34475": {
-    "typeName": "???YC117????",
+    "typeName": "毒蜥级YC117年特别版",
     "groupId": 26,
     "categoryId": 6
   },
   "34476": {
-    "typeName": "???YC117??????",
+    "typeName": "毒蜥级YC117年特别版蓝图",
     "groupId": 106,
     "categoryId": 9
   },
   "34477": {
-    "typeName": "???YC117????",
+    "typeName": "银鹰级YC117年特别版",
     "groupId": 358,
     "categoryId": 6
   },
   "34478": {
-    "typeName": "???YC117??????",
+    "typeName": "银鹰级YC117年特别版蓝图",
     "groupId": 106,
     "categoryId": 9
   },
   "34479": {
-    "typeName": "????YC117????",
+    "typeName": "伊什塔级YC117年特别版",
     "groupId": 358,
     "categoryId": 6
   },
   "34480": {
-    "typeName": "????YC117??????",
+    "typeName": "伊什塔级YC117年特别版蓝图",
     "groupId": 106,
     "categoryId": 9
   },
@@ -63524,6 +63534,116 @@
     "groupId": 765,
     "categoryId": 7
   },
+  "34496": {
+    "typeName": "Council Diplomatic Shuttle",
+    "groupId": 31,
+    "categoryId": 6
+  },
+  "34497": {
+    "typeName": "Council Diplomatic Shuttle Blueprint",
+    "groupId": 111,
+    "categoryId": 9
+  },
+  "34533": {
+    "typeName": "Minmatar Tactical Destroyer",
+    "groupId": 257,
+    "categoryId": 16
+  },
+  "34562": {
+    "typeName": "Svipul",
+    "groupId": 1305,
+    "categoryId": 6
+  },
+  "34563": {
+    "typeName": "Svipul Blueprint",
+    "groupId": 1309,
+    "categoryId": 9
+  },
+  "34574": {
+    "typeName": "CharacterDrifter",
+    "groupId": 1,
+    "categoryId": 1
+  },
+  "34575": {
+    "typeName": "Antikythera Element",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34580": {
+    "typeName": "Lux Kontos",
+    "groupId": 53,
+    "categoryId": 7
+  },
+  "34590": {
+    "typeName": "Victorieux Luxury Yacht",
+    "groupId": 26,
+    "categoryId": 6
+  },
+  "34591": {
+    "typeName": "Victorieux Luxury Yacht Blueprint",
+    "groupId": 106,
+    "categoryId": 9
+  },
+  "34769": {
+    "typeName": "CSM 1 Electee Archive Script ",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34770": {
+    "typeName": "CSM 2 Electee Archive Script",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34771": {
+    "typeName": "CSM 3 Electee Archive Script",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34772": {
+    "typeName": "CSM 4 Electee Archive Script",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34773": {
+    "typeName": "CSM 5 Electee Archive Script",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34774": {
+    "typeName": "CSM 6 Electee Archive Script",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34775": {
+    "typeName": "CSM 7 Electee Archive Script",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34776": {
+    "typeName": "CSM 8 Electee Archive Script",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34777": {
+    "typeName": "CSM 9 Electee Archive Script",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34778": {
+    "typeName": "CSM 10 Electee Archive Script ",
+    "groupId": 1194,
+    "categoryId": 63
+  },
+  "34824": {
+    "typeName": "Men's 'Emergent Threats' T-shirt YC 117",
+    "groupId": 1089,
+    "categoryId": 30
+  },
+  "34825": {
+    "typeName": "Women's 'Emergent Threats' T-shirt YC 117",
+    "groupId": 1089,
+    "categoryId": 30
+  },
   "350916": {
     "typeName": "Plasma Cannon",
     "groupId": 350858,
@@ -63550,7 +63670,7 @@
     "categoryId": 350001
   },
   "351278": {
-    "typeName": "Gunnlogi",
+    "typeName": "Gunnlogi C-I",
     "groupId": 351210,
     "categoryId": 350001
   },
@@ -63750,7 +63870,7 @@
     "categoryId": 350001
   },
   "351824": {
-    "typeName": "Madrugar",
+    "typeName": "Madrugar G-I",
     "groupId": 351210,
     "categoryId": 350001
   },
@@ -66205,7 +66325,7 @@
     "categoryId": 350001
   },
   "354935": {
-    "typeName": "Anti-Armor - CA",
+    "typeName": "Armor AV - CA",
     "groupId": 351064,
     "categoryId": 350001
   },
@@ -67725,17 +67845,17 @@
     "categoryId": 350001
   },
   "355928": {
-    "typeName": "Active Heat Sink I",
+    "typeName": "Basic Heat Sink",
     "groupId": 351121,
     "categoryId": 350001
   },
   "355929": {
-    "typeName": "Azeotripic Coolant Pump",
+    "typeName": "Enhanced Heat Sink",
     "groupId": 351121,
     "categoryId": 350001
   },
   "355930": {
-    "typeName": "Active Heat Sink II",
+    "typeName": "Complex Heat Sink",
     "groupId": 351121,
     "categoryId": 350001
   },
@@ -69980,17 +70100,17 @@
     "categoryId": 350001
   },
   "364726": {
-    "typeName": "Anti-Armor - AM",
+    "typeName": "Armor AV - AM",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364732": {
-    "typeName": "Anti-Armor - GA",
+    "typeName": "Armor AV - GA",
     "groupId": 351064,
     "categoryId": 350001
   },
   "364736": {
-    "typeName": "Anti-Armor - MN",
+    "typeName": "Armor AV - MN",
     "groupId": 351064,
     "categoryId": 350001
   },
@@ -73384,6 +73504,31 @@
     "groupId": 351648,
     "categoryId": 350001
   },
+  "366967": {
+    "typeName": "Mangled Coil Assembly",
+    "groupId": 368656,
+    "categoryId": 350001
+  },
+  "366968": {
+    "typeName": "Crushed Magazine Housing",
+    "groupId": 368656,
+    "categoryId": 350001
+  },
+  "366969": {
+    "typeName": "Broken Optronic Sight",
+    "groupId": 368656,
+    "categoryId": 350001
+  },
+  "366970": {
+    "typeName": "Shattered Heat Shield",
+    "groupId": 368656,
+    "categoryId": 350001
+  },
+  "366971": {
+    "typeName": "Melted Heat Sink",
+    "groupId": 368656,
+    "categoryId": 350001
+  },
   "367223": {
     "typeName": "Militia Scrambler Rifle",
     "groupId": 350858,
@@ -73485,12 +73630,12 @@
     "categoryId": 350001
   },
   "367477": {
-    "typeName": "Kubo�s GMK-16 Plasma Cannon",
+    "typeName": "Kubo’s GMK-16 Plasma Cannon",
     "groupId": 350858,
     "categoryId": 350001
   },
   "367489": {
-    "typeName": "Beacon�s ELI-74 Swarm Launcher",
+    "typeName": "Beacon’s ELI-74 Swarm Launcher",
     "groupId": 350858,
     "categoryId": 350001
   },
@@ -73530,7 +73675,7 @@
     "categoryId": 350001
   },
   "367541": {
-    "typeName": "Viktor�s NEG-1 Laser Rifle",
+    "typeName": "Viktor’s NEG-1 Laser Rifle",
     "groupId": 350858,
     "categoryId": 350001
   },
@@ -74119,6 +74264,11 @@
     "groupId": 350858,
     "categoryId": 350001
   },
+  "368497": {
+    "typeName": "Warbarge Component",
+    "groupId": 368666,
+    "categoryId": 350001
+  },
   "368518": {
     "typeName": "CreoDron Methana vX.1",
     "groupId": 351210,
@@ -74134,8 +74284,193 @@
     "groupId": 351064,
     "categoryId": 350001
   },
+  "368531": {
+    "typeName": "'Quafe' Gunnlogi",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368532": {
+    "typeName": "'Quafe' Madrugar",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368533": {
+    "typeName": "'Quafe' Grimsnes",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368534": {
+    "typeName": "'Quafe' Myron",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368537": {
+    "typeName": "'Quafe' Saga",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368539": {
+    "typeName": "'Quafe' Methana",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368540": {
+    "typeName": "'Quafe' ST-201 Missile Launcher",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368541": {
+    "typeName": "'Quafe' ST-1 Missile Launcher",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368542": {
+    "typeName": "'Quafe' 80GJ Blaster",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368543": {
+    "typeName": "'Quafe' 20GJ Blaster",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368544": {
+    "typeName": "'Quafe' 80GJ Railgun",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368545": {
+    "typeName": "'Quafe' 20GJ Railgun",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368546": {
+    "typeName": "'Quafe' Saga Blueprint",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368547": {
+    "typeName": "'Quafe' Methana Blueprint",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368548": {
+    "typeName": "'Quafe' Logistics A-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368549": {
+    "typeName": "'Quafe' Logistics C-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368550": {
+    "typeName": "'Quafe' Logistics G-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368551": {
+    "typeName": "'Quafe' Logistics M-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368552": {
+    "typeName": "'Quafe' Commando A-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368553": {
+    "typeName": "'Quafe' Commando C-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368554": {
+    "typeName": "'Quafe' Commando G-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368555": {
+    "typeName": "'Quafe' Commando M-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368556": {
+    "typeName": "'Quafe' Heavy Machine Gun",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368557": {
+    "typeName": "'Quafe' Forge Gun",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368558": {
+    "typeName": "'Quafe' Nova Knives",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368559": {
+    "typeName": "'Quafe' Mass Driver",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368560": {
+    "typeName": "'Quafe' Swarm Launcher",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368561": {
+    "typeName": "'Quafe' Assault Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368562": {
+    "typeName": "'Quafe' Plasma Cannon",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368563": {
+    "typeName": "'Quafe' Shotgun",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368564": {
+    "typeName": "'Quafe' Rail Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368565": {
+    "typeName": "'Quafe' Sniper Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368566": {
+    "typeName": "'Quafe' Laser Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368567": {
+    "typeName": "'Quafe' Scrambler Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368568": {
+    "typeName": "'Quafe' Combat Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
   "368574": {
     "typeName": "Imperial Scout A/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368576": {
+    "typeName": "'Brutor' Logistics M-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368577": {
+    "typeName": "'Tash Murkon' Scout A-I",
     "groupId": 351064,
     "categoryId": 350001
   },
@@ -74144,14 +74479,169 @@
     "groupId": 351064,
     "categoryId": 350001
   },
+  "368580": {
+    "typeName": "'Tash Murkon' Sentinel A-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368581": {
+    "typeName": "'Brutor' Commando M-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368582": {
+    "typeName": "'Kaalakiota' Assault C-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368583": {
+    "typeName": "'Kaalakiota' Scout C-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368584": {
+    "typeName": "'Roden' Scout G-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368585": {
+    "typeName": "'Roden' Commando G-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
   "368586": {
     "typeName": "State Scout C-I",
     "groupId": 351064,
     "categoryId": 350001
   },
+  "368587": {
+    "typeName": "Solar's PAR-8 Flaylock Pistol",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368588": {
+    "typeName": "Kubo's PE-165 Ion Pistol",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368589": {
+    "typeName": "Ghalag's OCT-91 Bolt Pistol",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368590": {
+    "typeName": "Nanaki's LORB-7 Magsec SMG",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368591": {
+    "typeName": "Kubo's PX-6 Scrambler Pistol",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368592": {
+    "typeName": "Nothi's NOS-47 Nova Knives",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368593": {
+    "typeName": "Alex's Modified VC-107 SMG",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
   "368594": {
     "typeName": "State Scout C/1-Series",
     "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368595": {
+    "typeName": "Experimental Heavy Machine Gun",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368596": {
+    "typeName": "Experimental Forge Gun",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368597": {
+    "typeName": "Experimental Mass Driver",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368598": {
+    "typeName": "Experimental Swarm Launcher",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368599": {
+    "typeName": "Experimental Assault Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368600": {
+    "typeName": "Experimental Plasma Cannon",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368601": {
+    "typeName": "Experimental Shotgun",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368602": {
+    "typeName": "Experimental Rail Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368603": {
+    "typeName": "Experimental Sniper Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368604": {
+    "typeName": "Experimental Laser Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368605": {
+    "typeName": "Experimental Scrambler Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368606": {
+    "typeName": "Experimental Combat Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368607": {
+    "typeName": "Experimental Assault Combat Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368608": {
+    "typeName": "Experimental Assault Scrambler Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368609": {
+    "typeName": "Experimental Assault Rail Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368610": {
+    "typeName": "Experimental Tactical Assault Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368611": {
+    "typeName": "Experimental Breach Assault Rifle",
+    "groupId": 350858,
+    "categoryId": 350001
+  },
+  "368612": {
+    "typeName": "Experimental Burst Assault Rifle",
+    "groupId": 350858,
     "categoryId": 350001
   },
   "368614": {
@@ -74186,6 +74676,191 @@
   },
   "368620": {
     "typeName": "State Sentinel ck.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368631": {
+    "typeName": "Federation Commando G-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368632": {
+    "typeName": "Federation Commando G/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368633": {
+    "typeName": "Federation Commando gk.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368634": {
+    "typeName": "Federation Sentinel G-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368635": {
+    "typeName": "Federation Sentinel G/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368636": {
+    "typeName": "Federation Sentinel gk.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368638": {
+    "typeName": "Republic Commando M-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368640": {
+    "typeName": "Republic Commando M/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368647": {
+    "typeName": "Republic Commando mk.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368649": {
+    "typeName": "Republic Sentinel M-I",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368650": {
+    "typeName": "Republic Sentinel M/1-Series",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368651": {
+    "typeName": "Republic Sentinel mk.0",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368777": {
+    "typeName": "Krin’s LEX -71 Damage Modifier",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
+  "368880": {
+    "typeName": "Marduk G-I",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368881": {
+    "typeName": "Madrugar G/1",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368882": {
+    "typeName": "Madrugar Gv.0",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368884": {
+    "typeName": "Marduk G/1",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368885": {
+    "typeName": "Marduk Gv.0",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368887": {
+    "typeName": "Gladius C-I",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368888": {
+    "typeName": "Gunnlogi C/1",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368889": {
+    "typeName": "Gunnlogi Cv.0",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368890": {
+    "typeName": "Gladius C/1",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368891": {
+    "typeName": "Gladius Cv.0",
+    "groupId": 351210,
+    "categoryId": 350001
+  },
+  "368893": {
+    "typeName": "Basic Shield Regulator",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
+  "368894": {
+    "typeName": "Enhanced Shield Regulator",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
+  "368895": {
+    "typeName": "Complex Shield Regulator",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
+  "368898": {
+    "typeName": "Basic Dispersion Stabilizer",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
+  "368899": {
+    "typeName": "Enhanced Dispersion Stabilizer",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
+  "368900": {
+    "typeName": "Complex Dispersion Stabilizer",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
+  "368908": {
+    "typeName": "Shield AV - AM",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368909": {
+    "typeName": "Recon - AM",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368910": {
+    "typeName": "Shield AV - CA",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368911": {
+    "typeName": "Recon - CA",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368912": {
+    "typeName": "Shield AV - GA",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368913": {
+    "typeName": "Recon - GA",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368914": {
+    "typeName": "Shield AV - MN",
+    "groupId": 351064,
+    "categoryId": 350001
+  },
+  "368915": {
+    "typeName": "Recon - MN",
     "groupId": 351064,
     "categoryId": 350001
   }

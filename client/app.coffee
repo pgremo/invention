@@ -173,7 +173,7 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
           for x in this
             if predicate x
               return x
-          return undefined;
+          return undefined
 
       flatten = (x, visited) ->
         if not visited.find((i) -> i.id is x.id)?
