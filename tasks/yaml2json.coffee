@@ -1,24 +1,21 @@
 module.exports = (gulp, opts) ->
-  gulp = require 'gulp'
-  map = require 'map-stream'
   yaml = require 'js-yaml'
   gutil = require 'gulp-util'
+  through = require 'through2'
 
-  gulp.task 'blueprints2json', ['downloadSDE'], ->
-    gulp.src "data/#{opts.eveRelease}/#{opts.eveVersion}/*.yaml"
-    .pipe map (file, cb) ->
+  json = () ->
+    through.obj (file, enc, cb) ->
       if file.isNull() then return cb null, file
       if file.isStream() then return cb new Error 'Streaming not supported'
 
-      json = null
-      try
-        json = yaml.load String file.contents.toString 'utf8'
-      catch e
-        console.log e
-        console.log json
+      result = yaml.load String file.contents.toString 'utf8'
 
       file.path = gutil.replaceExtension file.path, '.json'
-      file.contents = new Buffer JSON.stringify json, null, 2
+      file.contents = new Buffer JSON.stringify result, null, 2
 
-      cb null,file
-    .pipe gulp.dest 'app/data'
+      cb null, file
+
+  gulp.task 'blueprints2json', ['downloadSDE'], ->
+    gulp.src "data/#{opts.eveRelease}/#{opts.eveVersion}/blueprints.yaml"
+      .pipe json()
+      .pipe gulp.dest 'app/data'

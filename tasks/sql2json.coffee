@@ -1,11 +1,10 @@
 module.exports = (gulp, opts) ->
-  gulp = require 'gulp'
   Promise = require 'bluebird'
   path = require 'path'
   fs = Promise.promisifyAll require 'fs'
   sqlite = require 'sqlite3'
 
-  gulp.task 'types2json', ['downloadSDE'], ->
+  gulp.task 'types2json', ['downloadSDE'], (cb) ->
     db = new sqlite.Database "#{process.cwd()}/data/#{opts.eveRelease}/#{opts.eveVersion}/eve.db", sqlite.OPEN_READONLY
 
     types = {}
@@ -16,8 +15,7 @@ module.exports = (gulp, opts) ->
         categoryId: row.categoryID
     completer = () ->
       fs.writeFileAsync 'app/data/types.json', JSON.stringify types, null, 2
-      .catch (error) ->
-        gulp.err error
+      cb()
     query = """
   select t.typeID, t.typeName, t.groupID, c.categoryID
   from invTypes t
@@ -27,7 +25,7 @@ module.exports = (gulp, opts) ->
   """
     db.each query, mapper, completer
 
-  gulp.task 'regions2json', ['downloadSDE'], ->
+  gulp.task 'regions2json', ['downloadSDE'], (cb) ->
     db = new sqlite.Database "#{process.cwd()}/data/#{opts.eveRelease}/#{opts.eveVersion}/eve.db", sqlite.OPEN_READONLY
 
     regions = {}
@@ -35,11 +33,10 @@ module.exports = (gulp, opts) ->
       regions[row.regionID] = row.regionName
     completer = () ->
       fs.writeFileAsync 'app/data/regions.json', JSON.stringify regions, null, 2
-      .catch (error) ->
-        gulp.err error
+      cb()
     db.each 'select regionID, regionName from mapRegions', mapper, completer
 
-  gulp.task 'locations2json', ['downloadSDE'], ->
+  gulp.task 'locations2json', ['downloadSDE'], (cb) ->
     db = new sqlite.Database "#{process.cwd()}/data/#{opts.eveRelease}/#{opts.eveVersion}/eve.db", sqlite.OPEN_READONLY
 
     locations = {}
@@ -47,11 +44,9 @@ module.exports = (gulp, opts) ->
       locations[row.itemID] = row.itemName
     completer = () ->
       fs.writeFileAsync 'app/data/locations.json', JSON.stringify locations, null, 2
-      .catch (error) ->
-        gulp.err error
     db.each 'select itemID, itemName from mapDenormalize', mapper, completer
 
-  gulp.task 'stations2json', ['downloadSDE'], ->
+  gulp.task 'stations2json', ['downloadSDE'], (cb) ->
     db = new sqlite.Database "#{process.cwd()}/data/#{opts.eveRelease}/#{opts.eveVersion}/eve.db", sqlite.OPEN_READONLY
 
     stations = {}
@@ -59,8 +54,7 @@ module.exports = (gulp, opts) ->
       stations[row.itemID] = row.itemName
     completer = () ->
       fs.writeFileAsync 'app/data/stations.json', JSON.stringify stations, null, 2
-      .catch (error) ->
-        gulp.err error
+      cb()
     query = """
   select itemID, itemName from mapDenormalize m
   join invGroups g on g.groupID = m.groupID
@@ -68,7 +62,7 @@ module.exports = (gulp, opts) ->
   """
     db.each query, mapper, completer
 
-  gulp.task 'reactions2json', ['downloadSDE'], ->
+  gulp.task 'reactions2json', ['downloadSDE'], (cb) ->
     db = new sqlite.Database "#{process.cwd()}/data/#{opts.eveRelease}/#{opts.eveVersion}/eve.db", sqlite.OPEN_READONLY
 
     reactions = {}
@@ -89,8 +83,7 @@ module.exports = (gulp, opts) ->
         reaction.activities.manufacturing.products.push {typeID: row.typeID, quantity: row.qty}
     completer = () ->
       fs.writeFileAsync 'app/data/reactions.json', JSON.stringify reactions, null, 2
-      .catch (error) ->
-        gulp.err error
+      cb()
     query = """
   SELECT
   `itr`.`reactionTypeID`,
@@ -104,12 +97,12 @@ module.exports = (gulp, opts) ->
   """
     db.each query, mapper, completer
 
-  gulp.task 'schematics2json', ['downloadSDE'], ->
+  gulp.task 'schematics2json', ['downloadSDE'], (cb) ->
     db = new sqlite.Database "#{process.cwd()}/data/#{opts.eveRelease}/#{opts.eveVersion}/eve.db", sqlite.OPEN_READONLY
 
-    reactions = {}
+    schematics = {}
     mapper = (err, row) ->
-      reaction = reactions[row.schematicID]
+      reaction = schematics[row.schematicID]
       if !reaction?
         reaction = {
           activities:
@@ -118,15 +111,14 @@ module.exports = (gulp, opts) ->
               products: []
           schematicID: row.schematicID
         }
-        reactions[row.schematicID] = reaction
+        schematics[row.schematicID] = reaction
       if row.isInput is 1
         reaction.activities.manufacturing.materials.push {typeID: row.typeID, quantity: row.quantity}
       else
         reaction.activities.manufacturing.products.push {typeID: row.typeID, quantity: row.quantity}
     completer = () ->
-      fs.writeFileAsync 'app/data/schematics.json', JSON.stringify reactions, null, 2
-      .catch (error) ->
-        gulp.err error
+      fs.writeFileAsync 'app/data/schematics.json', JSON.stringify schematics, null, 2
+      cb()
     query = """
   select r.schematicID, r.isInput, r.typeID, r.quantity
   from planetSchematicsTypeMap r
