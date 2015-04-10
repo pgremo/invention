@@ -9,7 +9,6 @@ module.exports = (gulp, opts) ->
   through = require 'through2'
   path = require 'path'
   fs = require 'fs'
-  print = require 'gulp-print'
   filter = require 'gulp-filter'
   gutil = require 'gulp-util'
   request = require 'request'
@@ -62,7 +61,7 @@ module.exports = (gulp, opts) ->
       url = urlf file
 
       downloadHandler = (err, res, body) =>
-        fileName = url.split('/').pop();
+        fileName = url.split('/').pop()
         @push new gutil.File {path:fileName, contents: new Buffer(body)}
         cb()
 
