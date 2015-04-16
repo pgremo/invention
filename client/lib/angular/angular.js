@@ -2128,7 +2128,7 @@ var version = {
 
 function publishExternalAPI(angular) {
   extend(angular, {
-    'bootstrap': bootstrap,
+    "semantic": bootstrap,
     'copy': copy,
     'extend': extend,
     'equals': equals,
@@ -26049,7 +26049,7 @@ var styleDirective = valueFn({
   terminal: false
 });
 
-  if (window.angular.bootstrap) {
+  if (window.angular.semantic) {
     //AngularJS is already loaded, so we can return here...
     console.log('WARNING: Tried to load angular more than once.');
     return;

@@ -6,43 +6,31 @@
         <title>Registration</title>
         <base href="/">
 
-        <link href="/lib/font-awsome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/lib/angular-ui-select/dist/select.css" rel="stylesheet">
-        <link href="/invention/invention.css" rel="stylesheet">
+        <link href="/lib/semantic-ui/dist/semantic.min.css" rel="stylesheet">
+        <link href="invention/invention.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-        <script src="/lib/html5shiv/dist/html5shiv.min.js"></script>
-        <script src="/lib/respond/dest/respond.min.js"></script>
+        <!--<script src="/lib/html5shiv/dist/html5shiv.min.js"></script>-->
+        <!--<script src="/lib/respond/dest/respond.min.js"></script>-->
         <![endif]-->
         <script data-main="app" src="/lib/requirejs/require.js"></script>
     </head>
     <body>
-        <div id="main" class="container">
-            <div class="row col-md-12">
-                <nav class="navbar navbar-default" role="navigation">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Void.Tech</a>
-                        </div>
-                        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" ng-controller="SignInController">
-                            <p class="navbar-text" ng-show="user">Signed in as <a href="/profile" class="navbar-link">{{user.name}}</a></p>
-                            <p class="navbar-text" ng-hide="user"><a href="/api/auth/eveonline" target="_self" class="navbar-link">Sign In</a></p>
-                            <p class="navbar-text" ng-show="user"><a href ng-click="signOut()" class="navbar-link">Sign Out</a></p>
-                        </div>
+        <div class="ui page grid">
+            <div class="column">
+                <div class="ui menu">
+                    <div class="header item">Void.Tech</div>
+                    <div class="right menu" ng-controller="SignInController">
+                        <a class="item" href="/profile">{{user.name}}</a>
+                        <a class="item" href ng-click="signOut()" ng-show="user">Sign Out</a>
+                        <a class="item" ng-hide="user" href="/api/auth/eveonline" target="_self">Sign In</a>
                     </div>
-                </nav>
+                </div>
+                <div ng-view></div>
             </div>
-            <div ng-view></div>
         </div>
     </body>
 </html>

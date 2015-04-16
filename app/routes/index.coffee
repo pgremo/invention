@@ -6,7 +6,7 @@ router = express.Router()
 
 router.get '/api/typeLookup', (req, res) ->
   blueprints.queryTypes req.query.query
-    .then (x) -> res.send x
+    .then (x) -> res.send results: x.map (y)-> id: y[0], title: y[1]
 
 router.get '/api/bom/:id', (req, res, next) ->
   blueprints.bom req.params.id

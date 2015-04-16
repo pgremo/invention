@@ -1,33 +1,23 @@
-<div class="row col-md-12">
-    <div class="row col-md-6">
-        <h1>Registration</h1>
+<div>
+    <div class="ui header">
+        <h1>Profile</h1>
     </div>
-    <form class="form" novalidate role="form" id="registration" name="registration" method="post" ng-submit="updateProfile()">
-        <div class="row">
-            <div class="col-xs-12">
-                (<a tabindex="-1" href="https://community.eveonline.com/support/api-key/CreatePredefined?accessMask=2" target="_blank">create an API key</a>)
+    <form class="ui form" ng-class="{ 'error' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }" novalidate role="form" id="registration" name="registration" method="post" ng-submit="updateProfile()">
+        <p>(<a tabindex="-1" href="https://community.eveonline.com/support/api-key/CreatePredefined?accessMask=2" target="_blank">create an API key</a>)</p>
+        <div class="two fields">
+            <div class="two wide field">
+                <input name="key" id="key" ng-model="user.key" type="text" placeholder="Key"/>
+            </div>
+            <div class="fourteen wide field">
+                <input id="vCode" name="vCode" ng-model="user.vCode" type="text" placeholder="vCode" remote="/api/users/api/validate" revalidate-on="user.key" validate-params="{key: user.key}"/>
             </div>
         </div>
-        <div class="row form-group">
-            <div class="col-xs-2" ng-class="{ 'has-error has-feedback' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }">
-                <label class="sr-only" for="key">Key</label>
-                <input class="form-control" name="key" id="key" ng-model="user.key" type="text" placeholder="Key"/>
-                <span ng-show="registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
-            </div>
-            <div class="col-xs-6" ng-class="{ 'has-error has-feedback' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }">
-                <label class="sr-only" for="vCode">vCode</label>
-                <input class="form-control" id="vCode" name="vCode" ng-model="user.vCode" type="text" placeholder="vCode" remote="/api/users/api/validate" revalidate-on="user.key" validate-params="{key: user.key}"/>
-                <span ng-show="registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted)" class="glyphicon glyphicon-remove form-control-feedback"></span>
-            </div>
-        </div>
-        <div class="row" ng-class="{ 'has-error has-feedback' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }">
-            <div class="col-xs-12" ng-messages="registration.vCode.$error" ng-if="registration.$submitted || registration.vCode.$touched">
+        <div ng-class="{ 'ui error message' : registration.vCode.$invalid && (registration.vCode.$touched || registration.$submitted) }">
+            <div ng-messages="registration.vCode.$error" ng-if="registration.$submitted || registration.vCode.$touched">
                 <p ng-message="remote" class="help-block">Invalid key and/or vCode.</p>
             </div>
         </div>
-        <div class="form-group">
-            <button type="submit" name="register" class="btn btn-primary">Register</button>
-            <a href="/" role="button" class="btn btn-default">Cancel</a>
-        </div>
+        <button type="submit" name="register" class="ui submit button">Register</button>
+        <a href="/" class="ui primary button">Cancel</a>
     </form>
 </div>

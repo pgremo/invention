@@ -1,24 +1,22 @@
 requirejs.config
   paths:
     jquery: 'lib/jquery/dist/jquery.min'
-    bootstrap: 'lib/bootstrap/dist/js/bootstrap.min'
-    bootstrapvalidator: 'lib/bootstrapvalidator/dist/js/bootstrapValidator.min'
+    semantic: 'lib/semantic-ui/dist/semantic.min'
     d3: 'lib/d3/d3.min'
     dagre: 'lib/dagre/dist/dagre.core.min'
     dagreD3: 'lib/dagre-d3/dist/dagre-d3.core.min'
     graphlib: 'lib/graphlib/dist/graphlib.core.min'
     lodash: 'lib/lodash/dist/lodash.min'
+    tableSort: 'lib/jquery-tablesort/jquery.tablesort.min'
     angular: 'lib/angular/angular.min'
     angularSanitize: 'lib/angular-sanitize/angular-sanitize.min'
     angularRoute: 'lib/angular-route/angular-route.min'
     angularResource: 'lib/angular-resource/angular-resource.min'
-    angularUISelect: 'lib/angular-ui-select/dist/select.min'
-    angularSmartTable: 'lib/angular-smart-table/dist/smart-table.min'
     angularMessages: 'lib/angular-messages/angular-messages.min'
   shim:
-    bootstrap:
+    tableSort:
       deps: ['jquery']
-    bootstrapvalidator:
+    semantic:
       deps: ['jquery']
     dagre:
       deps: ['graphlib']
@@ -28,7 +26,7 @@ requirejs.config
     graphlib:
       deps: ['lodash']
     angular:
-      deps: ['jquery']
+      deps: ['jquery', 'tableSort', 'semantic']
       exports: 'angular'
     angularSanitize:
       deps: ['angular']
@@ -40,11 +38,9 @@ requirejs.config
       deps: ['angular']
     angularSmartTable:
       deps: ['angular']
-    angularUISelect:
-      deps: ['angular', 'bootstrap']
 
-require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angularSanitize', 'angularUISelect', 'angularSmartTable', 'angularMessages'], (angular, dagreD3, d3) ->
-  app = angular.module 'invention', ['ngResource', 'ngRoute', 'ngSanitize', 'ui.select', 'smart-table', 'ngMessages']
+require ['angular', 'dagreD3', 'd3', 'jquery', 'angularResource', 'angularRoute', 'angularSanitize', 'angularMessages'], (angular, dagreD3, d3) ->
+  angular.module 'invention', ['ngResource', 'ngRoute', 'ngSanitize', 'ngMessages']
     .config ['$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) ->
       $locationProvider.html5Mode true
       $routeProvider
@@ -78,7 +74,6 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
                   deferred.reject()
               else
                 deferred.reject()
-              return
             ), (response) ->
               deferred.reject()
               $location.path '/'
@@ -142,30 +137,36 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
         User.save $scope.user, () -> $location.path '/invention'
     ]
     .controller 'InventionController', ['$scope', '$http', 'BoM', ($scope, $http, BoM) ->
+      angular.element '.ui.search'
+        .search
+          apiSettings: url: '/api/typeLookup/?query={query}'
+          minCharacters: 3
+          cache: false
+          onSelect : (result) ->
+            $scope.type = result
+            $scope.$apply()
+
+      angular.element '#shopping-list'
+        .tablesort()
+
       $scope.name = ''
       $scope.ml = 0
       $scope.quantity = 1
-      $scope.type = {}
+      $scope.type = null
 
-      $scope.refreshTypes = (query) ->
-        if query.length < 3 then return
-        $http.get '/api/typeLookup', params: {query: query}
-          .then (result) ->
-            $scope.types = result.data?.map (x) -> id: x[0], value: x[1]
-
-      $scope.$watch 'type.selected', (newValue) ->
+      $scope.$watch 'type', (newValue) ->
         if newValue?
           BoM.get id: newValue.id, ml: $scope.ml, quantity: $scope.quantity, (result) ->
             $scope.bom = result
 
       $scope.$watch 'ml', (newValue, oldValue) ->
-        if newValue? and newValue isnt oldValue and $scope.type.selected?
-          BoM.get id: $scope.type.selected.id, ml: newValue, quantity: $scope.quantity, (result) ->
+        if newValue? and newValue isnt oldValue and $scope.type?
+          BoM.get id: $scope.type.id, ml: newValue, quantity: $scope.quantity, (result) ->
             $scope.bom = result
 
       $scope.$watch 'quantity', (newValue, oldValue) ->
         if newValue? and newValue isnt oldValue and $scope.type.selected?
-          BoM.get id: $scope.type.selected.id, ml: $scope.ml, quantity: newValue, (result) ->
+          BoM.get id: $scope.type.id, ml: $scope.ml, quantity: newValue, (result) ->
             $scope.bom = result
 
       unless Array::find
@@ -189,12 +190,11 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
       $scope.$watch 'items', (items) ->
         if not items? then return
 
-        g = new dagreD3.graphlib.Graph().setGraph(
+        g = new dagreD3.graphlib.Graph().setGraph
             nodesep: 10
             edgesep: 10
             ranksep: 10
             rankdir: 'RL'
-          )
           .setDefaultEdgeLabel () -> {}
 
         for x in items
@@ -221,8 +221,8 @@ require ['angular', 'dagreD3', 'd3', 'angularResource', 'angularRoute', 'angular
 
       $scope.$watch 'items', (items) ->
         if not items? then return
-        $scope.itemToBuy = (value for _, value of items when not value.nodes?)
+        $scope.itemToBuy = (value for value in items when not value.nodes?)
     ]
 
   angular.element(document).ready () ->
-    angular.bootstrap document, ['invention']
+    angular.semantic document, ['invention']
