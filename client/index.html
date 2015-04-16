@@ -24,7 +24,7 @@
                 <div class="ui menu">
                     <div class="header item">Void.Tech</div>
                     <div class="right menu" ng-controller="SignInController">
-                        <a class="item" href="/profile">{{user.name}}</a>
+                        <a class="item" href="/profile" ng-show="user">{{user.name}}</a>
                         <a class="item" href ng-click="signOut()" ng-show="user">Sign Out</a>
                         <a class="item" ng-hide="user" href="/api/auth/eveonline" target="_self">Sign In</a>
                     </div>
