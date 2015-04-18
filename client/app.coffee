@@ -224,5 +224,6 @@ require ['angular', 'dagreD3', 'd3', 'jquery', 'angularResource', 'angularRoute'
         $scope.itemToBuy = (value for value in items when not value.nodes?)
     ]
 
-  angular.element(document).ready () ->
-    angular.semantic document, ['invention']
+  angular
+    .element(document)
+    .ready () -> angular.bootstrap document, ['invention']
