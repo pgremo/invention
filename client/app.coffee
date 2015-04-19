@@ -95,6 +95,11 @@ require ['angular', 'dagreD3', 'd3', 'jquery', 'angularResource', 'angularRoute'
       link: ($scope, elem, attrs, $controller) ->
         $scope.$watch 'match', -> $controller.$validate()
         $controller.$validators.match = (model, view) -> $scope.match in [model, view]
+    .directive 'sortable', ->
+      restrict: 'C'
+      link: ($scope, elem, attrs, $controller) ->
+        angular.element '#shopping-list'
+          .tablesort()
     .directive 'remote', ['$q', '$http', ($q, $http) ->
       require: 'ngModel'
       restrict: 'A'
@@ -145,9 +150,6 @@ require ['angular', 'dagreD3', 'd3', 'jquery', 'angularResource', 'angularRoute'
           onSelect : (result) ->
             $scope.type = result
             $scope.$apply()
-
-      angular.element '#shopping-list'
-        .tablesort()
 
       $scope.name = ''
       $scope.ml = 0
