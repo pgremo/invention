@@ -36,7 +36,9 @@ module.exports = (gulp, opts) ->
         if items.length is 0
           throw new Error("Eve release #{options.eveRelease} not found")
         items = items.map (x) ->
-            x.slice(0, -1).split('-', 2)
+            trimmed = x.slice(0, -1).replace(/-/, ' ').split(' ')
+            reformatted = trimmed[1].replace(/-/, '.')
+            [trimmed, reformatted]
           .map (x) ->
             v = x[1].split '.'
             if v.length < 3
@@ -45,8 +47,8 @@ module.exports = (gulp, opts) ->
         items = items.sort (a, b) ->
           semver.rcompare a[2], b[2]
 
-        opts.eveRelease = items[0][0]
-        opts.eveVersion = items[0][1]
+        opts.eveRelease = items[0][0][0]
+        opts.eveVersion = items[0][0][1]
         gutil.log "Current SDE is #{opts.eveRelease}-#{opts.eveVersion}"
 
   files = () ->
@@ -59,25 +61,18 @@ module.exports = (gulp, opts) ->
     through.obj (file, enc, cb) ->
       firstLog = true
       url = urlf file
+      gutil.log url
 
       downloadHandler = (err, res, body) =>
         fileName = url.split('/').pop()
         @push new gutil.File {path:fileName, contents: new Buffer(body)}
         cb()
 
-      bar = undefined
-
       request({url: url, encoding: null}, downloadHandler)
       .on 'response', (response) ->
         len = parseInt response.headers['content-length'], 10
         fileName = S(file.path).padRight(41).truncate(41)
-        bar = new ProgressBar("  downloading #{fileName} [:bar] :percent :etas", {
-          complete: '=',
-          incomplete: ' ',
-          width: 20,
-          total: len})
-      .on 'data', (chunk) ->
-        bar.tick chunk.length
+        gutil.log "  downloading #{fileName}"
 
   gulp.task 'downloadSDE', ['eveSDEVersion'], () ->
     files 'blueprints.yaml', 'eve.db'
