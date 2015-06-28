@@ -585,7 +585,7 @@
     "categoryId": 7
   },
   "434": {
-    "typeName": "1MN Microwarpdrive I",
+    "typeName": "5MN Microwarpdrive I",
     "groupId": 46,
     "categoryId": 7
   },
@@ -600,7 +600,7 @@
     "categoryId": 7
   },
   "440": {
-    "typeName": "1MN Microwarpdrive II",
+    "typeName": "5MN Microwarpdrive II",
     "groupId": 46,
     "categoryId": 7
   },
@@ -1955,7 +1955,7 @@
     "categoryId": 9
   },
   "1067": {
-    "typeName": "1MN Microwarpdrive I Blueprint",
+    "typeName": "5MN Microwarpdrive I Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -1970,7 +1970,7 @@
     "categoryId": 9
   },
   "1073": {
-    "typeName": "1MN Microwarpdrive II Blueprint",
+    "typeName": "5MN Microwarpdrive II Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -9614,16 +9614,6 @@
     "groupId": 314,
     "categoryId": 17
   },
-  "3849": {
-    "typeName": "Micro Shield Extender I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "3851": {
-    "typeName": "Micro Shield Extender II",
-    "groupId": 38,
-    "categoryId": 7
-  },
   "3887": {
     "typeName": "Co-Processor I",
     "groupId": 285,
@@ -12365,42 +12355,42 @@
     "categoryId": 7
   },
   "5945": {
-    "typeName": "Prototype 100MN Microwarpdrive I",
+    "typeName": "500MN Cold-Gas Enduring Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "5955": {
-    "typeName": "Experimental 100MN Afterburner I",
+    "typeName": "100MN Monopropellant Enduring Afterburner",
     "groupId": 46,
     "categoryId": 7
   },
   "5971": {
-    "typeName": "Upgraded 1MN Microwarpdrive I",
+    "typeName": "5MN Cold-Gas Enduring Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "5973": {
-    "typeName": "Limited 1MN Microwarpdrive I",
+    "typeName": "5MN Y-T8 Compact Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "5975": {
-    "typeName": "Experimental 10MN Microwarpdrive I",
+    "typeName": "50MN Cold-Gas Enduring Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "6001": {
-    "typeName": "Limited 1MN Afterburner I",
+    "typeName": "1MN Y-S8 Compact Afterburner",
     "groupId": 46,
     "categoryId": 7
   },
   "6003": {
-    "typeName": "Experimental 1MN Afterburner I",
+    "typeName": "1MN Monopropellant Enduring Afterburner",
     "groupId": 46,
     "categoryId": 7
   },
   "6005": {
-    "typeName": "Experimental 10MN Afterburner I",
+    "typeName": "10MN Monopropellant Enduring Afterburner",
     "groupId": 46,
     "categoryId": 7
   },
@@ -13684,83 +13674,33 @@
     "groupId": 57,
     "categoryId": 7
   },
-  "8387": {
-    "typeName": "Micro Subordinate Screen Stabilizer I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8397": {
-    "typeName": "Medium Subordinate Screen Stabilizer I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8401": {
-    "typeName": "Small Subordinate Screen Stabilizer I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8409": {
-    "typeName": "Large Subordinate Screen Stabilizer I",
-    "groupId": 38,
-    "categoryId": 7
-  },
   "8419": {
-    "typeName": "Large Azeotropic Ward Salubrity I",
+    "typeName": "Large Azeotropic Restrained Shield Extender",
     "groupId": 38,
     "categoryId": 7
   },
   "8427": {
-    "typeName": "Small Azeotropic Ward Salubrity I",
+    "typeName": "Small Azeotropic Restrained Shield Extender",
     "groupId": 38,
     "categoryId": 7
   },
   "8433": {
-    "typeName": "Medium Azeotropic Ward Salubrity I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8437": {
-    "typeName": "Micro Azeotropic Ward Salubrity I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8465": {
-    "typeName": "Micro Supplemental Barrier Emitter I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8477": {
-    "typeName": "Medium Supplemental Barrier Emitter I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8481": {
-    "typeName": "Small Supplemental Barrier Emitter I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8489": {
-    "typeName": "Large Supplemental Barrier Emitter I",
-    "groupId": 38,
-    "categoryId": 7
-  },
-  "8505": {
-    "typeName": "Micro F-S9 Regolith Shield Induction",
+    "typeName": "Medium Azeotropic Restrained Shield Extender",
     "groupId": 38,
     "categoryId": 7
   },
   "8517": {
-    "typeName": "Medium F-S9 Regolith Shield Induction",
+    "typeName": "Medium F-S9 Regolith Compact Shield Extender",
     "groupId": 38,
     "categoryId": 7
   },
   "8521": {
-    "typeName": "Small F-S9 Regolith Shield Induction",
+    "typeName": "Small F-S9 Regolith Compact Shield Extender",
     "groupId": 38,
     "categoryId": 7
   },
   "8529": {
-    "typeName": "Large F-S9 Regolith Shield Induction",
+    "typeName": "Large F-S9 Regolith Compact Shield Extender",
     "groupId": 38,
     "categoryId": 7
   },
@@ -15325,12 +15265,12 @@
     "categoryId": 9
   },
   "11279": {
-    "typeName": "1600mm Reinforced Steel Plates I",
+    "typeName": "1600mm Steel Plates I",
     "groupId": 329,
     "categoryId": 7
   },
   "11280": {
-    "typeName": "1600mm Reinforced Steel Plates I Blueprint",
+    "typeName": "1600mm Steel Plates I Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
@@ -15374,53 +15314,43 @@
     "groupId": 169,
     "categoryId": 9
   },
-  "11291": {
-    "typeName": "50mm Reinforced Steel Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11292": {
-    "typeName": "50mm Reinforced Steel Plates I Blueprint",
-    "groupId": 349,
-    "categoryId": 9
-  },
   "11293": {
-    "typeName": "100mm Reinforced Steel Plates I",
+    "typeName": "100mm Steel Plates I",
     "groupId": 329,
     "categoryId": 7
   },
   "11294": {
-    "typeName": "100mm Reinforced Steel Plates I Blueprint",
+    "typeName": "100mm Steel Plates I Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "11295": {
-    "typeName": "200mm Reinforced Steel Plates I",
+    "typeName": "200mm Steel Plates I",
     "groupId": 329,
     "categoryId": 7
   },
   "11296": {
-    "typeName": "200mm Reinforced Steel Plates I Blueprint",
+    "typeName": "200mm Steel Plates I Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "11297": {
-    "typeName": "400mm Reinforced Steel Plates I",
+    "typeName": "400mm Steel Plates I",
     "groupId": 329,
     "categoryId": 7
   },
   "11298": {
-    "typeName": "400mm Reinforced Steel Plates I Blueprint",
+    "typeName": "400mm Steel Plates I Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "11299": {
-    "typeName": "800mm Reinforced Steel Plates I",
+    "typeName": "800mm Steel Plates I",
     "groupId": 329,
     "categoryId": 7
   },
   "11300": {
-    "typeName": "800mm Reinforced Steel Plates I Blueprint",
+    "typeName": "800mm Steel Plates I Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
@@ -15454,123 +15384,53 @@
     "groupId": 348,
     "categoryId": 9
   },
-  "11307": {
-    "typeName": "400mm Reinforced Titanium Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
   "11309": {
-    "typeName": "400mm Reinforced Rolled Tungsten Plates I",
+    "typeName": "400mm Rolled Tungsten Compact Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11311": {
-    "typeName": "400mm Reinforced Crystalline Carbonide Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11313": {
-    "typeName": "400mm Reinforced Nanofiber Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11315": {
-    "typeName": "800mm Reinforced Titanium Plates I",
+    "typeName": "400mm Crystalline Carbonide Restrained Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11317": {
-    "typeName": "800mm Reinforced Rolled Tungsten Plates I",
+    "typeName": "800mm Rolled Tungsten Compact Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11319": {
-    "typeName": "800mm Reinforced Crystalline Carbonide Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11321": {
-    "typeName": "800mm Reinforced Nanofiber Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11323": {
-    "typeName": "1600mm Reinforced Titanium Plates I",
+    "typeName": "800mm Crystalline Carbonide Restrained Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11325": {
-    "typeName": "1600mm Reinforced Rolled Tungsten Plates I",
+    "typeName": "1600mm Rolled Tungsten Compact Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11327": {
-    "typeName": "1600mm Reinforced Crystalline Carbonide Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11329": {
-    "typeName": "1600mm Reinforced Nanofiber Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11331": {
-    "typeName": "50mm Reinforced Titanium Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11333": {
-    "typeName": "50mm Reinforced Rolled Tungsten Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11335": {
-    "typeName": "50mm Reinforced Crystalline Carbonide Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11337": {
-    "typeName": "50mm Reinforced Nanofiber Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11339": {
-    "typeName": "100mm Reinforced Titanium Plates I",
+    "typeName": "1600mm Crystalline Carbonide Restrained Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11341": {
-    "typeName": "100mm Reinforced Rolled Tungsten Plates I",
+    "typeName": "100mm Rolled Tungsten Compact Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11343": {
-    "typeName": "100mm Reinforced Crystalline Carbonide Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11345": {
-    "typeName": "100mm Reinforced Nanofiber Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11347": {
-    "typeName": "200mm Reinforced Titanium Plates I",
+    "typeName": "100mm Crystalline Carbonide Restrained Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11349": {
-    "typeName": "200mm Reinforced Rolled Tungsten Plates I",
+    "typeName": "200mm Rolled Tungsten Compact Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "11351": {
-    "typeName": "200mm Reinforced Crystalline Carbonide Plates I",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "11353": {
-    "typeName": "200mm Reinforced Nanofiber Plates I",
+    "typeName": "200mm Crystalline Carbonide Restrained Plates",
     "groupId": 329,
     "categoryId": 7
   },
@@ -17100,22 +16960,22 @@
     "categoryId": 17
   },
   "12052": {
-    "typeName": "10MN Microwarpdrive I",
+    "typeName": "50MN Microwarpdrive I",
     "groupId": 46,
     "categoryId": 7
   },
   "12053": {
-    "typeName": "10MN Microwarpdrive I Blueprint",
+    "typeName": "50MN Microwarpdrive I Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
   "12054": {
-    "typeName": "100MN Microwarpdrive I",
+    "typeName": "500MN Microwarpdrive I",
     "groupId": 46,
     "categoryId": 7
   },
   "12055": {
-    "typeName": "100MN Microwarpdrive I Blueprint",
+    "typeName": "500MN Microwarpdrive I Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -17160,22 +17020,22 @@
     "categoryId": 9
   },
   "12076": {
-    "typeName": "10MN Microwarpdrive II",
+    "typeName": "50MN Microwarpdrive II",
     "groupId": 46,
     "categoryId": 7
   },
   "12077": {
-    "typeName": "10MN Microwarpdrive II Blueprint",
+    "typeName": "50MN Microwarpdrive II Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
   "12084": {
-    "typeName": "100MN Microwarpdrive II",
+    "typeName": "500MN Microwarpdrive II",
     "groupId": 46,
     "categoryId": 7
   },
   "12085": {
-    "typeName": "100MN Microwarpdrive II Blueprint",
+    "typeName": "500MN Microwarpdrive II Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -19670,32 +19530,32 @@
     "categoryId": 7
   },
   "14114": {
-    "typeName": "Domination 100MN Microwarpdrive",
+    "typeName": "Domination 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14116": {
-    "typeName": "Shadow Serpentis 100MN Microwarpdrive",
+    "typeName": "Shadow Serpentis 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14118": {
-    "typeName": "Domination 10MN Microwarpdrive",
+    "typeName": "Domination 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14120": {
-    "typeName": "Shadow Serpentis 10MN Microwarpdrive",
+    "typeName": "Shadow Serpentis 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14122": {
-    "typeName": "Domination 1MN Microwarpdrive",
+    "typeName": "Domination 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14124": {
-    "typeName": "Shadow Serpentis 1MN Microwarpdrive",
+    "typeName": "Shadow Serpentis 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
@@ -20430,22 +20290,22 @@
     "categoryId": 7
   },
   "14492": {
-    "typeName": "Mizuro's Modified 100MN Microwarpdrive",
+    "typeName": "Mizuro's Modified 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14494": {
-    "typeName": "Hakim's Modified 100MN Microwarpdrive",
+    "typeName": "Hakim's Modified 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14496": {
-    "typeName": "Gotan's Modified 100MN Microwarpdrive",
+    "typeName": "Gotan's Modified 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14498": {
-    "typeName": "Tobias' Modified 100MN Microwarpdrive",
+    "typeName": "Tobias' Modified 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
@@ -20470,22 +20330,22 @@
     "categoryId": 7
   },
   "14508": {
-    "typeName": "Brynn's Modified 100MN Microwarpdrive",
+    "typeName": "Brynn's Modified 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14510": {
-    "typeName": "Tuvan's Modified 100MN Microwarpdrive",
+    "typeName": "Tuvan's Modified 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14512": {
-    "typeName": "Setele's Modified 100MN Microwarpdrive",
+    "typeName": "Setele's Modified 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "14514": {
-    "typeName": "Cormack's Modified 100MN Microwarpdrive",
+    "typeName": "Cormack's Modified 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
@@ -23430,12 +23290,12 @@
     "categoryId": 7
   },
   "15747": {
-    "typeName": "Republic Fleet 1MN Microwarpdrive",
+    "typeName": "Republic Fleet 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "15748": {
-    "typeName": "Republic Fleet 1MN Microwarpdrive Blueprint",
+    "typeName": "Republic Fleet 5MN Microwarpdrive Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -23450,12 +23310,12 @@
     "categoryId": 9
   },
   "15751": {
-    "typeName": "Republic Fleet 10MN Microwarpdrive",
+    "typeName": "Republic Fleet 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "15752": {
-    "typeName": "Republic Fleet 10MN Microwarpdrive Blueprint",
+    "typeName": "Republic Fleet 50MN Microwarpdrive Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -23470,12 +23330,12 @@
     "categoryId": 9
   },
   "15755": {
-    "typeName": "Republic Fleet 100MN Microwarpdrive",
+    "typeName": "Republic Fleet 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "15756": {
-    "typeName": "Republic Fleet 100MN Microwarpdrive Blueprint",
+    "typeName": "Republic Fleet 500MN Microwarpdrive Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -23490,12 +23350,12 @@
     "categoryId": 9
   },
   "15759": {
-    "typeName": "Federation Navy 1MN Microwarpdrive",
+    "typeName": "Federation Navy 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "15760": {
-    "typeName": "Federation Navy 1MN Microwarpdrive Blueprint",
+    "typeName": "Federation Navy 5MN Microwarpdrive Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -23510,12 +23370,12 @@
     "categoryId": 9
   },
   "15764": {
-    "typeName": "Federation Navy 10MN Microwarpdrive",
+    "typeName": "Federation Navy 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "15765": {
-    "typeName": "Federation Navy 10MN Microwarpdrive Blueprint",
+    "typeName": "Federation Navy 50MN Microwarpdrive Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -23530,12 +23390,12 @@
     "categoryId": 9
   },
   "15768": {
-    "typeName": "Federation Navy 100MN Microwarpdrive",
+    "typeName": "Federation Navy 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "15769": {
-    "typeName": "Federation Navy 100MN Microwarpdrive Blueprint",
+    "typeName": "Federation Navy 500MN Microwarpdrive Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -30710,102 +30570,102 @@
     "categoryId": 7
   },
   "19313": {
-    "typeName": "Coreli C-Type 1MN Microwarpdrive",
+    "typeName": "Coreli C-Type 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19315": {
-    "typeName": "Corelum C-Type 10MN Microwarpdrive",
+    "typeName": "Corelum C-Type 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19317": {
-    "typeName": "Core C-Type 100MN Microwarpdrive",
+    "typeName": "Core C-Type 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19319": {
-    "typeName": "Coreli B-Type 1MN Microwarpdrive",
+    "typeName": "Coreli B-Type 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19321": {
-    "typeName": "Corelum B-Type 10MN Microwarpdrive",
+    "typeName": "Corelum B-Type 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19323": {
-    "typeName": "Core B-Type 100MN Microwarpdrive",
+    "typeName": "Core B-Type 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19325": {
-    "typeName": "Coreli A-Type 1MN Microwarpdrive",
+    "typeName": "Coreli A-Type 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19327": {
-    "typeName": "Corelum A-Type 10MN Microwarpdrive",
+    "typeName": "Corelum A-Type 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19329": {
-    "typeName": "Core A-Type 100MN Microwarpdrive",
+    "typeName": "Core A-Type 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19335": {
-    "typeName": "Core X-Type 100MN Microwarpdrive",
+    "typeName": "Core X-Type 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19337": {
-    "typeName": "Gistii C-Type 1MN Microwarpdrive",
+    "typeName": "Gistii C-Type 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19339": {
-    "typeName": "Gistum C-Type 10MN Microwarpdrive",
+    "typeName": "Gistum C-Type 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19341": {
-    "typeName": "Gist C-Type 100MN Microwarpdrive",
+    "typeName": "Gist C-Type 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19343": {
-    "typeName": "Gistii B-Type 1MN Microwarpdrive",
+    "typeName": "Gistii B-Type 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19345": {
-    "typeName": "Gistum B-Type 10MN Microwarpdrive",
+    "typeName": "Gistum B-Type 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19347": {
-    "typeName": "Gist B-Type 100MN Microwarpdrive",
+    "typeName": "Gist B-Type 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19349": {
-    "typeName": "Gistii A-Type 1MN Microwarpdrive",
+    "typeName": "Gistii A-Type 5MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19351": {
-    "typeName": "Gistum A-Type 10MN Microwarpdrive",
+    "typeName": "Gistum A-Type 50MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19353": {
-    "typeName": "Gist A-Type 100MN Microwarpdrive",
+    "typeName": "Gist A-Type 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "19359": {
-    "typeName": "Gist X-Type 100MN Microwarpdrive",
+    "typeName": "Gist X-Type 500MN Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
@@ -32094,63 +31954,53 @@
     "groupId": 257,
     "categoryId": 16
   },
-  "20343": {
-    "typeName": "50mm Reinforced Steel Plates II",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "20344": {
-    "typeName": "50mm Reinforced Steel Plates II Blueprint",
-    "groupId": 349,
-    "categoryId": 9
-  },
   "20345": {
-    "typeName": "100mm Reinforced Steel Plates II",
+    "typeName": "100mm Steel Plates II",
     "groupId": 329,
     "categoryId": 7
   },
   "20346": {
-    "typeName": "100mm Reinforced Steel Plates II Blueprint",
+    "typeName": "100mm Steel Plates II Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "20347": {
-    "typeName": "200mm Reinforced Steel Plates II",
+    "typeName": "200mm Steel Plates II",
     "groupId": 329,
     "categoryId": 7
   },
   "20348": {
-    "typeName": "200mm Reinforced Steel Plates II Blueprint",
+    "typeName": "200mm Steel Plates II Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "20349": {
-    "typeName": "400mm Reinforced Steel Plates II",
+    "typeName": "400mm Steel Plates II",
     "groupId": 329,
     "categoryId": 7
   },
   "20350": {
-    "typeName": "400mm Reinforced Steel Plates II Blueprint",
+    "typeName": "400mm Steel Plates II Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "20351": {
-    "typeName": "800mm Reinforced Steel Plates II",
+    "typeName": "800mm Steel Plates II",
     "groupId": 329,
     "categoryId": 7
   },
   "20352": {
-    "typeName": "800mm Reinforced Steel Plates II Blueprint",
+    "typeName": "800mm Steel Plates II Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "20353": {
-    "typeName": "1600mm Reinforced Steel Plates II",
+    "typeName": "1600mm Steel Plates II",
     "groupId": 329,
     "categoryId": 7
   },
   "20354": {
-    "typeName": "1600mm Reinforced Steel Plates II Blueprint",
+    "typeName": "1600mm Steel Plates II Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
@@ -32890,7 +32740,7 @@
     "categoryId": 9
   },
   "20627": {
-    "typeName": "Micro 'Trapper' Shield Extender",
+    "typeName": "Small 'Trapper' Shield Extender",
     "groupId": 38,
     "categoryId": 7
   },
@@ -34745,62 +34595,62 @@
     "categoryId": 17
   },
   "21470": {
-    "typeName": "1MN Analog Booster Rockets",
+    "typeName": "1MN Analog Booster Afterburner",
     "groupId": 46,
     "categoryId": 7
   },
   "21471": {
-    "typeName": "1MN Analog Booster Rockets Blueprint",
+    "typeName": "1MN Analog Booster Afterburner Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
   "21472": {
-    "typeName": "10MN Analog Booster Rockets",
+    "typeName": "10MN Analog Booster Afterburner",
     "groupId": 46,
     "categoryId": 7
   },
   "21473": {
-    "typeName": "10MN Analog Booster Rockets Blueprint",
+    "typeName": "10MN Analog Booster Afterburner Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
   "21474": {
-    "typeName": "100MN Analog Booster Rockets",
+    "typeName": "100MN Analog Booster Afterburner",
     "groupId": 46,
     "categoryId": 7
   },
   "21475": {
-    "typeName": "100MN Analog Booster Rockets Blueprint",
+    "typeName": "100MN Analog Booster Afterburner Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
   "21476": {
-    "typeName": "1MN Digital Booster Rockets",
+    "typeName": "5MN Digital Booster Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "21477": {
-    "typeName": "1MN Digital Booster Rockets Blueprint",
+    "typeName": "5MN Digital Booster Microwarpdrive Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
   "21478": {
-    "typeName": "10MN Digital Booster Rockets",
+    "typeName": "50MN Digital Booster Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "21479": {
-    "typeName": "10MN Digital Booster Rockets Blueprint",
+    "typeName": "50MN Digital Booster Microwarpdrive Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
   "21480": {
-    "typeName": "100MN Digital Booster Rockets",
+    "typeName": "500MN Digital Booster Microwarpdrive",
     "groupId": 46,
     "categoryId": 7
   },
   "21481": {
-    "typeName": "100MN Digital Booster Rockets Blueprint",
+    "typeName": "500MN Digital Booster Rockets Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -35800,12 +35650,12 @@
     "categoryId": 9
   },
   "21857": {
-    "typeName": "Civilian Afterburner",
+    "typeName": "1MN Civilian Afterburner",
     "groupId": 46,
     "categoryId": 7
   },
   "21858": {
-    "typeName": "Civilian Afterburner Blueprint",
+    "typeName": "1MN Civilian Afterburner Blueprint",
     "groupId": 126,
     "categoryId": 9
   },
@@ -39310,62 +39160,62 @@
     "categoryId": 9
   },
   "23783": {
-    "typeName": "'Abatis' 100mm Reinforced Steel Plates I",
+    "typeName": "'Abatis' 100mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "23784": {
-    "typeName": "'Abatis' 100mm Reinforced Steel Plates I Blueprint",
+    "typeName": "'Abatis' 100mm Steel Plates I Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "23785": {
-    "typeName": "'Bailey' 1600mm Reinforced Steel Plates I",
+    "typeName": "'Bailey' 1600mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "23786": {
-    "typeName": "'Bailey' 1600mm Reinforced Steel Plates I Blueprint",
+    "typeName": "'Bailey' 1600mm Steel Plates Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "23787": {
-    "typeName": "'Chainmail' 200mm Reinforced Steel Plates I",
+    "typeName": "'Chainmail' 200mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "23788": {
-    "typeName": "'Chainmail' 200mm Reinforced Steel Plates I Blueprint",
+    "typeName": "'Chainmail' 200mm Steel Plates Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "23789": {
-    "typeName": "'Bastion' 400mm Reinforced Steel Plates I",
+    "typeName": "'Bastion' 400mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "23790": {
-    "typeName": "'Bastion' 400mm Reinforced Steel Plates I Blueprint",
+    "typeName": "'Bastion' 400mm Steel Plates Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "23791": {
-    "typeName": "'Citadella' 50mm Reinforced Steel Plates I",
+    "typeName": "'Citadella' 100mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "23792": {
-    "typeName": "'Citadella' 50mm Reinforced Steel Plates I Blueprint",
+    "typeName": "'Citadella' 100mm Steel Plates Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
   "23793": {
-    "typeName": "'Barbican' 800mm Reinforced Steel Plates I",
+    "typeName": "'Barbican' 800mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "23794": {
-    "typeName": "'Barbican' 800mm Reinforced Steel Plates I Blueprint",
+    "typeName": "'Barbican' 800mm Steel Plates Blueprint",
     "groupId": 349,
     "categoryId": 9
   },
@@ -49030,27 +48880,22 @@
     "categoryId": 7
   },
   "28778": {
-    "typeName": "Syndicate 100mm Reinforced Steel Plates",
+    "typeName": "Syndicate 100mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "28780": {
-    "typeName": "Syndicate 1600mm Reinforced Steel Plates",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "28782": {
-    "typeName": "Syndicate 200mm Reinforced Steel Plates",
+    "typeName": "Syndicate 1600mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "28784": {
-    "typeName": "Syndicate 400mm Reinforced Steel Plates",
+    "typeName": "Syndicate 400mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "28786": {
-    "typeName": "Syndicate 800mm Reinforced Steel Plates",
+    "typeName": "Syndicate 800mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
@@ -52350,7 +52195,7 @@
     "categoryId": 17
   },
   "30952": {
-    "typeName": "Dossier � Author Unknown",
+    "typeName": "Dossier   Author Unknown",
     "groupId": 314,
     "categoryId": 17
   },
@@ -56575,52 +56420,42 @@
     "categoryId": 18
   },
   "31896": {
-    "typeName": "Imperial Navy 100mm Reinforced Steel Plates",
+    "typeName": "Imperial Navy 100mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "31898": {
-    "typeName": "Federation Navy 100mm Reinforced Steel Plates",
+    "typeName": "Federation Navy 100mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "31900": {
-    "typeName": "Imperial Navy 1600mm Reinforced Steel Plates",
+    "typeName": "Imperial Navy 1600mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "31902": {
-    "typeName": "Federation Navy 1600mm Reinforced Steel Plates",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "31904": {
-    "typeName": "Imperial Navy 200mm Reinforced Steel Plates",
-    "groupId": 329,
-    "categoryId": 7
-  },
-  "31906": {
-    "typeName": "Federation Navy 200mm Reinforced Steel Plates",
+    "typeName": "Federation Navy 1600mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "31908": {
-    "typeName": "Imperial Navy 400mm Reinforced Steel Plates",
+    "typeName": "Imperial Navy 400mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "31910": {
-    "typeName": "Federation Navy 400mm Reinforced Steel Plates",
+    "typeName": "Federation Navy 400mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "31916": {
-    "typeName": "Imperial Navy 800mm Reinforced Steel Plates",
+    "typeName": "Imperial Navy 800mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
   "31918": {
-    "typeName": "Federation Navy 800mm Reinforced Steel Plates",
+    "typeName": "Federation Navy 800mm Steel Plates",
     "groupId": 329,
     "categoryId": 7
   },
@@ -57660,12 +57495,12 @@
     "categoryId": 17
   },
   "32371": {
-    "typeName": "Capital Ship Design � �Dictator�",
+    "typeName": "Capital Ship Design    Dictator ",
     "groupId": 314,
     "categoryId": 17
   },
   "32372": {
-    "typeName": "Minedrill � E518 Crew",
+    "typeName": "Minedrill   E518 Crew",
     "groupId": 283,
     "categoryId": 17
   },
@@ -57685,7 +57520,7 @@
     "categoryId": 17
   },
   "32383": {
-    "typeName": "Guristas �Dirty' Explosive System",
+    "typeName": "Guristas  Dirty' Explosive System",
     "groupId": 314,
     "categoryId": 17
   },
@@ -57700,7 +57535,7 @@
     "categoryId": 17
   },
   "32398": {
-    "typeName": "Lieutenant Kipo �Foxfire� Tekira",
+    "typeName": "Lieutenant Kipo  Foxfire  Tekira",
     "groupId": 283,
     "categoryId": 17
   },
@@ -57710,7 +57545,7 @@
     "categoryId": 17
   },
   "32407": {
-    "typeName": "Holoreel � Torture Log I15B",
+    "typeName": "Holoreel   Torture Log I15B",
     "groupId": 314,
     "categoryId": 17
   },
@@ -58630,7 +58465,7 @@
     "categoryId": 63
   },
   "33041": {
-    "typeName": "NEO YC 114: Africa�s Finest",
+    "typeName": "NEO YC 114: Africa s Finest",
     "groupId": 1195,
     "categoryId": 63
   },
@@ -58655,7 +58490,7 @@
     "categoryId": 63
   },
   "33046": {
-    "typeName": "NEO YC 114: ISN � Incursion Shiny Network",
+    "typeName": "NEO YC 114: ISN   Incursion Shiny Network",
     "groupId": 1195,
     "categoryId": 63
   },
@@ -58665,7 +58500,7 @@
     "categoryId": 63
   },
   "33048": {
-    "typeName": "NEO YC 114: Asine Hitama�s team",
+    "typeName": "NEO YC 114: Asine Hitama s team",
     "groupId": 1195,
     "categoryId": 63
   },
@@ -61830,7 +61665,7 @@
     "categoryId": 30
   },
   "34042": {
-    "typeName": "Men's 'Crusher' Cybernetic Arm (green camo  right)",
+    "typeName": "Men's 'Crusher' Cybernetic Arm (green camo right)",
     "groupId": 1271,
     "categoryId": 30
   },
@@ -62470,7 +62305,7 @@
     "categoryId": 9
   },
   "34272": {
-    "typeName": "Polarized Small Pulse Laser",
+    "typeName": "Polarized Small Focused Pulse Laser",
     "groupId": 53,
     "categoryId": 7
   },
@@ -62840,7 +62675,7 @@
     "categoryId": 34
   },
   "34417": {
-    "typeName": "Manufacturing Union�s Placard",
+    "typeName": "Manufacturing Union s Placard",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -62860,12 +62695,12 @@
     "categoryId": 63
   },
   "34421": {
-    "typeName": "Chribba�s Modified Strip Miner",
+    "typeName": "Chribba s Modified Strip Miner",
     "groupId": 1194,
     "categoryId": 63
   },
   "34422": {
-    "typeName": "Rooks & Kings � The Clarion Call Compilation",
+    "typeName": "Rooks & Kings   The Clarion Call Compilation",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -62880,12 +62715,12 @@
     "categoryId": 63
   },
   "34425": {
-    "typeName": "SCC Guidelines � Lotteries For Dummies",
+    "typeName": "SCC Guidelines   Lotteries For Dummies",
     "groupId": 1194,
     "categoryId": 63
   },
   "34426": {
-    "typeName": "Sort Dragon�s Guide To Diplomacy",
+    "typeName": "Sort Dragon s Guide To Diplomacy",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -62900,17 +62735,17 @@
     "categoryId": 63
   },
   "34429": {
-    "typeName": "Vincent Pryce�s Warp Disruption Field Generator",
+    "typeName": "Vincent Pryce s Warp Disruption Field Generator",
     "groupId": 1194,
     "categoryId": 63
   },
   "34430": {
-    "typeName": "My God, It�s Full Of Holes!",
+    "typeName": "My God, It s Full Of Holes!",
     "groupId": 1194,
     "categoryId": 63
   },
   "34431": {
-    "typeName": "Guillome Renard�s Sleeper Loot Stash",
+    "typeName": "Guillome Renard s Sleeper Loot Stash",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -62920,17 +62755,17 @@
     "categoryId": 63
   },
   "34433": {
-    "typeName": "The Damsel�s Drunk Bodyguard",
+    "typeName": "The Damsel s Drunk Bodyguard",
     "groupId": 1194,
     "categoryId": 63
   },
   "34434": {
-    "typeName": "Alice Saki�s Good Posting Guide",
+    "typeName": "Alice Saki s Good Posting Guide",
     "groupId": 1194,
     "categoryId": 63
   },
   "34435": {
-    "typeName": "Soxfour�s Spaceboots",
+    "typeName": "Soxfour s Spaceboots",
     "groupId": 1194,
     "categoryId": 63
   },
@@ -62970,62 +62805,62 @@
     "categoryId": 17
   },
   "34458": {
-    "typeName": "?????YC117??????",
+    "typeName": " YC117 ",
     "groupId": 107,
     "categoryId": 9
   },
   "34460": {
-    "typeName": "?????YC117??????",
+    "typeName": " YC117 ",
     "groupId": 107,
     "categoryId": 9
   },
   "34462": {
-    "typeName": "????YC117??????",
+    "typeName": " YC117 ",
     "groupId": 107,
     "categoryId": 9
   },
   "34464": {
-    "typeName": "????YC117??????",
+    "typeName": " YC117 ",
     "groupId": 107,
     "categoryId": 9
   },
   "34466": {
-    "typeName": "??????YC117??????",
+    "typeName": " YC117 ",
     "groupId": 107,
     "categoryId": 9
   },
   "34468": {
-    "typeName": "?????YC117??????",
+    "typeName": " YC117 ",
     "groupId": 107,
     "categoryId": 9
   },
   "34470": {
-    "typeName": "???YC117??????",
+    "typeName": " YC117 ",
     "groupId": 107,
     "categoryId": 9
   },
   "34472": {
-    "typeName": "???YC117??????",
+    "typeName": " YC117 ",
     "groupId": 107,
     "categoryId": 9
   },
   "34474": {
-    "typeName": "???YC117??????",
+    "typeName": " YC117 ",
     "groupId": 489,
     "categoryId": 9
   },
   "34476": {
-    "typeName": "???YC117??????",
+    "typeName": " YC117 ",
     "groupId": 106,
     "categoryId": 9
   },
   "34478": {
-    "typeName": "???YC117??????",
+    "typeName": " YC117 ",
     "groupId": 106,
     "categoryId": 9
   },
   "34480": {
-    "typeName": "????YC117??????",
+    "typeName": " YC117 ",
     "groupId": 106,
     "categoryId": 9
   },
@@ -63068,6 +62903,56 @@
     "typeName": "Minmatar Tactical Destroyer",
     "groupId": 257,
     "categoryId": 16
+  },
+  "34551": {
+    "typeName": "Sentinel Index",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34552": {
+    "typeName": "Barbican Index",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34553": {
+    "typeName": "Vidette Index",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34554": {
+    "typeName": "Conflux Index",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34555": {
+    "typeName": "Redoubt Index",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34556": {
+    "typeName": "Sentinel Element",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34557": {
+    "typeName": "Barbican Element",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34558": {
+    "typeName": "Vidette Element",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34559": {
+    "typeName": "Conflux Element",
+    "groupId": 1314,
+    "categoryId": 17
+  },
+  "34560": {
+    "typeName": "Redoubt Element",
+    "groupId": 1314,
+    "categoryId": 17
   },
   "34562": {
     "typeName": "Svipul",
@@ -63175,7 +63060,7 @@
     "categoryId": 5
   },
   "34609": {
-    "typeName": "Ferox Laidai SKIN (Permanent)",
+    "typeName": "Ferox Lai Dai SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -63375,7 +63260,7 @@
     "categoryId": 5
   },
   "34651": {
-    "typeName": "Chimera Laidai SKIN (Permanent)",
+    "typeName": "Chimera Lai Dai SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -63425,7 +63310,7 @@
     "categoryId": 5
   },
   "34661": {
-    "typeName": "Phoenix Laidai SKIN (Permanent)",
+    "typeName": "Phoenix Lai Dai SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -63555,7 +63440,7 @@
     "categoryId": 5
   },
   "34687": {
-    "typeName": "Moa Laidai SKIN (Permanent)",
+    "typeName": "Moa Lai Dai SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -64158,6 +64043,16 @@
     "typeName": "Women's 'Emergent Threats' T-shirt YC 117",
     "groupId": 1089,
     "categoryId": 30
+  },
+  "34828": {
+    "typeName": "Jackdaw",
+    "groupId": 1305,
+    "categoryId": 6
+  },
+  "34829": {
+    "typeName": "Jackdaw Blueprint",
+    "groupId": 1309,
+    "categoryId": 9
   },
   "34841": {
     "typeName": "Entrapment Array 2 Blueprint",
@@ -65145,22 +65040,22 @@
     "categoryId": 5
   },
   "35053": {
-    "typeName": "Chimera Laidai SKIN (7 Days)",
+    "typeName": "Chimera Lai Dai SKIN (7 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35054": {
-    "typeName": "Chimera Laidai SKIN (30 Days)",
+    "typeName": "Chimera Lai Dai SKIN (30 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35055": {
-    "typeName": "Chimera Laidai SKIN (90 Days)",
+    "typeName": "Chimera Lai Dai SKIN (90 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35056": {
-    "typeName": "Chimera Laidai SKIN (365 Days)",
+    "typeName": "Chimera Lai Dai SKIN (365 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -65645,22 +65540,22 @@
     "categoryId": 5
   },
   "35153": {
-    "typeName": "Ferox Laidai SKIN (7 Days)",
+    "typeName": "Ferox Lai Dai SKIN (7 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35154": {
-    "typeName": "Ferox Laidai SKIN (30 Days)",
+    "typeName": "Ferox Lai Dai SKIN (30 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35155": {
-    "typeName": "Ferox Laidai SKIN (90 Days)",
+    "typeName": "Ferox Lai Dai SKIN (90 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35156": {
-    "typeName": "Ferox Laidai SKIN (365 Days)",
+    "typeName": "Ferox Lai Dai SKIN (365 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -66525,22 +66420,22 @@
     "categoryId": 5
   },
   "35329": {
-    "typeName": "Moa Laidai SKIN (7 Days)",
+    "typeName": "Moa Lai Dai SKIN (7 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35330": {
-    "typeName": "Moa Laidai SKIN (30 Days)",
+    "typeName": "Moa Lai Dai SKIN (30 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35331": {
-    "typeName": "Moa Laidai SKIN (90 Days)",
+    "typeName": "Moa Lai Dai SKIN (90 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35332": {
-    "typeName": "Moa Laidai SKIN (365 Days)",
+    "typeName": "Moa Lai Dai SKIN (365 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -66985,22 +66880,22 @@
     "categoryId": 5
   },
   "35421": {
-    "typeName": "Phoenix Laidai SKIN (7 Days)",
+    "typeName": "Phoenix Lai Dai SKIN (7 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35422": {
-    "typeName": "Phoenix Laidai SKIN (30 Days)",
+    "typeName": "Phoenix Lai Dai SKIN (30 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35423": {
-    "typeName": "Phoenix Laidai SKIN (90 Days)",
+    "typeName": "Phoenix Lai Dai SKIN (90 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35424": {
-    "typeName": "Phoenix Laidai SKIN (365 Days)",
+    "typeName": "Phoenix Lai Dai SKIN (365 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -68104,6 +67999,181 @@
     "groupId": 1311,
     "categoryId": 5
   },
+  "35656": {
+    "typeName": "10MN Y-S8 Compact Afterburner",
+    "groupId": 46,
+    "categoryId": 7
+  },
+  "35657": {
+    "typeName": "100MN Y-S8 Compact Afterburner",
+    "groupId": 46,
+    "categoryId": 7
+  },
+  "35658": {
+    "typeName": "5MN Quad LiF Restrained Microwarpdrive",
+    "groupId": 46,
+    "categoryId": 7
+  },
+  "35659": {
+    "typeName": "50MN Y-T8 Compact Microwarpdrive",
+    "groupId": 46,
+    "categoryId": 7
+  },
+  "35660": {
+    "typeName": "50MN Quad LiF Restrained Microwarpdrive",
+    "groupId": 46,
+    "categoryId": 7
+  },
+  "35661": {
+    "typeName": "500MN Y-T8 Compact Microwarpdrive",
+    "groupId": 46,
+    "categoryId": 7
+  },
+  "35662": {
+    "typeName": "500MN Quad LiF Restrained Microwarpdrive",
+    "groupId": 46,
+    "categoryId": 7
+  },
+  "35680": {
+    "typeName": "Caldari Tactical Destroyer",
+    "groupId": 257,
+    "categoryId": 16
+  },
+  "35681": {
+    "typeName": "Men's 'Humanitarian' T-shirt YC 117",
+    "groupId": 1089,
+    "categoryId": 30
+  },
+  "35682": {
+    "typeName": "Women's 'Humanitarian' T-shirt YC 117",
+    "groupId": 1089,
+    "categoryId": 30
+  },
+  "35690": {
+    "typeName": "Astero Sanctuary SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35691": {
+    "typeName": "Astero Sanctuary SKIN (7 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35692": {
+    "typeName": "Astero Sanctuary SKIN (30 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35693": {
+    "typeName": "Astero Sanctuary SKIN (90 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35694": {
+    "typeName": "Astero Sanctuary SKIN (365 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35695": {
+    "typeName": "Stratios Sanctuary SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35696": {
+    "typeName": "Stratios Sanctuary SKIN (7 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35697": {
+    "typeName": "Stratios Sanctuary SKIN (30 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35698": {
+    "typeName": "Stratios Sanctuary SKIN (90 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35699": {
+    "typeName": "Stratios Sanctuary SKIN (365 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35700": {
+    "typeName": "Nestor Sanctuary SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35701": {
+    "typeName": "Nestor Sanctuary SKIN (7 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35702": {
+    "typeName": "Nestor Sanctuary SKIN (30 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35703": {
+    "typeName": "Nestor Sanctuary SKIN (90 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35704": {
+    "typeName": "Nestor Sanctuary SKIN (365 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35705": {
+    "typeName": "Vargur Thukker Tribe SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35706": {
+    "typeName": "Vargur Thukker Tribe SKIN (7 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35707": {
+    "typeName": "Vargur Thukker Tribe SKIN (30 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35708": {
+    "typeName": "Vargur Thukker Tribe SKIN (90 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35709": {
+    "typeName": "Vargur Thukker Tribe SKIN (365 Days)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "35770": {
+    "typeName": "EVE/Evetypes/Types/Names:505984",
+    "groupId": 1395,
+    "categoryId": 7
+  },
+  "35771": {
+    "typeName": "EVE/Evetypes/Types/Names:505986",
+    "groupId": 1395,
+    "categoryId": 7
+  },
+  "35772": {
+    "typeName": "EVE/Evetypes/Types/Names:505989",
+    "groupId": 1397,
+    "categoryId": 9
+  },
+  "35773": {
+    "typeName": "EVE/Evetypes/Types/Names:505991",
+    "groupId": 1397,
+    "categoryId": 9
+  },
+  "35774": {
+    "typeName": "EVE/Evetypes/Types/Names:505993",
+    "groupId": 1395,
+    "categoryId": 7
+  },
   "350916": {
     "typeName": "Plasma Cannon",
     "groupId": 350858,
@@ -68446,6 +68516,11 @@
   },
   "352043": {
     "typeName": "'Vector' Complex CPU Upgrade",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
+  "352044": {
+    "typeName": " ",
     "groupId": 351121,
     "categoryId": 350001
   },
@@ -69486,6 +69561,11 @@
   },
   "353388": {
     "typeName": "Dropship Operation",
+    "groupId": 351648,
+    "categoryId": 350001
+  },
+  "353393": {
+    "typeName": " ",
     "groupId": 351648,
     "categoryId": 350001
   },
@@ -73284,11 +73364,6 @@
     "groupId": 354753,
     "categoryId": 350001
   },
-  "357008": {
-    "typeName": "Drone Hive - Lvl.3",
-    "groupId": 354753,
-    "categoryId": 350001
-  },
   "357009": {
     "typeName": "[TEST] Drone Hive 2",
     "groupId": 354753,
@@ -73954,6 +74029,11 @@
     "groupId": 351121,
     "categoryId": 350001
   },
+  "364269": {
+    "typeName": " ",
+    "groupId": 351648,
+    "categoryId": 350001
+  },
   "364317": {
     "typeName": "Staff Recruiter Militia Frame",
     "groupId": 351064,
@@ -74052,6 +74132,11 @@
   "364414": {
     "typeName": "Duvolle Focused Active Scanner",
     "groupId": 351844,
+    "categoryId": 350001
+  },
+  "364430": {
+    "typeName": " ",
+    "groupId": 351648,
     "categoryId": 350001
   },
   "364471": {
@@ -75309,6 +75394,11 @@
     "groupId": 351064,
     "categoryId": 350001
   },
+  "365422": {
+    "typeName": " ",
+    "groupId": 351121,
+    "categoryId": 350001
+  },
   "365424": {
     "typeName": "Reactive Deflection Field I",
     "groupId": 351121,
@@ -76467,6 +76557,11 @@
   "366108": {
     "typeName": "Republic Boundless Repair Tool",
     "groupId": 351844,
+    "categoryId": 350001
+  },
+  "366131": {
+    "typeName": " ",
+    "groupId": 351210,
     "categoryId": 350001
   },
   "366228": {
@@ -78019,6 +78114,11 @@
     "groupId": 350858,
     "categoryId": 350001
   },
+  "367380": {
+    "typeName": " ",
+    "groupId": 351648,
+    "categoryId": 350001
+  },
   "367382": {
     "typeName": "Nova Knife Fitting Optimization",
     "groupId": 351648,
@@ -78090,12 +78190,12 @@
     "categoryId": 350001
   },
   "367477": {
-    "typeName": "Kubo�s GMK-16 Plasma Cannon",
+    "typeName": "Kubo s GMK-16 Plasma Cannon",
     "groupId": 350858,
     "categoryId": 350001
   },
   "367489": {
-    "typeName": "Beacon�s ELI-74 Swarm Launcher",
+    "typeName": "Beacon s ELI-74 Swarm Launcher",
     "groupId": 350858,
     "categoryId": 350001
   },
@@ -78135,7 +78235,7 @@
     "categoryId": 350001
   },
   "367541": {
-    "typeName": "Viktor�s NEG-1 Laser Rifle",
+    "typeName": "Viktor s NEG-1 Laser Rifle",
     "groupId": 350858,
     "categoryId": 350001
   },
@@ -78935,7 +79035,7 @@
     "categoryId": 350001
   },
   "368577": {
-    "typeName": "'Tash Murkon' Scout A-I",
+    "typeName": "'Tash Murkon' Logistics A-I",
     "groupId": 351064,
     "categoryId": 350001
   },
@@ -79225,7 +79325,7 @@
     "categoryId": 350001
   },
   "368777": {
-    "typeName": "Krin�s LEX -71 Damage Modifier",
+    "typeName": "Krin s LEX -71 Damage Modifier",
     "groupId": 351121,
     "categoryId": 350001
   },
@@ -79354,6 +79454,66 @@
     "groupId": 368726,
     "categoryId": 350001
   },
+  "369091": {
+    "typeName": "State 'Marine Issue' CA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369092": {
+    "typeName": "Federation 'Marine Issue' GA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369093": {
+    "typeName": "Imperial 'Marine Issue' AM-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369094": {
+    "typeName": "Republic 'Marine Issue' MN-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369102": {
+    "typeName": "Imperial 'Marine Issue' AM-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369103": {
+    "typeName": "State 'Marine Issue' CA-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369104": {
+    "typeName": "Federation 'Marine Issue' GA-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369105": {
+    "typeName": "Republic 'Marine Issue' MN-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369106": {
+    "typeName": "State 'Marine Issue' CA-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369107": {
+    "typeName": "Federation 'Marine Issue' GA-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369108": {
+    "typeName": "Imperial 'Marine Issue' AM-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369109": {
+    "typeName": "Republic 'Marine Issue' MN-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
   "369115": {
     "typeName": "'Serpentis' GA-M SKIN",
     "groupId": 368726,
@@ -79411,6 +79571,66 @@
   },
   "369168": {
     "typeName": "'Legacy' AM-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369180": {
+    "typeName": "'Leopard' CA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369200": {
+    "typeName": "'Jungle Hunter' CA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369203": {
+    "typeName": "'Tash Murkon' AM-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369204": {
+    "typeName": "'Roden' GA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369205": {
+    "typeName": "'Kaalakiota' CA-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369206": {
+    "typeName": "'Brutor' MN-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369211": {
+    "typeName": "'APEX' Cloak Field",
+    "groupId": 351844,
+    "categoryId": 350001
+  },
+  "369233": {
+    "typeName": "Active Omega-Booster NWS (7-Day)",
+    "groupId": 354641,
+    "categoryId": 350001
+  },
+  "369242": {
+    "typeName": "'Kador' AM-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369243": {
+    "typeName": "'Ishukone' CA-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369244": {
+    "typeName": "'Duvolle' GA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369245": {
+    "typeName": "'Thukker' MN-H SKIN",
     "groupId": 368726,
     "categoryId": 350001
   }
