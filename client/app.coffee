@@ -100,6 +100,17 @@ require ['angular', 'dagreD3', 'd3', 'jquery', 'angularResource', 'angularRoute'
       link: ($scope, elem, attrs, $controller) ->
         angular.element '#shopping-list'
           .tablesort()
+    .directive 'search', ->
+      restrict: 'C'
+      link: ($scope, elem, attrs, $controller) ->
+        angular.element '.ui.search'
+        .search
+          apiSettings: url: '/api/typeLookup/?query={query}'
+          minCharacters: 3
+          cache: false
+          onSelect : (result) ->
+            $scope.type = result
+            $scope.$apply()
     .directive 'sortby', ->
       restrict: 'A'
       scope:
@@ -160,8 +171,7 @@ require ['angular', 'dagreD3', 'd3', 'jquery', 'angularResource', 'angularRoute'
             $scope.type = result
             $scope.$apply()
 
-      $scope.toInt = (x) ->
-        parseInt(x)
+      $scope.toInt = (x) -> parseInt(x)
 
       $scope.name = ''
       $scope.ml = 0
