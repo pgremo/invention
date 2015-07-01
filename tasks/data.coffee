@@ -35,17 +35,16 @@ module.exports = (gulp, opts) ->
             x.match "^#{options.eveRelease}-.*/"
         if items.length is 0
           throw new Error("Eve release #{options.eveRelease} not found")
-        items = items.map (x) ->
-            trimmed = x.slice(0, -1).replace(/-/, ' ').split(' ')
-            reformatted = trimmed[1].replace(/-/, '.')
-            [trimmed, reformatted]
+        items = items
           .map (x) ->
-            v = x[1].split '.'
+            trimmed = x.slice(0, -1).replace(/-/, ' ').split(' ')
+            reformatted = trimmed[1].replace(/(-+)/, ' ').split(' ')
+            v = reformatted[0].split '.'
             if v.length < 3
-              v = v.concat(['0', '0', '0'])[0..3]
-            [x[0], x[1], v.join('.')]
+              v = v.concat(['0', '0', '0'])[0..2]
+            [trimmed, "#{v.join('.')}-#{reformatted[1]}"]
         items = items.sort (a, b) ->
-          semver.rcompare a[2], b[2]
+          semver.rcompare a[1], b[1]
 
         opts.eveRelease = items[0][0][0]
         opts.eveVersion = items[0][0][1]
@@ -59,7 +58,6 @@ module.exports = (gulp, opts) ->
 
   downloadFile = (urlf) ->
     through.obj (file, enc, cb) ->
-      firstLog = true
       url = urlf file
       gutil.log url
 
@@ -69,15 +67,15 @@ module.exports = (gulp, opts) ->
         cb()
 
       request({url: url, encoding: null}, downloadHandler)
-      .on 'response', (response) ->
-        len = parseInt response.headers['content-length'], 10
+      .on 'response', ->
         fileName = S(file.path).padRight(41).truncate(41)
         gutil.log "  downloading #{fileName}"
 
   gulp.task 'downloadSDE', ['eveSDEVersion'], () ->
+    destination = "data/#{opts.eveRelease}/#{opts.eveVersion}"
     files 'blueprints.yaml', 'eve.db'
-      .pipe filter (file) -> not fs.existsSync "data/#{opts.eveRelease}/#{opts.eveVersion}/#{file.path}"
+      .pipe filter (file) -> not fs.existsSync "#{destination}/#{file.path}"
       .pipe downloadFile (file) -> "#{opts.sdeSource}/#{opts.eveRelease}-#{opts.eveVersion}/#{file.path}.bz2"
       .pipe vinylAssign extract: true
       .pipe bzip2()
-      .pipe gulp.dest "data/#{opts.eveRelease}/#{opts.eveVersion}"
+      .pipe gulp.dest destination
