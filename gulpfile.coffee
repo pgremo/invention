@@ -28,7 +28,7 @@ gulp.task 'mocha',() ->
 gulp.task 'server', ['build'],  ->
   nodemon
     script: './bin/www.coffee'
-    nodeArgs: ['--nodejs', '--debug']
+    nodeArgs: ['--debug']
     env:
       NODE_ENV: 'development'
       DEBUG: 'container'
