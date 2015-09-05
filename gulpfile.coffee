@@ -1,13 +1,7 @@
 gulp = require 'gulp'
-mocha = require 'gulp-mocha'
-coffeelint = require 'gulp-coffeelint'
-nodemon = require 'gulp-nodemon'
 gutil = require 'gulp-util'
 rename = require 'gulp-rename'
 umd = require 'gulp-umd'
-env = require 'node-env-file'
-
-env "#{__dirname}/.env", overwrite: true
 
 opts = {}
 
@@ -20,15 +14,20 @@ onError = (err) ->
   this.emit 'end'
 
 gulp.task 'lint',() ->
+  coffeelint = require 'gulp-coffeelint'
   gulp.src ['./app/**/*.coffee', './client/**/*.coffee', './tasks/**/*.coffee', './test/**/*.coffee', 'gulpfile.coffee']
     .pipe coffeelint().on 'error', onError
     .pipe coffeelint.reporter()
 
 gulp.task 'mocha',() ->
+  mocha = require 'gulp-mocha'
   gulp.src ['./test/**/*.coffee']
     .pipe mocha(reporter: 'spec').on 'error', onError
 
 gulp.task 'server', ['build'],  ->
+  nodemon = require 'gulp-nodemon'
+  env = require 'node-env-file'
+  env "#{__dirname}/.env", overwrite: true
   nodemon
     script: './bin/www.coffee'
     nodeArgs: ['--debug']
