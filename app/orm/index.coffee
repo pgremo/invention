@@ -8,4 +8,4 @@ module.exports = (options, cb) ->
   for x in models
     orm.loadCollection x
 
-  orm.initialize {adapters: options.adapters, connections: options.connections}, cb
+  orm.initialize options, cb
