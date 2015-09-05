@@ -17,6 +17,8 @@ options =
       url: process.env.MONGOHQ_URL
   schemas:
     [require '../app/users']
+  defaults:
+    migrate: 'safe'
 
 orm options, (err, models) ->
   if err? then throw err
