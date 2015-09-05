@@ -9,3 +9,4 @@ client/**/*.css
 !client/lib/**/*.css
 client/**/*.map
 !client/lib/**/*.map
+.env
