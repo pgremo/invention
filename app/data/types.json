@@ -60575,17 +60575,17 @@
     "categoryId": 30
   },
   "33729": {
-    "typeName": "Women's 'Sanctity' Dress (dark green/gold)",
+    "typeName": "Women's 'Sanctity' Dress (green/gold)",
     "groupId": 1088,
     "categoryId": 30
   },
   "33730": {
-    "typeName": "Women's 'Sanctity' Dress (dark red/gold)",
+    "typeName": "Women's 'Sanctity' Dress (red/gold)",
     "groupId": 1088,
     "categoryId": 30
   },
   "33731": {
-    "typeName": "Women's 'Sanctity' Dress (green/gold)",
+    "typeName": "Women's 'Sanctity' Dress (olive/gold)",
     "groupId": 1088,
     "categoryId": 30
   },
@@ -63605,7 +63605,7 @@
     "categoryId": 5
   },
   "34718": {
-    "typeName": "Federation Navy Comet Police Pursuit SKIN (Permanent)",
+    "typeName": "Federation Navy Comet Police SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -63920,7 +63920,7 @@
     "categoryId": 5
   },
   "34792": {
-    "typeName": "Apocalypse Blood Raider SKIN (Permanent)",
+    "typeName": "Apocalypse Blood Raiders SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -63980,7 +63980,7 @@
     "categoryId": 5
   },
   "34810": {
-    "typeName": "Paladin Blood Raider SKIN (Permanent)",
+    "typeName": "Paladin Blood Raiders SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -64375,22 +64375,22 @@
     "categoryId": 5
   },
   "34917": {
-    "typeName": "Apocalypse Blood Raider SKIN (7 Days)",
+    "typeName": "Apocalypse Blood Raiders SKIN (7 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "34918": {
-    "typeName": "Apocalypse Blood Raider SKIN (30 Days)",
+    "typeName": "Apocalypse Blood Raiders SKIN (30 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "34919": {
-    "typeName": "Apocalypse Blood Raider SKIN (90 Days)",
+    "typeName": "Apocalypse Blood Raiders SKIN (90 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "34920": {
-    "typeName": "Apocalypse Blood Raider SKIN (365 Days)",
+    "typeName": "Apocalypse Blood Raiders SKIN (365 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -66835,22 +66835,22 @@
     "categoryId": 5
   },
   "35409": {
-    "typeName": "Paladin Blood Raider SKIN (7 Days)",
+    "typeName": "Paladin Blood Raiders SKIN (7 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35410": {
-    "typeName": "Paladin Blood Raider SKIN (30 Days)",
+    "typeName": "Paladin Blood Raiders SKIN (30 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35411": {
-    "typeName": "Paladin Blood Raider SKIN (90 Days)",
+    "typeName": "Paladin Blood Raiders SKIN (90 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
   "35412": {
-    "typeName": "Paladin Blood Raider SKIN (365 Days)",
+    "typeName": "Paladin Blood Raiders SKIN (365 Days)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -69459,6 +69459,41 @@
     "groupId": 1311,
     "categoryId": 5
   },
+  "36639": {
+    "typeName": "Harpy Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36640": {
+    "typeName": "Hawk Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36641": {
+    "typeName": "Buzzard Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36642": {
+    "typeName": "Manticore Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36643": {
+    "typeName": "Kitsune Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36644": {
+    "typeName": "Crow Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36645": {
+    "typeName": "Raptor Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
   "36646": {
     "typeName": "Corax Raata Sunset SKIN (Permanent)",
     "groupId": 1311,
@@ -69466,6 +69501,11 @@
   },
   "36647": {
     "typeName": "Cormorant Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36648": {
+    "typeName": "Flycatcher Raata Sunset SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -69489,6 +69529,36 @@
     "groupId": 1311,
     "categoryId": 5
   },
+  "36653": {
+    "typeName": "Cerberus Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36654": {
+    "typeName": "Eagle Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36655": {
+    "typeName": "Onyx Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36656": {
+    "typeName": "Basilisk Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36657": {
+    "typeName": "Falcon Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36658": {
+    "typeName": "Rook Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
   "36659": {
     "typeName": "Drake Raata Sunset SKIN (Permanent)",
     "groupId": 1311,
@@ -69504,6 +69574,16 @@
     "groupId": 1311,
     "categoryId": 5
   },
+  "36662": {
+    "typeName": "Nighthawk Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36663": {
+    "typeName": "Vulture Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
   "36664": {
     "typeName": "Raven Raata Sunset SKIN (Permanent)",
     "groupId": 1311,
@@ -69516,6 +69596,16 @@
   },
   "36666": {
     "typeName": "Scorpion Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36667": {
+    "typeName": "Widow Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36668": {
+    "typeName": "Golem Raata Sunset SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -69536,6 +69626,846 @@
   },
   "36672": {
     "typeName": "Leviathan Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36673": {
+    "typeName": "Badger Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36674": {
+    "typeName": "Tayra Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36675": {
+    "typeName": "Crane Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36676": {
+    "typeName": "Bustard Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36677": {
+    "typeName": "Charon Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36678": {
+    "typeName": "Rhea Raata Sunset SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36745": {
+    "typeName": "Badger Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36746": {
+    "typeName": "Tayra Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36749": {
+    "typeName": "Charon Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36751": {
+    "typeName": "Breacher Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36752": {
+    "typeName": "Burst Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36753": {
+    "typeName": "Probe Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36754": {
+    "typeName": "Rifter Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36755": {
+    "typeName": "Slasher Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36756": {
+    "typeName": "Vigil Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36757": {
+    "typeName": "Jaguar Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36758": {
+    "typeName": "Wolf Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36759": {
+    "typeName": "Cheetah Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36760": {
+    "typeName": "Hound Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36761": {
+    "typeName": "Hyena Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36762": {
+    "typeName": "Claw Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36763": {
+    "typeName": "Stiletto Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36764": {
+    "typeName": "Talwar Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36765": {
+    "typeName": "Thrasher Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36766": {
+    "typeName": "Sabre Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36767": {
+    "typeName": "Bellicose Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36768": {
+    "typeName": "Rupture Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36769": {
+    "typeName": "Scythe Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36770": {
+    "typeName": "Stabber Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36771": {
+    "typeName": "Muninn Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36772": {
+    "typeName": "Vagabond Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36773": {
+    "typeName": "Broadsword Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36774": {
+    "typeName": "Scimitar Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36775": {
+    "typeName": "Huginn Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36776": {
+    "typeName": "Rapier Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36777": {
+    "typeName": "Cyclone Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36778": {
+    "typeName": "Hurricane Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36779": {
+    "typeName": "Tornado Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36780": {
+    "typeName": "Claymore Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36781": {
+    "typeName": "Sleipnir Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36782": {
+    "typeName": "Maelstrom Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36783": {
+    "typeName": "Tempest Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36784": {
+    "typeName": "Typhoon Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36785": {
+    "typeName": "Panther Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36786": {
+    "typeName": "Vargur Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36787": {
+    "typeName": "Naglfar Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36788": {
+    "typeName": "Nidhoggur Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36789": {
+    "typeName": "Hel Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36790": {
+    "typeName": "Ragnarok Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36791": {
+    "typeName": "Hoarder Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36792": {
+    "typeName": "Mammoth Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36793": {
+    "typeName": "Wreathe Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36794": {
+    "typeName": "Prowler Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36795": {
+    "typeName": "Mastodon Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36796": {
+    "typeName": "Fenrir Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36797": {
+    "typeName": "Nomad Valklear Glory SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36798": {
+    "typeName": "Breacher Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36799": {
+    "typeName": "Burst Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36800": {
+    "typeName": "Probe Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36801": {
+    "typeName": "Rifter Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36802": {
+    "typeName": "Slasher Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36803": {
+    "typeName": "Vigil Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36804": {
+    "typeName": "Jaguar Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36805": {
+    "typeName": "Wolf Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36806": {
+    "typeName": "Cheetah Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36807": {
+    "typeName": "Hound Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36808": {
+    "typeName": "Hyena Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36809": {
+    "typeName": "Claw Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36810": {
+    "typeName": "Stiletto Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36811": {
+    "typeName": "Talwar Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36812": {
+    "typeName": "Thrasher Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36813": {
+    "typeName": "Sabre Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36814": {
+    "typeName": "Bellicose Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36815": {
+    "typeName": "Rupture Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36816": {
+    "typeName": "Scythe Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36817": {
+    "typeName": "Stabber Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36818": {
+    "typeName": "Muninn Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36819": {
+    "typeName": "Vagabond Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36820": {
+    "typeName": "Broadsword Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36821": {
+    "typeName": "Scimitar Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36822": {
+    "typeName": "Huginn Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36823": {
+    "typeName": "Rapier Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36824": {
+    "typeName": "Cyclone Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36825": {
+    "typeName": "Hurricane Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36826": {
+    "typeName": "Tornado Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36827": {
+    "typeName": "Claymore Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36828": {
+    "typeName": "Sleipnir Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36829": {
+    "typeName": "Maelstrom Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36830": {
+    "typeName": "Tempest Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36831": {
+    "typeName": "Typhoon Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36832": {
+    "typeName": "Panther Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36833": {
+    "typeName": "Vargur Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36834": {
+    "typeName": "Naglfar Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36835": {
+    "typeName": "Nidhoggur Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36836": {
+    "typeName": "Hel Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36837": {
+    "typeName": "Ragnarok Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36838": {
+    "typeName": "Hoarder Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36839": {
+    "typeName": "Mammoth Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36840": {
+    "typeName": "Wreathe Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36841": {
+    "typeName": "Prowler Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36842": {
+    "typeName": "Mastodon Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36843": {
+    "typeName": "Fenrir Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36844": {
+    "typeName": "Nomad Blue Tiger SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36946": {
+    "typeName": "Blood Raider Cerebral Accelerator",
+    "groupId": 303,
+    "categoryId": 20
+  },
+  "36948": {
+    "typeName": "Blood Raider Advanced Cerebral Accelerator",
+    "groupId": 303,
+    "categoryId": 20
+  },
+  "36951": {
+    "typeName": "Heron Sukuuvestaa SKIN Serenity Only (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36982": {
+    "typeName": "Magnate Sarum Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36983": {
+    "typeName": "Magnate Tash-Murkon Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36984": {
+    "typeName": "Punisher Kador Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36985": {
+    "typeName": "Punisher Tash-Murkon Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36986": {
+    "typeName": "Merlin Nugoeihuvi Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36987": {
+    "typeName": "Merlin Wiyrkomi Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36988": {
+    "typeName": "Imicus Inner Zone Shipping Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36989": {
+    "typeName": "Incursus Aliastra Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36990": {
+    "typeName": "Incursus Inner Zone Shipping Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36991": {
+    "typeName": "Tristan Quafe Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36992": {
+    "typeName": "Rifter Krusual Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36993": {
+    "typeName": "Rifter Nefantar Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "36994": {
+    "typeName": "Probe Vherokior Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37055": {
+    "typeName": "Incursus Quafe SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37056": {
+    "typeName": "Hyperion Quafe SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37057": {
+    "typeName": "Thorax Quafe SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37089": {
+    "typeName": "Federation Navy Comet Police Pursuit Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37090": {
+    "typeName": "Catalyst Aliastra Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37091": {
+    "typeName": "Catalyst Inner Zone Shipping Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37092": {
+    "typeName": "Catalyst Intaki Syndicate Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37093": {
+    "typeName": "Catalyst InterBus Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37094": {
+    "typeName": "Catalyst Quafe Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37095": {
+    "typeName": "Thrasher Nefantar Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37096": {
+    "typeName": "Omen Kador Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37097": {
+    "typeName": "Omen Tash-Murkon Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37098": {
+    "typeName": "Caracal Nugoeihuvi Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37099": {
+    "typeName": "Caracal Wiyrkomi Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37100": {
+    "typeName": "Thorax Aliastra Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37101": {
+    "typeName": "Thorax Inner Zone Shipping Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37102": {
+    "typeName": "Vexor Quafe Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37103": {
+    "typeName": "Stabber Krusual Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37104": {
+    "typeName": "Stabber Nefantar Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37105": {
+    "typeName": "Abaddon Kador Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37106": {
+    "typeName": "Abaddon Tash-Murkon Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37107": {
+    "typeName": "Apocalypse Kador Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37108": {
+    "typeName": "Apocalypse Tash-Murkon Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37109": {
+    "typeName": "Rokh Nugoeihuvi Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37110": {
+    "typeName": "Rokh Wiyrkomi Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37111": {
+    "typeName": "Scorpion Ishukone Watch Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37112": {
+    "typeName": "Dominix Quafe Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37113": {
+    "typeName": "Hyperion Aliastra Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37114": {
+    "typeName": "Hyperion Inner Zone Shipping Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37115": {
+    "typeName": "Megathron Inner Zone Shipping Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37116": {
+    "typeName": "Megathron Quafe Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37117": {
+    "typeName": "Maelstrom Krusual Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37118": {
+    "typeName": "Maelstrom Nefantar Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37119": {
+    "typeName": "Tempest Krusual Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37120": {
+    "typeName": "Tempest Nefantar Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37121": {
+    "typeName": "Paladin Blood Raider Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37122": {
+    "typeName": "Golem Kaalakiota Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37123": {
+    "typeName": "Kronos Police Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37124": {
+    "typeName": "Revelation Sarum Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37125": {
+    "typeName": "Phoenix Wiyrkomi Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37126": {
+    "typeName": "Moros InterBus Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37127": {
+    "typeName": "Naglfar Justice Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37128": {
+    "typeName": "Bestower Tash-Murkon Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37129": {
+    "typeName": "Tayra Wiyrkomi Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37130": {
+    "typeName": "Iteron Mark V Inner Zone Shipping Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37131": {
+    "typeName": "Mammoth Nefantar Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37132": {
+    "typeName": "Orca ORE Development Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37133": {
+    "typeName": "Rorqual ORE Development Serenity Only SKIN (Permanent)",
+    "groupId": 1311,
+    "categoryId": 5
+  },
+  "37134": {
+    "typeName": "Mackinaw ORE Development Serenity Only SKIN (Permanent)",
     "groupId": 1311,
     "categoryId": 5
   },
@@ -81005,7 +81935,7 @@
     "categoryId": 350001
   },
   "369203": {
-    "typeName": "'Tash Murkon' AM-L SKIN",
+    "typeName": "'Tash-Murkon' AM-L SKIN",
     "groupId": 368726,
     "categoryId": 350001
   },
@@ -81119,6 +82049,26 @@
     "groupId": 368726,
     "categoryId": 350001
   },
+  "369259": {
+    "typeName": "'Legacy' AM-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369260": {
+    "typeName": "'Legacy' CA-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369261": {
+    "typeName": "'Legacy' GA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369262": {
+    "typeName": "'Legacy' MN-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
   "369263": {
     "typeName": "'Tash-Murkon' AM-H SKIN",
     "groupId": 368726,
@@ -81219,6 +82169,26 @@
     "groupId": 368726,
     "categoryId": 350001
   },
+  "369290": {
+    "typeName": "'Ardishapur' AM-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369291": {
+    "typeName": "'Wiyrkomi' CA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369292": {
+    "typeName": "'Intaki' GA-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369293": {
+    "typeName": "'Sebiestor' MN-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
   "369294": {
     "typeName": "'Sever' AM-M SKIN",
     "groupId": 368726,
@@ -81230,17 +82200,32 @@
     "categoryId": 350001
   },
   "369296": {
-    "typeName": "'Valor' GA-H SKIN",
+    "typeName": "'Raven' GA-H SKIN",
     "groupId": 368726,
     "categoryId": 350001
   },
   "369297": {
-    "typeName": "'Raven' MN-L SKIN",
+    "typeName": "'Valor' MN-L SKIN",
     "groupId": 368726,
     "categoryId": 350001
   },
   "369302": {
-    "typeName": "'SOCOM' AM-H SKIN",
+    "typeName": "'Cyber Knight' AM-H SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369303": {
+    "typeName": "'Home Guard' CA-M SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369304": {
+    "typeName": "'Bravo Company' GA-L SKIN",
+    "groupId": 368726,
+    "categoryId": 350001
+  },
+  "369305": {
+    "typeName": "'Valklear' MN-M SKIN",
     "groupId": 368726,
     "categoryId": 350001
   },
@@ -81577,6 +82562,11 @@
   "369550": {
     "typeName": "'Loceros' Basic-H mk.0",
     "groupId": 351064,
+    "categoryId": 350001
+  },
+  "370308": {
+    "typeName": "'Deathshroud' AM-M SKIN",
+    "groupId": 368726,
     "categoryId": 350001
   }
 }
