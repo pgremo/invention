@@ -121,7 +121,7 @@ app.post '/api/users', ensureUser, (req, res, next) ->
       res.send status: 'OK'
 
 app.get '/api/users', ensureUser, (req, res) ->
-   res.send req.user
+  res.send req.user
 
 app.post '/api/users/api/validate', (req, res) ->
   app.models.user.validateAPI req.body.key, req.body.vCode
