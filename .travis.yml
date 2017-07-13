@@ -6,10 +6,3 @@ before_script:
 - npm install -g gulp
 script:
 - gulp build --require coffee-script/register
-deploy:
-  provider: heroku
-  api_key:
-    secure: iIE6yXVeBgIDiHJ+vmdjHQ7I2ZUOCmHpA+MSOgAfPHdYYsaO6TQts6SGZ5K7JLoJZjLzADcdypQDYXqhYYUEevCOGlYb4lIwQgqa9viboTMOaaY9uU+kIBpk2irvHqqMp6mRzwXVCyXDCMtW7IEhqdG0ytBHctSItcFReJqyC6M=
-  app: blooming-cliffs-4490
-  on:
-    repo: pgremo/invention

@@ -30,7 +30,7 @@ gulp.task 'server', ['build'],  ->
   env "#{__dirname}/.env", overwrite: true
   nodemon
     script: './bin/www.coffee'
-    nodeArgs: ['--debug']
+    nodeArgs: ['--inspect']
     env:
       NODE_ENV: 'development'
       DEBUG: 'container'
