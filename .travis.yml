@@ -3,8 +3,6 @@ sudo: required
 node_js:
 - 'node'
 before_script:
-- sudo apt-get -qq update
-- sudo apt-get install -y sqlite3
 - npm install -g gulp
 script:
 - gulp build --require coffee-script/register
